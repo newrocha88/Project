@@ -1,0 +1,135 @@
+/*************************************************************************************/
+
+//                                                                                     
+
+// Description: LIN Description file created using Vector's Network Designer           
+
+// Created:     12 Mar 2013 16:30:13
+
+// Author:      u074570
+
+//                                                                                     
+
+/*************************************************************************************/
+
+LIN_description_file;
+LIN_protocol_version = "2.0";
+LIN_language_version = "2.0";
+LIN_speed = 9.6 kbps;
+
+Nodes {
+  Master: BSG_Master, 5 ms, 0 ms ;
+  Slaves: Tester ;
+}
+
+Signals {
+  Button_KL15: 1, 0, BSG_Master, Tester ;
+  Voltage_Normal: 1, 0, BSG_Master, Tester ;
+  Voltage_OV1: 1, 0, BSG_Master, Tester ;
+  Voltage_OV2: 1, 0, BSG_Master, Tester ;
+  Voltage_UV1: 1, 0, BSG_Master, Tester ;
+  Voltage_UV2: 1, 0, BSG_Master, Tester ;
+  BatteryVoltage: 16, 0, BSG_Master, Tester ;
+  ResponseErrorTester: 1, 0, Tester, BSG_Master ;
+}
+
+Diagnostic_signals {
+  MasterReqB0: 8, 0 ;
+  MasterReqB1: 8, 0 ;
+  MasterReqB2: 8, 0 ;
+  MasterReqB3: 8, 0 ;
+  MasterReqB4: 8, 0 ;
+  MasterReqB5: 8, 0 ;
+  MasterReqB6: 8, 0 ;
+  MasterReqB7: 8, 0 ;
+  SlaveRespB0: 8, 0 ;
+  SlaveRespB1: 8, 0 ;
+  SlaveRespB2: 8, 0 ;
+  SlaveRespB3: 8, 0 ;
+  SlaveRespB4: 8, 0 ;
+  SlaveRespB5: 8, 0 ;
+  SlaveRespB6: 8, 0 ;
+  SlaveRespB7: 8, 0 ;
+}
+
+
+Frames {
+  BSG_STATUS: 11, BSG_Master, 8 {
+    Button_KL15, 0 ;
+    Voltage_Normal, 1 ;
+    Voltage_OV1, 2 ;
+    Voltage_OV2, 3 ;
+    Voltage_UV1, 4 ;
+    Voltage_UV2, 5 ;
+    BatteryVoltage, 8 ;
+  }
+  TESTER_STATUS: 12, Tester, 1 {
+    ResponseErrorTester, 0 ;
+  }
+}
+
+
+
+Diagnostic_frames {
+  MasterReq: 0x3c {
+    MasterReqB0, 0 ;
+    MasterReqB1, 8 ;
+    MasterReqB2, 16 ;
+    MasterReqB3, 24 ;
+    MasterReqB4, 32 ;
+    MasterReqB5, 40 ;
+    MasterReqB6, 48 ;
+    MasterReqB7, 56 ;
+  }
+  SlaveResp: 0x3d {
+    SlaveRespB0, 0 ;
+    SlaveRespB1, 8 ;
+    SlaveRespB2, 16 ;
+    SlaveRespB3, 24 ;
+    SlaveRespB4, 32 ;
+    SlaveRespB5, 40 ;
+    SlaveRespB6, 48 ;
+    SlaveRespB7, 56 ;
+  }
+}
+
+Node_attributes {
+  Tester{
+    LIN_protocol = "2.1" ;
+    configured_NAD = 0x17 ;
+    initial_NAD = 0x17 ;
+    product_id = 0x0, 0x0, 0 ;
+    response_error = ResponseErrorTester ;
+    P2_min = 50 ms ;
+    ST_min = 0 ms ;
+    N_As_timeout = 1000 ms ;
+    N_Cr_timeout = 1000 ms ;
+    configurable_frames {
+      BSG_STATUS ;
+      TESTER_STATUS ;
+    }
+  }
+}
+
+Schedule_tables {
+ DEFAULTTABLE {
+    BSG_STATUS delay 100 ms ;
+    TESTER_STATUS delay 100 ms ;
+  }
+}
+
+
+Signal_encoding_types {
+  ButtonSts_Encoding {
+    logical_value, 0, "Button released" ;
+    logical_value, 1, "Button pressed" ;
+  }
+  ResponseError_Sig_Type {
+    logical_value, 0, "Node_Is_Operating_Correctly" ;
+    logical_value, 1, "Node_Has_Intermittent_Problems" ;
+  }
+}
+
+Signal_representation {
+  ButtonSts_Encoding: Button_KL15 ;
+}

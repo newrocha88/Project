@@ -1,0 +1,755 @@
+OS Configuration Viewer V5.00 (General) V1.02 (HW Specific) (Feb 10 2016 12:58:06) (c) 2015 Vector Informatik GmbH
+
+Started at:Sun Jan 15 19:14:05 2023
+
+Remark: Text between '(' and ')' shall be treated as unsafe additional information
+
+===========================================================
+Start of Config Block                          0x01a99b54    
+Length                                         3136          
+CRC                                            0xa228        
+Config Block Format Version                    04            
+MICROSAR OS ARM Cortex R  SafeContext Version  07.01         
+User Config Version                            0x000b        
+Endianess                                      LittleEndian  
+===========================================================
+
+ 0. General Information
+------------------------------------------------
+Property                          Value Checked? 
+------------------------------------------------
+Number of Tasks                   23      [  ]   
+Number of Cat2 ISRs               30      [  ]   
+Number of Trusted Functions       13      [  ]   
+Number of Non-Trusted Functions   0       [  ]   
+Number of Applications            9       [  ]   
+Number of Peripheral Regions      0       [  ]   
+Stack Usage Measurement           Yes     [  ]   
+Number of Alarms                  7       [  ]   
+Number of All Resources           3       [  ]   
+Number of Available Cores         1       [  ]   
+Number of Counters                2       [  ]   
+Number of Processes               53      [  ]   
+Number of Schedule Tables         1       [  ]   
+Number of Spinlocks               0       [  ]   
+Number of Global MPU Regions      8       [  ]   
+Number of Application MPU Regions 6       [  ]   
+FPU Support                       Yes     [  ]   
+------------------------------------------------
+
+1. Task start addresses:
+--------------------------------------------------------
+Task-ID Task-Name                    Value      Checked? 
+--------------------------------------------------------
+0       (osSystemExtendedTask)       0x01a209b7   [  ]   
+1       (CSHDL_Timeout)              0x01a67059   [  ]   
+2       (CAM_1ms_Tsk)                0x01a67a35   [  ]   
+3       (Interrupt_Tsk)              0x01a67053   [  ]   
+4       (CAM_2ms_Tsk)                0x01a67a6b   [  ]   
+5       (CAM_5ms_Tsk)                0x01a67aa9   [  ]   
+6       (CAM_10ms_Tsk)               0x01a67ae7   [  ]   
+7       (CAM_25ms_Tsk)               0x01a67b25   [  ]   
+8       (CAM_100ms_Tsk)              0x01a67b63   [  ]   
+9       (BSW_Tsk)                    0x01a6704d   [  ]   
+10      (DIHD_DeviceIO_Tsk)          0x01a67041   [  ]   
+11      (DIHD_DeviceInt_Tsk)         0x01a67047   [  ]   
+12      (SINI_vInit_Tsk)             0x01a33d61   [  ]   
+13      (MTHD_ModelTask_OsAppModel1) 0x01a6703b   [  ]   
+14      (MTHD_ModelTask_OsAppModel2) 0x01a67035   [  ]   
+15      (MTHD_ModelTask_OsAppModel3) 0x01a6702f   [  ]   
+16      (MTHD_ModelTask_OsAppModel4) 0x01a67029   [  ]   
+17      (MTHD_ModelTask_OsAppModel5) 0x01a67023   [  ]   
+18      (MTHD_ModelTask_OsAppModel6) 0x01a6701d   [  ]   
+19      (BSWLow_Tsk)                 0x01a67017   [  ]   
+20      (CSHDL_InitDeinit)           0x01a67011   [  ]   
+21      (osSystemBasicTask)          0x01a209b5   [  ]   
+22      (IDLE_vLoop_Tsk)             0x01a73a23   [  ]   
+--------------------------------------------------------
+
+2. Task preemptiveness information:
+---------------------------------------------------------------
+Task-ID Task-Name                    Value             Checked? 
+---------------------------------------------------------------
+0       (osSystemExtendedTask)       fully-preemptible   [  ]   
+1       (CSHDL_Timeout)              non-preemptible     [  ]   
+2       (CAM_1ms_Tsk)                fully-preemptible   [  ]   
+3       (Interrupt_Tsk)              fully-preemptible   [  ]   
+4       (CAM_2ms_Tsk)                fully-preemptible   [  ]   
+5       (CAM_5ms_Tsk)                fully-preemptible   [  ]   
+6       (CAM_10ms_Tsk)               fully-preemptible   [  ]   
+7       (CAM_25ms_Tsk)               fully-preemptible   [  ]   
+8       (CAM_100ms_Tsk)              fully-preemptible   [  ]   
+9       (BSW_Tsk)                    fully-preemptible   [  ]   
+10      (DIHD_DeviceIO_Tsk)          fully-preemptible   [  ]   
+11      (DIHD_DeviceInt_Tsk)         fully-preemptible   [  ]   
+12      (SINI_vInit_Tsk)             non-preemptible     [  ]   
+13      (MTHD_ModelTask_OsAppModel1) fully-preemptible   [  ]   
+14      (MTHD_ModelTask_OsAppModel2) fully-preemptible   [  ]   
+15      (MTHD_ModelTask_OsAppModel3) fully-preemptible   [  ]   
+16      (MTHD_ModelTask_OsAppModel4) fully-preemptible   [  ]   
+17      (MTHD_ModelTask_OsAppModel5) fully-preemptible   [  ]   
+18      (MTHD_ModelTask_OsAppModel6) fully-preemptible   [  ]   
+19      (BSWLow_Tsk)                 fully-preemptible   [  ]   
+20      (CSHDL_InitDeinit)           fully-preemptible   [  ]   
+21      (osSystemBasicTask)          non-preemptible     [  ]   
+22      (IDLE_vLoop_Tsk)             fully-preemptible   [  ]   
+---------------------------------------------------------------
+
+3. Task trustedness information:
+---------------------------------------------------------
+Task-ID Task-Name                    Value       Checked? 
+---------------------------------------------------------
+0       (osSystemExtendedTask)       trusted       [  ]   
+1       (CSHDL_Timeout)              trusted       [  ]   
+2       (CAM_1ms_Tsk)                trusted       [  ]   
+3       (Interrupt_Tsk)              trusted       [  ]   
+4       (CAM_2ms_Tsk)                trusted       [  ]   
+5       (CAM_5ms_Tsk)                trusted       [  ]   
+6       (CAM_10ms_Tsk)               trusted       [  ]   
+7       (CAM_25ms_Tsk)               trusted       [  ]   
+8       (CAM_100ms_Tsk)              trusted       [  ]   
+9       (BSW_Tsk)                    trusted       [  ]   
+10      (DIHD_DeviceIO_Tsk)          trusted       [  ]   
+11      (DIHD_DeviceInt_Tsk)         trusted       [  ]   
+12      (SINI_vInit_Tsk)             trusted       [  ]   
+13      (MTHD_ModelTask_OsAppModel1) non-trusted   [  ]   
+14      (MTHD_ModelTask_OsAppModel2) non-trusted   [  ]   
+15      (MTHD_ModelTask_OsAppModel3) non-trusted   [  ]   
+16      (MTHD_ModelTask_OsAppModel4) non-trusted   [  ]   
+17      (MTHD_ModelTask_OsAppModel5) non-trusted   [  ]   
+18      (MTHD_ModelTask_OsAppModel6) non-trusted   [  ]   
+19      (BSWLow_Tsk)                 trusted       [  ]   
+20      (CSHDL_InitDeinit)           trusted       [  ]   
+21      (osSystemBasicTask)          trusted       [  ]   
+22      (IDLE_vLoop_Tsk)             trusted       [  ]   
+---------------------------------------------------------
+
+4. Task stack lower boundary addresses:
+--------------------------------------------------------
+Task-ID Task-Name                    Value      Checked? 
+--------------------------------------------------------
+0       (osSystemExtendedTask)       0x00007d00   [  ]   
+1       (CSHDL_Timeout)              0x00007600   [  ]   
+2       (CAM_1ms_Tsk)                0x00004000   [  ]   
+3       (Interrupt_Tsk)              0x00005000   [  ]   
+4       (CAM_2ms_Tsk)                0x00005400   [  ]   
+5       (CAM_5ms_Tsk)                0x00005800   [  ]   
+6       (CAM_10ms_Tsk)               0x00005c00   [  ]   
+7       (CAM_25ms_Tsk)               0x00006000   [  ]   
+8       (CAM_100ms_Tsk)              0x00006400   [  ]   
+9       (BSW_Tsk)                    0x00000000   [  ]   
+10      (DIHD_DeviceIO_Tsk)          0x00006c00   [  ]   
+11      (DIHD_DeviceInt_Tsk)         0x00006800   [  ]   
+12      (SINI_vInit_Tsk)             0x00004400   [  ]   
+13      (MTHD_ModelTask_OsAppModel1) 0x00000800   [  ]   
+14      (MTHD_ModelTask_OsAppModel2) 0x00001000   [  ]   
+15      (MTHD_ModelTask_OsAppModel3) 0x00001800   [  ]   
+16      (MTHD_ModelTask_OsAppModel4) 0x00002000   [  ]   
+17      (MTHD_ModelTask_OsAppModel5) 0x00002800   [  ]   
+18      (MTHD_ModelTask_OsAppModel6) 0x00003000   [  ]   
+19      (BSWLow_Tsk)                 0x00004800   [  ]   
+20      (CSHDL_InitDeinit)           0x00004c00   [  ]   
+21      (osSystemBasicTask)          0x00007d20   [  ]   
+22      (IDLE_vLoop_Tsk)             0x00007800   [  ]   
+--------------------------------------------------------
+
+5. Task stack upper boundary addresses:
+--------------------------------------------------------
+Task-ID Task-Name                    Value      Checked? 
+--------------------------------------------------------
+0       (osSystemExtendedTask)       0x00007d20   [  ]   
+1       (CSHDL_Timeout)              0x00007800   [  ]   
+2       (CAM_1ms_Tsk)                0x00004400   [  ]   
+3       (Interrupt_Tsk)              0x00005400   [  ]   
+4       (CAM_2ms_Tsk)                0x00005800   [  ]   
+5       (CAM_5ms_Tsk)                0x00005c00   [  ]   
+6       (CAM_10ms_Tsk)               0x00006000   [  ]   
+7       (CAM_25ms_Tsk)               0x00006400   [  ]   
+8       (CAM_100ms_Tsk)              0x00006800   [  ]   
+9       (BSW_Tsk)                    0x00000800   [  ]   
+10      (DIHD_DeviceIO_Tsk)          0x00007000   [  ]   
+11      (DIHD_DeviceInt_Tsk)         0x00006c00   [  ]   
+12      (SINI_vInit_Tsk)             0x00004800   [  ]   
+13      (MTHD_ModelTask_OsAppModel1) 0x00001000   [  ]   
+14      (MTHD_ModelTask_OsAppModel2) 0x00001800   [  ]   
+15      (MTHD_ModelTask_OsAppModel3) 0x00002000   [  ]   
+16      (MTHD_ModelTask_OsAppModel4) 0x00002800   [  ]   
+17      (MTHD_ModelTask_OsAppModel5) 0x00003000   [  ]   
+18      (MTHD_ModelTask_OsAppModel6) 0x00003800   [  ]   
+19      (BSWLow_Tsk)                 0x00004c00   [  ]   
+20      (CSHDL_InitDeinit)           0x00005000   [  ]   
+21      (osSystemBasicTask)          0x00007d40   [  ]   
+22      (IDLE_vLoop_Tsk)             0x00007a00   [  ]   
+--------------------------------------------------------
+
+6. Task to application mapping:
+--------------------------------------------------------------------------------
+Task-ID Task-Name                    Appl-ID Appl-Name                  Checked? 
+--------------------------------------------------------------------------------
+0       (osSystemExtendedTask)       8       (osSystemApplicationCore0)   [  ]   
+1       (CSHDL_Timeout)              0       (OsAppBaseSystem)            [  ]   
+2       (CAM_1ms_Tsk)                0       (OsAppBaseSystem)            [  ]   
+3       (Interrupt_Tsk)              0       (OsAppBaseSystem)            [  ]   
+4       (CAM_2ms_Tsk)                0       (OsAppBaseSystem)            [  ]   
+5       (CAM_5ms_Tsk)                0       (OsAppBaseSystem)            [  ]   
+6       (CAM_10ms_Tsk)               0       (OsAppBaseSystem)            [  ]   
+7       (CAM_25ms_Tsk)               0       (OsAppBaseSystem)            [  ]   
+8       (CAM_100ms_Tsk)              0       (OsAppBaseSystem)            [  ]   
+9       (BSW_Tsk)                    0       (OsAppBaseSystem)            [  ]   
+10      (DIHD_DeviceIO_Tsk)          1       (OsAppDevices)               [  ]   
+11      (DIHD_DeviceInt_Tsk)         0       (OsAppBaseSystem)            [  ]   
+12      (SINI_vInit_Tsk)             0       (OsAppBaseSystem)            [  ]   
+13      (MTHD_ModelTask_OsAppModel1) 2       (OsAppModel1)                [  ]   
+14      (MTHD_ModelTask_OsAppModel2) 3       (OsAppModel2)                [  ]   
+15      (MTHD_ModelTask_OsAppModel3) 4       (OsAppModel3)                [  ]   
+16      (MTHD_ModelTask_OsAppModel4) 5       (OsAppModel4)                [  ]   
+17      (MTHD_ModelTask_OsAppModel5) 6       (OsAppModel5)                [  ]   
+18      (MTHD_ModelTask_OsAppModel6) 7       (OsAppModel6)                [  ]   
+19      (BSWLow_Tsk)                 0       (OsAppBaseSystem)            [  ]   
+20      (CSHDL_InitDeinit)           0       (OsAppBaseSystem)            [  ]   
+21      (osSystemBasicTask)          8       (osSystemApplicationCore0)   [  ]   
+22      (IDLE_vLoop_Tsk)             0       (OsAppBaseSystem)            [  ]   
+--------------------------------------------------------------------------------
+
+7. Category 2 ISR trustedness:
+----------------------------------------------------------------
+ISR-ID ISR-Name                                 Value   Checked? 
+----------------------------------------------------------------
+0      (ADC_vUnit1_Isr_Wrapper)                 trusted   [  ]   
+1      (Basetimer1_Wrapper)                     trusted   [  ]   
+2      (Basetimer3_Wrapper)                     trusted   [  ]   
+3      (CanIsr_1_Wrapper)                       trusted   [  ]   
+4      (CanIsr_2_Wrapper)                       trusted   [  ]   
+5      (CanIsr_3_Wrapper)                       trusted   [  ]   
+6      (CanIsr_4_Wrapper)                       trusted   [  ]   
+7      (CanIsr_5_Wrapper)                       trusted   [  ]   
+8      (CanIsr_6_Wrapper)                       trusted   [  ]   
+9      (CanIsr_7_Wrapper)                       trusted   [  ]   
+10     (DMA_vEndOfTransfer_ISR6_Wrapper)        trusted   [  ]   
+11     (DMA_vError_ISR_Wrapper)                 trusted   [  ]   
+12     (ICU32_vCh19_Isr_Wrapper)                trusted   [  ]   
+13     (IICB_vStatusInterruptCh0_ISR_Wrapper)   trusted   [  ]   
+14     (IICB_vStatusInterruptCh1_ISR_Wrapper)   trusted   [  ]   
+15     (IREXT_vExternalInt1_17_Isr_Wrapper)     trusted   [  ]   
+16     (IREXT_vExternalInt3_19_Isr_Wrapper)     trusted   [  ]   
+17     (PFM_vMain_Isr_Wrapper)                  trusted   [  ]   
+18     (RTC_vHandleInterrupt_Isr_Wrapper)       trusted   [  ]   
+19     (RemoteCallCore0)                        trusted   [  ]   
+20     (SPI_vHwCh1Rx_Isr_Wrapper)               trusted   [  ]   
+21     (SPI_vHwCh4Rx_Isr_Wrapper)               trusted   [  ]   
+22     (WDOG_vHwdgPriorWarn_Isr_Wrapper)        trusted   [  ]   
+23     (WDOG_vSwdgPriorWarn_Isr_Wrapper)        trusted   [  ]   
+24     (l_ifc_rx_17_Wrapper)                    trusted   [  ]   
+25     (l_ifc_rx_9_Wrapper)                     trusted   [  ]   
+26     (l_ifc_status_17_Wrapper)                trusted   [  ]   
+27     (l_ifc_status_9_Wrapper)                 trusted   [  ]   
+28     (osSystemCat2ISR)                        trusted   [  ]   
+29     (osTimerInterrupt_FreeRunningTimer_Ch10) trusted   [  ]   
+----------------------------------------------------------------
+
+8. Category 2 ISR to application assignment:
+-------------------------------------------------------------------------------------------
+ISR-ID ISR-Name                                 Appl-ID Appl-Name                  Checked? 
+-------------------------------------------------------------------------------------------
+0      (ADC_vUnit1_Isr_Wrapper)                 0       (OsAppBaseSystem)            [  ]   
+1      (Basetimer1_Wrapper)                     0       (OsAppBaseSystem)            [  ]   
+2      (Basetimer3_Wrapper)                     0       (OsAppBaseSystem)            [  ]   
+3      (CanIsr_1_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+4      (CanIsr_2_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+5      (CanIsr_3_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+6      (CanIsr_4_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+7      (CanIsr_5_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+8      (CanIsr_6_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+9      (CanIsr_7_Wrapper)                       0       (OsAppBaseSystem)            [  ]   
+10     (DMA_vEndOfTransfer_ISR6_Wrapper)        0       (OsAppBaseSystem)            [  ]   
+11     (DMA_vError_ISR_Wrapper)                 0       (OsAppBaseSystem)            [  ]   
+12     (ICU32_vCh19_Isr_Wrapper)                0       (OsAppBaseSystem)            [  ]   
+13     (IICB_vStatusInterruptCh0_ISR_Wrapper)   0       (OsAppBaseSystem)            [  ]   
+14     (IICB_vStatusInterruptCh1_ISR_Wrapper)   0       (OsAppBaseSystem)            [  ]   
+15     (IREXT_vExternalInt1_17_Isr_Wrapper)     0       (OsAppBaseSystem)            [  ]   
+16     (IREXT_vExternalInt3_19_Isr_Wrapper)     0       (OsAppBaseSystem)            [  ]   
+17     (PFM_vMain_Isr_Wrapper)                  0       (OsAppBaseSystem)            [  ]   
+18     (RTC_vHandleInterrupt_Isr_Wrapper)       0       (OsAppBaseSystem)            [  ]   
+19     (RemoteCallCore0)                        8       (osSystemApplicationCore0)   [  ]   
+20     (SPI_vHwCh1Rx_Isr_Wrapper)               0       (OsAppBaseSystem)            [  ]   
+21     (SPI_vHwCh4Rx_Isr_Wrapper)               0       (OsAppBaseSystem)            [  ]   
+22     (WDOG_vHwdgPriorWarn_Isr_Wrapper)        0       (OsAppBaseSystem)            [  ]   
+23     (WDOG_vSwdgPriorWarn_Isr_Wrapper)        0       (OsAppBaseSystem)            [  ]   
+24     (l_ifc_rx_17_Wrapper)                    0       (OsAppBaseSystem)            [  ]   
+25     (l_ifc_rx_9_Wrapper)                     0       (OsAppBaseSystem)            [  ]   
+26     (l_ifc_status_17_Wrapper)                0       (OsAppBaseSystem)            [  ]   
+27     (l_ifc_status_9_Wrapper)                 0       (OsAppBaseSystem)            [  ]   
+28     (osSystemCat2ISR)                        8       (osSystemApplicationCore0)   [  ]   
+29     (osTimerInterrupt_FreeRunningTimer_Ch10) 0       (OsAppBaseSystem)            [  ]   
+-------------------------------------------------------------------------------------------
+
+9. Application trustedness information:
+--------------------------------------------------------------
+Application-ID Application-Name           Value       Checked? 
+--------------------------------------------------------------
+0              (OsAppBaseSystem)          trusted       [  ]   
+1              (OsAppDevices)             trusted       [  ]   
+2              (OsAppModel1)              non-trusted   [  ]   
+3              (OsAppModel2)              non-trusted   [  ]   
+4              (OsAppModel3)              non-trusted   [  ]   
+5              (OsAppModel4)              non-trusted   [  ]   
+6              (OsAppModel5)              non-trusted   [  ]   
+7              (OsAppModel6)              non-trusted   [  ]   
+8              (osSystemApplicationCore0) trusted       [  ]   
+--------------------------------------------------------------
+
+10. Trusted function start address and its application mapping:
+-----------------------------------------------------------------------------------------------------
+Tfunc-ID Tfunc-Name                         Start-Address Appl-ID Appl-Name                  Checked? 
+-----------------------------------------------------------------------------------------------------
+0        (EVHD_boReadEvent_Tsi)             0x01a67077    0       (OsAppBaseSystem)            [  ]   
+1        (EVHD_vDeregisterTask_Tsi)         0x01a6708f    0       (OsAppBaseSystem)            [  ]   
+2        (EVHD_vDeregister_Tsi)             0x01a6706b    0       (OsAppBaseSystem)            [  ]   
+3        (EVHD_vRegisterTask_Tsi)           0x01a67085    0       (OsAppBaseSystem)            [  ]   
+4        (EVHD_vRegister_Tsi)               0x01a67061    0       (OsAppBaseSystem)            [  ]   
+5        (EVHD_vRestoreReceiveEvent_Tsi)    0x01a67095    0       (OsAppBaseSystem)            [  ]   
+6        (EVHD_vSendEvent_Tsi)              0x01a67071    0       (OsAppBaseSystem)            [  ]   
+7        (EXEA_vHandleException_Tsi)        0x01a70f79    0       (OsAppBaseSystem)            [  ]   
+8        (MTHD_vModelTaskInit_Tsi)          0x01a671d9    0       (OsAppBaseSystem)            [  ]   
+9        (PGNTH_vSetDlc_Tsi)                0x01a31ec5    0       (OsAppBaseSystem)            [  ]   
+10       (RINGTRA_vMakeTraceAgentEntry_Tsi) 0x01a64079    0       (OsAppBaseSystem)            [  ]   
+11       (TIMER__vTrustedFunction_Tsi)      0x01a34d9f    0       (OsAppBaseSystem)            [  ]   
+12       (osSystemTrustedFunction)          0x01a209bb    8       (osSystemApplicationCore0)   [  ]   
+-----------------------------------------------------------------------------------------------------
+
+11. Non-Trusted function start address and its application mapping: N/A
+
+12. Category 2 ISR function start address:
+-------------------------------------------------------------------
+ISR-ID ISR-Name                                 Value      Checked? 
+-------------------------------------------------------------------
+0      (ADC_vUnit1_Isr_Wrapper)                 0x01a63dbf   [  ]   
+1      (Basetimer1_Wrapper)                     0x01a63fff   [  ]   
+2      (Basetimer3_Wrapper)                     0x01a63fe7   [  ]   
+3      (CanIsr_1_Wrapper)                       0x01a63dd7   [  ]   
+4      (CanIsr_2_Wrapper)                       0x01a63def   [  ]   
+5      (CanIsr_3_Wrapper)                       0x01a63e07   [  ]   
+6      (CanIsr_4_Wrapper)                       0x01a63e1f   [  ]   
+7      (CanIsr_5_Wrapper)                       0x01a63e37   [  ]   
+8      (CanIsr_6_Wrapper)                       0x01a63e4f   [  ]   
+9      (CanIsr_7_Wrapper)                       0x01a63e67   [  ]   
+10     (DMA_vEndOfTransfer_ISR6_Wrapper)        0x01a63e7f   [  ]   
+11     (DMA_vError_ISR_Wrapper)                 0x01a63e97   [  ]   
+12     (ICU32_vCh19_Isr_Wrapper)                0x01a63eaf   [  ]   
+13     (IICB_vStatusInterruptCh0_ISR_Wrapper)   0x01a64017   [  ]   
+14     (IICB_vStatusInterruptCh1_ISR_Wrapper)   0x01a6402f   [  ]   
+15     (IREXT_vExternalInt1_17_Isr_Wrapper)     0x01a63ec7   [  ]   
+16     (IREXT_vExternalInt3_19_Isr_Wrapper)     0x01a63edf   [  ]   
+17     (PFM_vMain_Isr_Wrapper)                  0x01a63ef7   [  ]   
+18     (RTC_vHandleInterrupt_Isr_Wrapper)       0x01a63f0f   [  ]   
+19     (RemoteCallCore0)                        0x01a204d1   [  ]   
+20     (SPI_vHwCh1Rx_Isr_Wrapper)               0x01a63f27   [  ]   
+21     (SPI_vHwCh4Rx_Isr_Wrapper)               0x01a63f3f   [  ]   
+22     (WDOG_vHwdgPriorWarn_Isr_Wrapper)        0x01a63f57   [  ]   
+23     (WDOG_vSwdgPriorWarn_Isr_Wrapper)        0x01a63f6f   [  ]   
+24     (l_ifc_rx_17_Wrapper)                    0x01a63fb7   [  ]   
+25     (l_ifc_rx_9_Wrapper)                     0x01a63fcf   [  ]   
+26     (l_ifc_status_17_Wrapper)                0x01a63f87   [  ]   
+27     (l_ifc_status_9_Wrapper)                 0x01a63f9f   [  ]   
+28     (osSystemCat2ISR)                        0x01a209b9   [  ]   
+29     (osTimerInterrupt_FreeRunningTimer_Ch10) 0x01a23765   [  ]   
+-------------------------------------------------------------------
+
+13. Category 2 ISR nesting:
+-------------------------------------------------------------------
+ISR-ID ISR-Name                                 Value      Checked? 
+-------------------------------------------------------------------
+0      (ADC_vUnit1_Isr_Wrapper)                 non-nested   [  ]   
+1      (Basetimer1_Wrapper)                     non-nested   [  ]   
+2      (Basetimer3_Wrapper)                     non-nested   [  ]   
+3      (CanIsr_1_Wrapper)                       non-nested   [  ]   
+4      (CanIsr_2_Wrapper)                       non-nested   [  ]   
+5      (CanIsr_3_Wrapper)                       non-nested   [  ]   
+6      (CanIsr_4_Wrapper)                       non-nested   [  ]   
+7      (CanIsr_5_Wrapper)                       non-nested   [  ]   
+8      (CanIsr_6_Wrapper)                       non-nested   [  ]   
+9      (CanIsr_7_Wrapper)                       non-nested   [  ]   
+10     (DMA_vEndOfTransfer_ISR6_Wrapper)        non-nested   [  ]   
+11     (DMA_vError_ISR_Wrapper)                 non-nested   [  ]   
+12     (ICU32_vCh19_Isr_Wrapper)                non-nested   [  ]   
+13     (IICB_vStatusInterruptCh0_ISR_Wrapper)   non-nested   [  ]   
+14     (IICB_vStatusInterruptCh1_ISR_Wrapper)   non-nested   [  ]   
+15     (IREXT_vExternalInt1_17_Isr_Wrapper)     non-nested   [  ]   
+16     (IREXT_vExternalInt3_19_Isr_Wrapper)     non-nested   [  ]   
+17     (PFM_vMain_Isr_Wrapper)                  non-nested   [  ]   
+18     (RTC_vHandleInterrupt_Isr_Wrapper)       non-nested   [  ]   
+19     (RemoteCallCore0)                        non-nested   [  ]   
+20     (SPI_vHwCh1Rx_Isr_Wrapper)               non-nested   [  ]   
+21     (SPI_vHwCh4Rx_Isr_Wrapper)               non-nested   [  ]   
+22     (WDOG_vHwdgPriorWarn_Isr_Wrapper)        non-nested   [  ]   
+23     (WDOG_vSwdgPriorWarn_Isr_Wrapper)        non-nested   [  ]   
+24     (l_ifc_rx_17_Wrapper)                    non-nested   [  ]   
+25     (l_ifc_rx_9_Wrapper)                     non-nested   [  ]   
+26     (l_ifc_status_17_Wrapper)                non-nested   [  ]   
+27     (l_ifc_status_9_Wrapper)                 non-nested   [  ]   
+28     (osSystemCat2ISR)                        non-nested   [  ]   
+29     (osTimerInterrupt_FreeRunningTimer_Ch10) non-nested   [  ]   
+-------------------------------------------------------------------
+
+14. Allocation of processes to processor cores:
+------------------------------------------------------------------------------
+Process-ID Process-Name                             Core-ID Core-Name Checked? 
+------------------------------------------------------------------------------
+0          (osSystemExtendedTask)                   0       (Core0)     [  ]   
+1          (CSHDL_Timeout)                          0       (Core0)     [  ]   
+2          (CAM_1ms_Tsk)                            0       (Core0)     [  ]   
+3          (Interrupt_Tsk)                          0       (Core0)     [  ]   
+4          (CAM_2ms_Tsk)                            0       (Core0)     [  ]   
+5          (CAM_5ms_Tsk)                            0       (Core0)     [  ]   
+6          (CAM_10ms_Tsk)                           0       (Core0)     [  ]   
+7          (CAM_25ms_Tsk)                           0       (Core0)     [  ]   
+8          (CAM_100ms_Tsk)                          0       (Core0)     [  ]   
+9          (BSW_Tsk)                                0       (Core0)     [  ]   
+10         (DIHD_DeviceIO_Tsk)                      0       (Core0)     [  ]   
+11         (DIHD_DeviceInt_Tsk)                     0       (Core0)     [  ]   
+12         (SINI_vInit_Tsk)                         0       (Core0)     [  ]   
+13         (MTHD_ModelTask_OsAppModel1)             0       (Core0)     [  ]   
+14         (MTHD_ModelTask_OsAppModel2)             0       (Core0)     [  ]   
+15         (MTHD_ModelTask_OsAppModel3)             0       (Core0)     [  ]   
+16         (MTHD_ModelTask_OsAppModel4)             0       (Core0)     [  ]   
+17         (MTHD_ModelTask_OsAppModel5)             0       (Core0)     [  ]   
+18         (MTHD_ModelTask_OsAppModel6)             0       (Core0)     [  ]   
+19         (BSWLow_Tsk)                             0       (Core0)     [  ]   
+20         (CSHDL_InitDeinit)                       0       (Core0)     [  ]   
+21         (osSystemBasicTask)                      0       (Core0)     [  ]   
+22         (IDLE_vLoop_Tsk)                         0       (Core0)     [  ]   
+23         (ADC_vUnit1_Isr_Wrapper)                 0       (Core0)     [  ]   
+24         (Basetimer1_Wrapper)                     0       (Core0)     [  ]   
+25         (Basetimer3_Wrapper)                     0       (Core0)     [  ]   
+26         (CanIsr_1_Wrapper)                       0       (Core0)     [  ]   
+27         (CanIsr_2_Wrapper)                       0       (Core0)     [  ]   
+28         (CanIsr_3_Wrapper)                       0       (Core0)     [  ]   
+29         (CanIsr_4_Wrapper)                       0       (Core0)     [  ]   
+30         (CanIsr_5_Wrapper)                       0       (Core0)     [  ]   
+31         (CanIsr_6_Wrapper)                       0       (Core0)     [  ]   
+32         (CanIsr_7_Wrapper)                       0       (Core0)     [  ]   
+33         (DMA_vEndOfTransfer_ISR6_Wrapper)        0       (Core0)     [  ]   
+34         (DMA_vError_ISR_Wrapper)                 0       (Core0)     [  ]   
+35         (ICU32_vCh19_Isr_Wrapper)                0       (Core0)     [  ]   
+36         (IICB_vStatusInterruptCh0_ISR_Wrapper)   0       (Core0)     [  ]   
+37         (IICB_vStatusInterruptCh1_ISR_Wrapper)   0       (Core0)     [  ]   
+38         (IREXT_vExternalInt1_17_Isr_Wrapper)     0       (Core0)     [  ]   
+39         (IREXT_vExternalInt3_19_Isr_Wrapper)     0       (Core0)     [  ]   
+40         (PFM_vMain_Isr_Wrapper)                  0       (Core0)     [  ]   
+41         (RTC_vHandleInterrupt_Isr_Wrapper)       0       (Core0)     [  ]   
+42         (RemoteCallCore0)                        0       (Core0)     [  ]   
+43         (SPI_vHwCh1Rx_Isr_Wrapper)               0       (Core0)     [  ]   
+44         (SPI_vHwCh4Rx_Isr_Wrapper)               0       (Core0)     [  ]   
+45         (WDOG_vHwdgPriorWarn_Isr_Wrapper)        0       (Core0)     [  ]   
+46         (WDOG_vSwdgPriorWarn_Isr_Wrapper)        0       (Core0)     [  ]   
+47         (l_ifc_rx_17_Wrapper)                    0       (Core0)     [  ]   
+48         (l_ifc_rx_9_Wrapper)                     0       (Core0)     [  ]   
+49         (l_ifc_status_17_Wrapper)                0       (Core0)     [  ]   
+50         (l_ifc_status_9_Wrapper)                 0       (Core0)     [  ]   
+51         (osSystemCat2ISR)                        0       (Core0)     [  ]   
+52         (osTimerInterrupt_FreeRunningTimer_Ch10) 0       (Core0)     [  ]   
+------------------------------------------------------------------------------
+
+15. Allocation of alarms to processor cores:
+-----------------------------------------------------
+Alarm-ID Alarm-Name        Core-ID Core-Name Checked? 
+-----------------------------------------------------
+0        (CAM_100ms_Alarm) 0       (Core0)     [  ]   
+1        (CAM_10ms_Alarm)  0       (Core0)     [  ]   
+2        (CAM_1ms_Alarm)   0       (Core0)     [  ]   
+3        (CAM_25ms_Alarm)  0       (Core0)     [  ]   
+4        (CAM_2ms_Alarm)   0       (Core0)     [  ]   
+5        (CAM_5ms_Alarm)   0       (Core0)     [  ]   
+6        (osSystemAlarm)   0       (Core0)     [  ]   
+-----------------------------------------------------
+
+16. Allocation of resources to processor cores:
+---------------------------------------------------------
+Resource-ID Resource-Name      Core-ID Core-Name Checked? 
+---------------------------------------------------------
+0           (RES_SCHEDULER)    0       (Core0)     [  ]   
+1           (RES_StateHandler) 0       (Core0)     [  ]   
+2           (osSystemResource) 0       (Core0)     [  ]   
+---------------------------------------------------------
+
+17. Allocation of counters to processor cores:
+---------------------------------------------------------
+Counter-ID Counter-Name        Core-ID Core-Name Checked? 
+---------------------------------------------------------
+0          (osSystemSWCounter) 0       (Core0)     [  ]   
+1          (SystemTimer)       0       (Core0)     [  ]   
+---------------------------------------------------------
+
+18. Allocation of schedule tables to processor cores:
+--------------------------------------------------------------
+ScheduleTable-ID ScheduleTable-Name Core-ID Core-Name Checked? 
+--------------------------------------------------------------
+0                (osSystemSchT)     0       (Core0)     [  ]   
+--------------------------------------------------------------
+
+19. Allocation of applications to processor cores:
+--------------------------------------------------------------------
+Application-ID Application-Name           Core-ID Core-Name Checked? 
+--------------------------------------------------------------------
+0              (OsAppBaseSystem)          0       (Core0)     [  ]   
+1              (OsAppDevices)             0       (Core0)     [  ]   
+2              (OsAppModel1)              0       (Core0)     [  ]   
+3              (OsAppModel2)              0       (Core0)     [  ]   
+4              (OsAppModel3)              0       (Core0)     [  ]   
+5              (OsAppModel4)              0       (Core0)     [  ]   
+6              (OsAppModel5)              0       (Core0)     [  ]   
+7              (OsAppModel6)              0       (Core0)     [  ]   
+8              (osSystemApplicationCore0) 0       (Core0)     [  ]   
+--------------------------------------------------------------------
+
+20. Allocation of trusted functions to processor cores:
+----------------------------------------------------------------------
+Tfunc-ID Tfunc-Name                         Core-ID Core-Name Checked? 
+----------------------------------------------------------------------
+0        (EVHD_boReadEvent_Tsi)             0       (Core0)     [  ]   
+1        (EVHD_vDeregisterTask_Tsi)         0       (Core0)     [  ]   
+2        (EVHD_vDeregister_Tsi)             0       (Core0)     [  ]   
+3        (EVHD_vRegisterTask_Tsi)           0       (Core0)     [  ]   
+4        (EVHD_vRegister_Tsi)               0       (Core0)     [  ]   
+5        (EVHD_vRestoreReceiveEvent_Tsi)    0       (Core0)     [  ]   
+6        (EVHD_vSendEvent_Tsi)              0       (Core0)     [  ]   
+7        (EXEA_vHandleException_Tsi)        0       (Core0)     [  ]   
+8        (MTHD_vModelTaskInit_Tsi)          0       (Core0)     [  ]   
+9        (PGNTH_vSetDlc_Tsi)                0       (Core0)     [  ]   
+10       (RINGTRA_vMakeTraceAgentEntry_Tsi) 0       (Core0)     [  ]   
+11       (TIMER__vTrustedFunction_Tsi)      0       (Core0)     [  ]   
+12       (osSystemTrustedFunction)          0       (Core0)     [  ]   
+----------------------------------------------------------------------
+
+21. Allocation of non-trusted functions to processor cores: N/A
+
+22. Ccb address per core:
+--------------------------------------
+Core-ID Core-Name Ccb-Address Checked? 
+--------------------------------------
+0       (Core0)   0x00010878    [  ]   
+--------------------------------------
+
+23. Peripheral regions configuration: N/A
+
+24. Spinlock Lock Method configuration: N/A
+
+25. Spinlock Lock Type configuration: N/A
+
+26. Optimized Spinlock variable addresses: N/A
+
+27. Pointer to ISR stack information:
+----------------------------------------------------------------------------------------
+ISR-ID ISR-Name                                 StackInfoAddress Checked?                
+----------------------------------------------------------------------------------------
+0      (ADC_vUnit1_Isr_Wrapper)                 0x01a9a0f4       [Check by Tool: Passed] 
+1      (Basetimer1_Wrapper)                     0x01a9a100       [Check by Tool: Passed] 
+2      (Basetimer3_Wrapper)                     0x01a9a10c       [Check by Tool: Passed] 
+3      (CanIsr_1_Wrapper)                       0x01a9a118       [Check by Tool: Passed] 
+4      (CanIsr_2_Wrapper)                       0x01a9a124       [Check by Tool: Passed] 
+5      (CanIsr_3_Wrapper)                       0x01a9a130       [Check by Tool: Passed] 
+6      (CanIsr_4_Wrapper)                       0x01a9a13c       [Check by Tool: Passed] 
+7      (CanIsr_5_Wrapper)                       0x01a9a148       [Check by Tool: Passed] 
+8      (CanIsr_6_Wrapper)                       0x01a9a154       [Check by Tool: Passed] 
+9      (CanIsr_7_Wrapper)                       0x01a9a160       [Check by Tool: Passed] 
+10     (DMA_vEndOfTransfer_ISR6_Wrapper)        0x01a9a16c       [Check by Tool: Passed] 
+11     (DMA_vError_ISR_Wrapper)                 0x01a9a178       [Check by Tool: Passed] 
+12     (ICU32_vCh19_Isr_Wrapper)                0x01a9a184       [Check by Tool: Passed] 
+13     (IICB_vStatusInterruptCh0_ISR_Wrapper)   0x01a9a190       [Check by Tool: Passed] 
+14     (IICB_vStatusInterruptCh1_ISR_Wrapper)   0x01a9a19c       [Check by Tool: Passed] 
+15     (IREXT_vExternalInt1_17_Isr_Wrapper)     0x01a9a1a8       [Check by Tool: Passed] 
+16     (IREXT_vExternalInt3_19_Isr_Wrapper)     0x01a9a1b4       [Check by Tool: Passed] 
+17     (PFM_vMain_Isr_Wrapper)                  0x01a9a1c0       [Check by Tool: Passed] 
+18     (RTC_vHandleInterrupt_Isr_Wrapper)       0x01a9a1cc       [Check by Tool: Passed] 
+19     (RemoteCallCore0)                        0x01a9a1d8       [Check by Tool: Passed] 
+20     (SPI_vHwCh1Rx_Isr_Wrapper)               0x01a9a1e4       [Check by Tool: Passed] 
+21     (SPI_vHwCh4Rx_Isr_Wrapper)               0x01a9a1f0       [Check by Tool: Passed] 
+22     (WDOG_vHwdgPriorWarn_Isr_Wrapper)        0x01a9a1fc       [Check by Tool: Passed] 
+23     (WDOG_vSwdgPriorWarn_Isr_Wrapper)        0x01a9a208       [Check by Tool: Passed] 
+24     (l_ifc_rx_17_Wrapper)                    0x01a9a214       [Check by Tool: Passed] 
+25     (l_ifc_rx_9_Wrapper)                     0x01a9a220       [Check by Tool: Passed] 
+26     (l_ifc_status_17_Wrapper)                0x01a9a22c       [Check by Tool: Passed] 
+27     (l_ifc_status_9_Wrapper)                 0x01a9a238       [Check by Tool: Passed] 
+28     (osSystemCat2ISR)                        0x01a9a244       [Check by Tool: Passed] 
+29     (osTimerInterrupt_FreeRunningTimer_Ch10) 0x01a9a250       [Check by Tool: Passed] 
+----------------------------------------------------------------------------------------
+
+28. ISR stack information:
+---------------------------------------------------------------------------------------------------------------------------------
+ISR-ID ISR-Name                                 StackStartAddress StackEndAddress Size/Enable (DRSR) (Corr. Size [Byte]) Checked? 
+---------------------------------------------------------------------------------------------------------------------------------
+0      (ADC_vUnit1_Isr_Wrapper)                 0x00007000        0x00007200      0x00000011         512                   [  ]   
+1      (Basetimer1_Wrapper)                     0x00007c00        0x00007d00      0x0000000f         256                   [  ]   
+2      (Basetimer3_Wrapper)                     0x00007c00        0x00007d00      0x0000000f         256                   [  ]   
+3      (CanIsr_1_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+4      (CanIsr_2_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+5      (CanIsr_3_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+6      (CanIsr_4_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+7      (CanIsr_5_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+8      (CanIsr_6_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+9      (CanIsr_7_Wrapper)                       0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+10     (DMA_vEndOfTransfer_ISR6_Wrapper)        0x00007000        0x00007200      0x00000011         512                   [  ]   
+11     (DMA_vError_ISR_Wrapper)                 0x00007000        0x00007200      0x00000011         512                   [  ]   
+12     (ICU32_vCh19_Isr_Wrapper)                0x00007200        0x00007400      0x00000011         512                   [  ]   
+13     (IICB_vStatusInterruptCh0_ISR_Wrapper)   0x00007400        0x00007600      0x00000011         512                   [  ]   
+14     (IICB_vStatusInterruptCh1_ISR_Wrapper)   0x00007400        0x00007600      0x00000011         512                   [  ]   
+15     (IREXT_vExternalInt1_17_Isr_Wrapper)     0x00007c00        0x00007d00      0x0000000f         256                   [  ]   
+16     (IREXT_vExternalInt3_19_Isr_Wrapper)     0x00007c00        0x00007d00      0x0000000f         256                   [  ]   
+17     (PFM_vMain_Isr_Wrapper)                  0x00007b00        0x00007c00      0x0000000f         256                   [  ]   
+18     (RTC_vHandleInterrupt_Isr_Wrapper)       0x00007200        0x00007400      0x00000011         512                   [  ]   
+19     (RemoteCallCore0)                        0x00007400        0x00007600      0x00000011         512                   [  ]   
+20     (SPI_vHwCh1Rx_Isr_Wrapper)               0x00007200        0x00007400      0x00000011         512                   [  ]   
+21     (SPI_vHwCh4Rx_Isr_Wrapper)               0x00007200        0x00007400      0x00000011         512                   [  ]   
+22     (WDOG_vHwdgPriorWarn_Isr_Wrapper)        0x00007a00        0x00007b00      0x0000000f         256                   [  ]   
+23     (WDOG_vSwdgPriorWarn_Isr_Wrapper)        0x00007a00        0x00007b00      0x0000000f         256                   [  ]   
+24     (l_ifc_rx_17_Wrapper)                    0x00007200        0x00007400      0x00000011         512                   [  ]   
+25     (l_ifc_rx_9_Wrapper)                     0x00007200        0x00007400      0x00000011         512                   [  ]   
+26     (l_ifc_status_17_Wrapper)                0x00007200        0x00007400      0x00000011         512                   [  ]   
+27     (l_ifc_status_9_Wrapper)                 0x00007200        0x00007400      0x00000011         512                   [  ]   
+28     (osSystemCat2ISR)                        0x00000000        0x00000000      0x00000000         UNUSED                [  ]   
+29     (osTimerInterrupt_FreeRunningTimer_Ch10) 0x00003800        0x00003c00      0x00000013         1024                  [  ]   
+---------------------------------------------------------------------------------------------------------------------------------
+
+29. System stack information:
+-----------------------------------------------------------------------------------------
+Core-ID StackStartAddress StackEndAddress Size/Enable (DRSR) (Corr. Size [Byte]) Checked? 
+-----------------------------------------------------------------------------------------
+0       0x00003c00        0x00004000      0x00000013         1024                  [  ]   
+-----------------------------------------------------------------------------------------
+
+30. Category 1 ISR stack information:
+-----------------------------------------------------------------------------------------
+Core-ID StackStartAddress StackEndAddress Size/Enable (DRSR) (Corr. Size [Byte]) Checked? 
+-----------------------------------------------------------------------------------------
+0       0x02050000        0x02050200      0x00000011         512                   [  ]   
+-----------------------------------------------------------------------------------------
+
+31. FIQ stack information:
+-----------------------------------------------------------------------------------------
+Core-ID StackStartAddress StackEndAddress Size/Enable (DRSR) (Corr. Size [Byte]) Checked? 
+-----------------------------------------------------------------------------------------
+0       0x02050200        0x02050400      0x00000011         512                   [  ]   
+-----------------------------------------------------------------------------------------
+
+32. MPU size and enable descriptor for Task stacks:
+------------------------------------------------------------------------------------
+Task-ID Task-Name                    Size/Enable (DRSR) (Corr. Size [Byte]) Checked? 
+------------------------------------------------------------------------------------
+0       (osSystemExtendedTask)       0x00000009         32                    [  ]   
+1       (CSHDL_Timeout)              0x00000011         512                   [  ]   
+2       (CAM_1ms_Tsk)                0x00000013         1024                  [  ]   
+3       (Interrupt_Tsk)              0x00000013         1024                  [  ]   
+4       (CAM_2ms_Tsk)                0x00000013         1024                  [  ]   
+5       (CAM_5ms_Tsk)                0x00000013         1024                  [  ]   
+6       (CAM_10ms_Tsk)               0x00000013         1024                  [  ]   
+7       (CAM_25ms_Tsk)               0x00000013         1024                  [  ]   
+8       (CAM_100ms_Tsk)              0x00000013         1024                  [  ]   
+9       (BSW_Tsk)                    0x00000015         2048                  [  ]   
+10      (DIHD_DeviceIO_Tsk)          0x00000013         1024                  [  ]   
+11      (DIHD_DeviceInt_Tsk)         0x00000013         1024                  [  ]   
+12      (SINI_vInit_Tsk)             0x00000013         1024                  [  ]   
+13      (MTHD_ModelTask_OsAppModel1) 0x00000015         2048                  [  ]   
+14      (MTHD_ModelTask_OsAppModel2) 0x00000015         2048                  [  ]   
+15      (MTHD_ModelTask_OsAppModel3) 0x00000015         2048                  [  ]   
+16      (MTHD_ModelTask_OsAppModel4) 0x00000015         2048                  [  ]   
+17      (MTHD_ModelTask_OsAppModel5) 0x00000015         2048                  [  ]   
+18      (MTHD_ModelTask_OsAppModel6) 0x00000015         2048                  [  ]   
+19      (BSWLow_Tsk)                 0x00000013         1024                  [  ]   
+20      (CSHDL_InitDeinit)           0x00000013         1024                  [  ]   
+21      (osSystemBasicTask)          0x00000009         32                    [  ]   
+22      (IDLE_vLoop_Tsk)             0x00000011         512                   [  ]   
+------------------------------------------------------------------------------------
+
+33. Configuration of global MPU regions:
+----------------------------------------------------------------------------------------------------------------------------------------------
+Region index (RGNR) Base Address (DRBAR) Size/Enable (DRSR) (Corr. Size [Byte]) Access Control (DRACR) (Corr. Access Rights)          Checked? 
+----------------------------------------------------------------------------------------------------------------------------------------------
+0x00000000          0x00000000           0x0000003d         -2147483648         0x0000120b             Privileged: R/W     User: R      [  ]   
+0x00000003          0x0e800000           0x0000001d         32768               0x00001200             Privileged: R/W     User: R      [  ]   
+0x00000004          0x00000000           0x0000001d         32768               0x0000160b             Privileged: R       User: R      [  ]   
+0x00000006          0x0204f000           0x00000015         2048                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+0x0000000c          0x01800000           0x0000c32d         8388608             0x0000060b             Privileged: R/X     User: R/X    [  ]   
+0x0000000d          0x01a00000           0x00000021         131072              0x0000160b             Privileged: R       User: R      [  ]   
+0x0000000e          0x00800000           0x0000c32d         8388608             0x0000060b             Privileged: R/X     User: R/X    [  ]   
+0x0000000f          0x00000000           0x0000000d         128                 0x0000100b             Privileged: None    User: None   [  ]   
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+34. Pointer to MPU configuration of Application MPU Regions:
+----------------------------------------------------------------------------------
+Appl-ID Appl-Name                  MPUConfigurationAddress Checked?                
+----------------------------------------------------------------------------------
+0       (OsAppBaseSystem)          0x01a9a3a0              [Check by Tool: Passed] 
+1       (OsAppDevices)             0x01a9a410              [Check by Tool: Passed] 
+2       (OsAppModel1)              0x01a9a480              [Check by Tool: Passed] 
+3       (OsAppModel2)              0x01a9a4f0              [Check by Tool: Passed] 
+4       (OsAppModel3)              0x01a9a560              [Check by Tool: Passed] 
+5       (OsAppModel4)              0x01a9a5d0              [Check by Tool: Passed] 
+6       (OsAppModel5)              0x01a9a640              [Check by Tool: Passed] 
+7       (OsAppModel6)              0x01a9a6b0              [Check by Tool: Passed] 
+8       (osSystemApplicationCore0) 0x01a9a720              [Check by Tool: Passed] 
+----------------------------------------------------------------------------------
+
+35. Configuration of Application MPU regions:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Appl-ID Appl-Name                  Region index (RGNR) Base Address (DRBAR) Size/Enable (DRSR) (Corr. Size [Byte]) Access Control (DRACR) (Corr. Access Rights)          Checked? 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0       (OsAppBaseSystem)          0x00000001          0x00010000           0x00000021         131072              0x0000110b             Privileged: R       User: None   [  ]   
+0       (OsAppBaseSystem)          0x00000002          0x02050000           0x0000001d         32768               0x0000110b             Privileged: R       User: None   [  ]   
+0       (OsAppBaseSystem)          0x00000008          0x02000000           0x00008023         262144              0x0000160b             Privileged: R    User: R         [  ]   
+0       (OsAppBaseSystem)          0x00000009          0x02048000           0x0000801d         32768               0x0000160b             Privileged: R    User: R         [  ]   
+0       (OsAppBaseSystem)          0x0000000a          0x00008000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+0       (OsAppBaseSystem)          0x0000000b          0x02040000           0x0000001d         32768               0x0000160b             Privileged: R    User: R         [  ]   
+1       (OsAppDevices)             0x00000001          0x00010000           0x00000021         131072              0x0000110b             Privileged: R       User: None   [  ]   
+1       (OsAppDevices)             0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+1       (OsAppDevices)             0x00000008          0x02000000           0x00000023         262144              0x0000130b             Privileged: R/W     User: R/W    [  ]   
+1       (OsAppDevices)             0x00000009          0x02048000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+1       (OsAppDevices)             0x0000000a          0x00008000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+1       (OsAppDevices)             0x0000000b          0x02040000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+2       (OsAppModel1)              0x00000001          0x00010000           0x00000021         131072              0x0000120b             Privileged: R/W     User: R      [  ]   
+2       (OsAppModel1)              0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+2       (OsAppModel1)              0x00000008          0x02000000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+2       (OsAppModel1)              0x00000009          0x02048000           0x00000017         4096                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+2       (OsAppModel1)              0x0000000a          0x00008000           0x0000001d         32768               0x0000100b             Privileged: None    User: None   [  ]   
+2       (OsAppModel1)              0x0000000b          0x02040000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+3       (OsAppModel2)              0x00000001          0x00010000           0x00000021         131072              0x0000120b             Privileged: R/W     User: R      [  ]   
+3       (OsAppModel2)              0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+3       (OsAppModel2)              0x00000008          0x02008000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+3       (OsAppModel2)              0x00000009          0x02049000           0x00000017         4096                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+3       (OsAppModel2)              0x0000000a          0x00008000           0x0000001d         32768               0x0000100b             Privileged: None    User: None   [  ]   
+3       (OsAppModel2)              0x0000000b          0x02040000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+4       (OsAppModel3)              0x00000001          0x00010000           0x00000021         131072              0x0000120b             Privileged: R/W     User: R      [  ]   
+4       (OsAppModel3)              0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+4       (OsAppModel3)              0x00000008          0x02010000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+4       (OsAppModel3)              0x00000009          0x0204a000           0x00000017         4096                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+4       (OsAppModel3)              0x0000000a          0x00008000           0x0000001d         32768               0x0000100b             Privileged: None    User: None   [  ]   
+4       (OsAppModel3)              0x0000000b          0x02040000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+5       (OsAppModel4)              0x00000001          0x00010000           0x00000021         131072              0x0000120b             Privileged: R/W     User: R      [  ]   
+5       (OsAppModel4)              0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+5       (OsAppModel4)              0x00000008          0x02018000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+5       (OsAppModel4)              0x00000009          0x0204b000           0x00000017         4096                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+5       (OsAppModel4)              0x0000000a          0x00008000           0x0000001d         32768               0x0000100b             Privileged: None    User: None   [  ]   
+5       (OsAppModel4)              0x0000000b          0x02040000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+6       (OsAppModel5)              0x00000001          0x00010000           0x00000021         131072              0x0000120b             Privileged: R/W     User: R      [  ]   
+6       (OsAppModel5)              0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+6       (OsAppModel5)              0x00000008          0x02020000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+6       (OsAppModel5)              0x00000009          0x0204c000           0x00000017         4096                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+6       (OsAppModel5)              0x0000000a          0x00008000           0x0000001d         32768               0x0000100b             Privileged: None    User: None   [  ]   
+6       (OsAppModel5)              0x0000000b          0x02040000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+7       (OsAppModel6)              0x00000001          0x00010000           0x00000021         131072              0x0000120b             Privileged: R/W     User: R      [  ]   
+7       (OsAppModel6)              0x00000002          0x02050000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+7       (OsAppModel6)              0x00000008          0x02028000           0x0000001d         32768               0x0000130b             Privileged: R/W     User: R/W    [  ]   
+7       (OsAppModel6)              0x00000009          0x0204d000           0x00000017         4096                0x0000130b             Privileged: R/W     User: R/W    [  ]   
+7       (OsAppModel6)              0x0000000a          0x00008000           0x0000001d         32768               0x0000100b             Privileged: None    User: None   [  ]   
+7       (OsAppModel6)              0x0000000b          0x02040000           0x0000001d         32768               0x0000120b             Privileged: R/W     User: R      [  ]   
+8       (osSystemApplicationCore0) 0x00000001          0x00000000           0x00000000         UNUSED              0x00000000             Privileged: None    User: None   [  ]   
+8       (osSystemApplicationCore0) 0x00000002          0x00000000           0x00000000         UNUSED              0x00000000             Privileged: None    User: None   [  ]   
+8       (osSystemApplicationCore0) 0x00000008          0x00000000           0x00000000         UNUSED              0x00000000             Privileged: None    User: None   [  ]   
+8       (osSystemApplicationCore0) 0x00000009          0x00000000           0x00000000         UNUSED              0x00000000             Privileged: None    User: None   [  ]   
+8       (osSystemApplicationCore0) 0x0000000a          0x00000000           0x00000000         UNUSED              0x00000000             Privileged: None    User: None   [  ]   
+8       (osSystemApplicationCore0) 0x0000000b          0x00000000           0x00000000         UNUSED              0x00000000             Privileged: None    User: None   [  ]   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+=======================================================
+          End of configuration block reached           
+=======================================================
+

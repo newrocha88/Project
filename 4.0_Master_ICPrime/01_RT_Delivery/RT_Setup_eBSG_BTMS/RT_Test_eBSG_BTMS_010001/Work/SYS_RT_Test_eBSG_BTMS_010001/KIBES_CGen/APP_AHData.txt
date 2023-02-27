@@ -1,0 +1,9 @@
+MemAreaStartAddress=0x1A20000
+CrcAreaSize=0x3B0000
+MemAreaSize=0x3B0000
+AdminheaderType=0x0300
+AdminheaderVersion=0x0100
+AdminHeaderMarker=0x33CCCC33
+SupplierInfo=0x4D41535445522E4D53572020010001FF
+SupplierVersionNr=0x20220926100025FF
+CompatibilityProvInt=0x6F165F56615C6B63

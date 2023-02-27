@@ -1,0 +1,616 @@
+//V1 - Draft
+//V2 - STs renamed. Nodes renamed. ST_MFL frames adjusted.
+
+LIN_description_file;
+LIN_protocol_version = "2.1";
+LIN_language_version = "2.1";
+LIN_speed = 19.2 kbps;
+
+Nodes {
+  Master: Node_IC, 5 ms, 0.3 ms ;
+  Slaves: Node_MFL ;
+}
+
+Signals {
+  MFLEbyte1: 8, 0, Node_IC, Node_MFL ;
+  GRAbyte4: 8, 0, Node_MFL, Node_IC ;
+  GRAbyte5: 8, 0, Node_MFL, Node_IC ;
+  GRAbyte6: 8, 0, Node_MFL, Node_IC ;
+  GRAbyte7: 8, 0, Node_MFL, Node_IC ;
+  GRAbyte8: 8, 0, Node_MFL, Node_IC ;
+  MFL_ResponseErr: 1, 0, Node_MFL, Node_IC ;
+  GRAbyte1: 8, 0, Node_MFL, Node_IC ;
+  GRAbyte2: 8, 0, Node_MFL, Node_IC ;
+  GRAbyte3: 8, 0, Node_MFL, Node_IC ;
+  MFLEbyte2: 8, 0, Node_IC, Node_MFL ;
+  MFLEbyte3: 8, 0, Node_IC, Node_MFL ;
+  MFLEbyte4: 8, 0, Node_IC, Node_MFL ;
+  MFLEbyte5: 8, 0, Node_IC, Node_MFL ;
+  MFLEbyte6: 8, 0, Node_IC, Node_MFL ;
+  MFLEbyte7: 8, 0, Node_IC, Node_MFL ;
+  MFLEbyte8: 8, 0, Node_IC, Node_MFL ;
+  MFLSbyte1: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte2: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte3: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte4: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte5: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte6: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte7: 8, 0, Node_MFL, Node_IC ;
+  MFLSbyte8: 8, 0, Node_MFL, Node_IC ;
+  UHREbyte1: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte2: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte3: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte4: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte5: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte6: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte7: 8, 0, Node_IC, Node_MFL ;
+  UHREbyte8: 8, 0, Node_IC, Node_MFL ;
+}
+
+Diagnostic_signals {
+  MasterReqB0: 8, 0 ;
+  MasterReqB1: 8, 0 ;
+  MasterReqB2: 8, 0 ;
+  MasterReqB3: 8, 0 ;
+  MasterReqB4: 8, 0 ;
+  MasterReqB5: 8, 0 ;
+  MasterReqB6: 8, 0 ;
+  MasterReqB7: 8, 0 ;
+  SlaveRespB0: 8, 0 ;
+  SlaveRespB1: 8, 0 ;
+  SlaveRespB2: 8, 0 ;
+  SlaveRespB3: 8, 0 ;
+  SlaveRespB4: 8, 0 ;
+  SlaveRespB5: 8, 0 ;
+  SlaveRespB6: 8, 0 ;
+  SlaveRespB7: 8, 0 ;
+}
+
+
+
+Frames {
+  GRA_ACCs_01: 15, Node_MFL, 8 {
+    GRAbyte1, 0 ;
+    GRAbyte2, 8 ;
+    GRAbyte3, 16 ;
+	GRAbyte4, 24 ;
+    GRAbyte5, 32 ;
+    GRAbyte6, 40 ;
+    GRAbyte7, 48 ;
+    GRAbyte8, 56 ;    
+  }
+  MFLe_01: 13, Node_IC, 8 {
+    MFLEbyte1, 0 ;
+    MFLEbyte2, 8 ;
+    MFLEbyte3, 16 ;
+    MFLEbyte4, 24 ;
+    MFLEbyte5, 32 ;
+    MFLEbyte6, 40 ;
+    MFLEbyte7, 48 ;
+    MFLEbyte8, 56 ;
+  }
+  MFLs_01: 14, Node_MFL, 8 {
+    MFLSbyte1, 0 ;
+    MFLSbyte2, 8 ;
+    MFLSbyte3, 16 ;
+    MFLSbyte4, 24 ;
+    MFLSbyte5, 32 ;
+    MFLSbyte6, 40 ;
+    MFLSbyte7, 48 ;
+    MFLSbyte8, 56 ;
+  }
+  UHRe_01: 51, Node_IC, 8 {
+    UHREbyte1, 0 ;
+    UHREbyte2, 8 ;
+    UHREbyte3, 16 ;
+    UHREbyte4, 24 ;
+    UHREbyte5, 32 ;
+    UHREbyte6, 40 ;
+    UHREbyte7, 48 ;
+    UHREbyte8, 56 ;
+  }
+  MFL_Status: 12, Node_MFL, 8 {
+    MFL_ResponseErr, 0 ;
+  }
+}
+
+
+
+Diagnostic_frames {
+  MasterReq: 0x3c {
+    MasterReqB0, 0 ;
+    MasterReqB1, 8 ;
+    MasterReqB2, 16 ;
+    MasterReqB3, 24 ;
+    MasterReqB4, 32 ;
+    MasterReqB5, 40 ;
+    MasterReqB6, 48 ;
+    MasterReqB7, 56 ;
+  }
+  SlaveResp: 0x3d {
+    SlaveRespB0, 0 ;
+    SlaveRespB1, 8 ;
+    SlaveRespB2, 16 ;
+    SlaveRespB3, 24 ;
+    SlaveRespB4, 32 ;
+    SlaveRespB5, 40 ;
+    SlaveRespB6, 48 ;
+    SlaveRespB7, 56 ;
+  }
+}
+
+Node_attributes {
+  Node_MFL{
+    LIN_protocol = "2.0" ;
+    configured_NAD = 0xA ;
+    product_id = 0x0, 0x0, 0 ;
+    response_error = MFL_ResponseErr ;
+    P2_min = 10 ms ;
+    ST_min = 10 ms ;
+    configurable_frames {
+      GRA_ACCs_01 = 0x5002 ;
+      MFLe_01 = 0x5000 ;
+      MFLs_01 = 0x5001 ;
+      UHRe_01 = 0x5003 ;
+      MFL_Status = 0x0 ;
+    }
+  }
+}
+
+Schedule_tables {
+ ST_MFL {
+    MFLs_01 delay 10 ms ;
+    GRA_ACCs_01 delay 10 ms ;
+    MFLs_01 delay 10 ms ;
+    MFLe_01 delay 10 ms ;
+    MFLs_01 delay 10 ms ;
+    GRA_ACCs_01 delay 10 ms ;
+    MFLs_01 delay 10 ms ;
+    UHRe_01 delay 10 ms ;
+  }
+ ST_DiagRequest {
+    MasterReq delay 10 ms ;
+  }
+ ST_DiagResp {
+    SlaveResp delay 10 ms ;
+  }
+ ST_Error {
+    MFL_Status delay 10 ms ;
+  }
+}
+
+
+Signal_encoding_types {
+  SC_normal_Fehler {
+    logical_value, 0, "normal" ;
+    logical_value, 1, "Fehler" ;
+  }
+  CHA_Drehschalter_Istmodus_encoding {
+    logical_value, 0, "keine_Schalterstellung" ;
+    logical_value, 1, "Schalterstellung_1" ;
+    logical_value, 2, "Schalterstellung_2" ;
+    logical_value, 3, "Schalterstellung_3" ;
+    logical_value, 4, "Schalterstellung_4" ;
+    logical_value, 5, "Schalterstellung_5" ;
+    logical_value, 6, "Schalterstellung_6" ;
+    logical_value, 7, "Schalterstellung_7" ;
+    logical_value, 8, "Schalterstellung_8" ;
+    logical_value, 9, "Schalterstellung_9" ;
+    logical_value, 10, "Schalterstellung_10" ;
+    logical_value, 11, "Schalterstellung_11" ;
+    logical_value, 12, "Schalterstellung_12" ;
+    logical_value, 13, "Schalterstellung_13" ;
+    logical_value, 14, "Schalterstellung_14" ;
+    logical_value, 15, "Schalterstellung_15" ;
+  }
+  CHA_Drehschalter_Mode_Taster_encoding {
+    logical_value, 0, "Taste_unbetaetigt" ;
+    logical_value, 1, "Taste_betaetigt" ;
+    logical_value, 2, "Taste_nicht_verbaut" ;
+  }
+  CHA_Drehschalter_Modus_encoding {
+    logical_value, 0, "Init_oder_kein_modus_gewaehlt" ;
+    logical_value, 1, "Modus_1" ;
+    logical_value, 2, "Modus_2" ;
+    logical_value, 3, "Modus_3" ;
+    logical_value, 4, "Modus_4" ;
+    logical_value, 5, "Modus_5" ;
+    logical_value, 6, "Modus_6" ;
+    logical_value, 7, "Modus_7" ;
+    logical_value, 8, "Modus_8" ;
+    logical_value, 9, "Modus_9" ;
+    logical_value, 10, "Modus_10" ;
+    logical_value, 11, "Modus_11" ;
+    logical_value, 12, "Modus_12" ;
+    logical_value, 13, "Modus_13" ;
+    logical_value, 14, "Modus_14" ;
+    logical_value, 15, "Fehler" ;
+  }
+  DI_KL_58xd_encoding {
+    physical_value, 0, 253, 1, 0 ;
+    logical_value, 254, "Init" ;
+    logical_value, 255, "Fehler" ;
+  }
+  GRA_Codierung_encoding {
+    logical_value, 0, "kein_Hebel" ;
+    logical_value, 1, "GRA_Hebel" ;
+    logical_value, 2, "ACC_Hebel" ;
+    logical_value, 3, "Limiter_Only" ;
+  }
+  GRA_Hauptschalter_encoding {
+    logical_value, 0, "Hauptschalter_aus__Taster_nicht_betaetigt" ;
+    logical_value, 1, "Hauptschalter_ein__Taster_betaetigt" ;
+  }
+  GRA_LIM_Taste_verfuegbar_encoding {
+    logical_value, 0, "Limiter_Taste_nicht_vorhanden" ;
+    logical_value, 1, "Limiter_Taste_vorhanden" ;
+  }
+  GRA_Tip_Stufe_2_encoding {
+    logical_value, 0, "Tip_Stufe_1__keine_Betaetigung" ;
+    logical_value, 1, "Tip_Stufe_2" ;
+  }
+  GRA_Typ_Hauptschalter_encoding {
+    logical_value, 0, "gerasteter_Lenkstockschalter" ;
+    logical_value, 1, "getasteter_Lenkstockschalter" ;
+  }
+  GRA_Verstellung_Zeitluecke_encoding {
+    logical_value, 0, "Taste_nicht_betaetigt" ;
+    logical_value, 1, "Dist_minus_1" ;
+    logical_value, 2, "Dist_plus_1" ;
+    logical_value, 3, "Dist_Toggle" ;
+  }
+  KBI_aktive_Laengsfunktion_encoding {
+    logical_value, 0, "Init" ;
+    logical_value, 1, "Speedlimiter" ;
+    logical_value, 2, "GRA_oder_ACC" ;
+    logical_value, 3, "PACCh" ;
+    logical_value, 4, "HDC" ;
+    logical_value, 5, "p_GRA" ;
+    logical_value, 6, "p_Lim" ;
+    logical_value, 7, "Umschaltung_GRA_Limiter" ;
+  }
+  KLR_Fehler_Codierung_encoding {
+    logical_value, 0, "Kein_Fehler" ;
+    logical_value, 1, "Fehler" ;
+  }
+  KLR_Touchauswertung_encoding {
+    logical_value, 0, "Keine_Beruehrung" ;
+    logical_value, 1, "Leicht_beruehrt_innen" ;
+    logical_value, 2, "Leicht_beruehrt_links" ;
+    logical_value, 3, "Leicht_beruehrt_rechts" ;
+    logical_value, 4, "Leicht_beruehrt_links_rechts" ;
+    logical_value, 5, "Leicht_umgriffen_links" ;
+    logical_value, 6, "Leicht_umgriffen_rechts" ;
+    logical_value, 7, "Leicht_umgriffen_links_rechts" ;
+    logical_value, 8, "Stark_umgriffen_links" ;
+    logical_value, 9, "Stark_umgriffen_rechts" ;
+    logical_value, 10, "Stark_umgriffen_links_rechts" ;
+    logical_value, 11, "res" ;
+    logical_value, 12, "res" ;
+    logical_value, 13, "Kalibrierung" ;
+    logical_value, 14, "Init" ;
+    logical_value, 15, "Fehler_Touchauswertung" ;
+  }
+  KLR_Touchintensitaet_1_encoding {
+    physical_value, 0, 250, 1, 0, "Unit_None" ;
+    logical_value, 251, "Kalibrierung" ;
+    logical_value, 252, "nicht_verfuegbar" ;
+    logical_value, 253, "res" ;
+    logical_value, 254, "Init" ;
+    logical_value, 255, "Fehler" ;
+  }
+  KLR_Touchintensitaet_2_encoding {
+    physical_value, 0, 250, 1, 0, "Unit_None" ;
+    logical_value, 251, "Kalibrierung" ;
+    logical_value, 252, "nicht_verfuegbar" ;
+    logical_value, 253, "res" ;
+    logical_value, 254, "Init" ;
+    logical_value, 255, "Fehler" ;
+  }
+  KLR_Touchintensitaet_3_encoding {
+    physical_value, 0, 250, 1, 0, "Unit_None" ;
+    logical_value, 251, "Kalibrierung" ;
+    logical_value, 252, "nicht_verfuegbar" ;
+    logical_value, 253, "res" ;
+    logical_value, 254, "Init" ;
+    logical_value, 255, "Fehler" ;
+  }
+  LR_HZG_Konfiguration_encoding {
+    logical_value, 0, "Init" ;
+    logical_value, 1, "Parametersatz_1" ;
+    logical_value, 2, "Parametersatz_2" ;
+    logical_value, 3, "Parametersatz_3" ;
+    logical_value, 4, "Parametersatz_4" ;
+    logical_value, 5, "Parametersatz_5" ;
+    logical_value, 6, "Parametersatz_6" ;
+    logical_value, 7, "Parametersatz_7" ;
+  }
+  LR_HZG_Temp_Sensor_encoding {
+    physical_value, 0, 154, 1, -50, "Unit_DegreCelsi" ;
+    logical_value, 253, "KS_Plus__Unterbrechung" ;
+    logical_value, 254, "Init" ;
+    logical_value, 255, "Tempsensor_fehlerhaft__KS_GND" ;
+  }
+  MFL_Marke_encoding {
+    logical_value, 0, "VW" ;
+    logical_value, 1, "Audi" ;
+    logical_value, 2, "Seat" ;
+    logical_value, 3, "Skoda" ;
+    logical_value, 4, "VW_Nutzf" ;
+    logical_value, 5, "Bugatti" ;
+    logical_value, 6, "Lamborghini" ;
+    logical_value, 7, "Bentley" ;
+    logical_value, 8, "Rolls Royce" ;
+    logical_value, 9, "Quattro" ;
+    logical_value, 10, "kein_Hersteller_1" ;
+    logical_value, 11, "kein_Hersteller_2" ;
+    logical_value, 12, "kein_Hersteller_3" ;
+    logical_value, 13, "kein_Hersteller_4" ;
+    logical_value, 14, "Ford" ;
+    logical_value, 15, "Porsche" ;
+  }
+  MFL_Paddle_Verbau_encoding {
+    logical_value, 0, "verbaut" ;
+    logical_value, 1, "nicht_verbaut" ;
+  }
+  MFL_Tastencode_1_encoding {
+    logical_value, 0, "Key_Released__No_Key" ;
+    logical_value, 1, "Context_Menu" ;
+    logical_value, 2, "Menu_Up__Next_Screen" ;
+    logical_value, 3, "Menu_Down__Previous_Screen" ;
+    logical_value, 4, "Up" ;
+    logical_value, 5, "Down" ;
+    logical_value, 6, "Up__Down_ThumbWheel" ;
+    logical_value, 7, "OK__ThumbWheel_Button" ;
+    logical_value, 8, "Cancel__Escape" ;
+    logical_value, 9, "Main_Menu" ;
+    logical_value, 10, "Side_Menu_left" ;
+    logical_value, 11, "Side_Menu_right" ;
+    logical_value, 12, "FAS_Menu" ;
+    logical_value, 13, "Left__Right_ThumbWheel" ;
+    logical_value, 16, "Volume_Up" ;
+    logical_value, 17, "Volume_Down" ;
+    logical_value, 18, "Volume_Up__Down_ThumbWheel" ;
+    logical_value, 19, "Volume_ThumbWheel_Button" ;
+    logical_value, 20, "Audio_Source" ;
+    logical_value, 21, "Arrow_A_Up__Right" ;
+    logical_value, 22, "Arrow_A_Down__Left" ;
+    logical_value, 23, "Arrow_B_Up__Right" ;
+    logical_value, 24, "Arrow_B_Down__Left" ;
+    logical_value, 25, "PTT__PushToTalk" ;
+    logical_value, 26, "PTT_Cancel" ;
+    logical_value, 27, "Route_Info" ;
+    logical_value, 28, "Hook" ;
+    logical_value, 29, "Hang_Up" ;
+    logical_value, 30, "Off_Hook" ;
+    logical_value, 31, "Light_On__Off" ;
+    logical_value, 32, "Mute" ;
+    logical_value, 33, "Joker1" ;
+    logical_value, 34, "Joker2" ;
+    logical_value, 35, "View" ;
+    logical_value, 36, "Arrow_A_Up__Down_ThumbWheel" ;
+    logical_value, 37, "Lenkradheizung" ;
+    logical_value, 38, "Rekuperation" ;
+    logical_value, 39, "Tube_Toggle" ;
+    logical_value, 100, "MAP" ;
+    logical_value, 101, "MAP_Boost" ;
+    logical_value, 102, "Turn_signal_left" ;
+    logical_value, 103, "Turn_signal_right" ;
+    logical_value, 104, "Turn_signal_off" ;
+    logical_value, 105, "Flashlight" ;
+    logical_value, 106, "Highbeam" ;
+    logical_value, 107, "Washer_button" ;
+    logical_value, 108, "Wiper_button_left" ;
+    logical_value, 109, "Wiper_button_right" ;
+    logical_value, 110, "Wiper_button_cancel" ;
+    logical_value, 111, "Exhaust_Sound" ;
+    logical_value, 112, "Drive_Select_button" ;
+    logical_value, 113, "Sport_button" ;
+    logical_value, 114, "ESP_Drift_Selection_ThumbWheel" ;
+    logical_value, 115, "PTT_special_vehicle" ;
+    logical_value, 116, "TravelAssist" ;
+    logical_value, 240, "Startup_Reset" ;
+    logical_value, 241, "Initialization" ;
+  }
+  MFL_Tastencode_2_encoding {
+    logical_value, 0, "Key_Released__No_Key" ;
+    logical_value, 1, "Context_Menu" ;
+    logical_value, 2, "Menu_Up__Next_Screen" ;
+    logical_value, 3, "Menu_Down__Previous_Screen" ;
+    logical_value, 4, "Up" ;
+    logical_value, 5, "Down" ;
+    logical_value, 6, "Up__Down_ThumbWheel" ;
+    logical_value, 7, "OK__ThumbWheel_Button" ;
+    logical_value, 8, "Cancel__Escape" ;
+    logical_value, 9, "Main_Menu" ;
+    logical_value, 10, "Side_Menu_left" ;
+    logical_value, 11, "Side_Menu_right" ;
+    logical_value, 12, "FAS_Menu" ;
+    logical_value, 13, "Left__Right_ThumbWheel" ;
+    logical_value, 16, "Volume_Up" ;
+    logical_value, 17, "Volume_Down" ;
+    logical_value, 18, "Volume_Up__Down_ThumbWheel" ;
+    logical_value, 19, "Volume_ThumbWheel_Button" ;
+    logical_value, 20, "Audio_Source" ;
+    logical_value, 21, "Arrow_A_Up__Right" ;
+    logical_value, 22, "Arrow_A_Down__Left" ;
+    logical_value, 23, "Arrow_B_Up__Right" ;
+    logical_value, 24, "Arrow_B_Down__Left" ;
+    logical_value, 25, "PTT__PushToTalk" ;
+    logical_value, 26, "PTT_Cancel" ;
+    logical_value, 27, "Route_Info" ;
+    logical_value, 28, "Hook" ;
+    logical_value, 29, "Hang_Up" ;
+    logical_value, 30, "Off_Hook" ;
+    logical_value, 31, "Light_On__Off" ;
+    logical_value, 32, "Mute" ;
+    logical_value, 33, "Joker1" ;
+    logical_value, 34, "Joker2" ;
+    logical_value, 35, "View" ;
+    logical_value, 36, "Arrow_A_Up_Right_Down_Left_ThumbWheel" ;
+    logical_value, 37, "Lenkradheizung" ;
+    logical_value, 38, "Rekuperation" ;
+    logical_value, 39, "Tube_Toggle" ;
+    logical_value, 100, "MAP" ;
+    logical_value, 101, "MAP_Boost" ;
+    logical_value, 102, "Turn_signal_left" ;
+    logical_value, 103, "Turn_signal_right" ;
+    logical_value, 104, "Turn_signal_off" ;
+    logical_value, 105, "Flashlight" ;
+    logical_value, 106, "Highbeam" ;
+    logical_value, 107, "Washer_button" ;
+    logical_value, 108, "Wiper_button_left" ;
+    logical_value, 109, "Wiper_button_right" ;
+    logical_value, 110, "Wiper_button_cancel" ;
+    logical_value, 111, "Exhaust_Sound" ;
+    logical_value, 112, "Drive_Select_button" ;
+    logical_value, 113, "Sport_button" ;
+    logical_value, 114, "ESP_Drift_Selection_ThumbWheel" ;
+    logical_value, 115, "PTT_special_vehicle" ;
+    logical_value, 116, "TravelAssist" ;
+    logical_value, 240, "Startup_Reset" ;
+    logical_value, 241, "Initialization" ;
+  }
+  MO_TSK_MFL_G3_Unterstuetzung_encoding {
+    logical_value, 0, "nicht_unterstuetzt" ;
+    logical_value, 1, "unterstuetzt" ;
+  }
+  P_Mode_MFL_encoding {
+    logical_value, 0, "AUS" ;
+    logical_value, 1, "EIN" ;
+  }
+  SC_100Prozent_7Bit_Init {
+    physical_value, 0, 100, 1, 0, "Unit_PerCent" ;
+    logical_value, 126, "Init" ;
+    logical_value, 127, "Fehler" ;
+  }
+  SC_Aus_Ein {
+    logical_value, 0, "Aus" ;
+    logical_value, 1, "Ein" ;
+  }
+  SC_Betaetigung {
+    logical_value, 0, "nicht_betaetigt" ;
+    logical_value, 1, "betaetigt" ;
+  }
+  SC_Fehler {
+    logical_value, 0, "kein_Fehler" ;
+    logical_value, 1, "Fehler" ;
+  }
+  SC_GRA_Typ_Bedienteil__V2_ {
+    logical_value, 0, "Init" ;
+    logical_value, 1, "4_Positions_Bedienteil" ;
+    logical_value, 2, "6_Positions_Bedienteil" ;
+    logical_value, 3, "8_Positions_Bedienteil" ;
+    logical_value, 4, "PAG_5_Positions_Bedienteil" ;
+    logical_value, 5, "VW_MFL_Gen2" ;
+    logical_value, 6, "VW_MFL_Gen3" ;
+    logical_value, 7, "reserviert" ;
+  }
+  SC_LED_Blinken {
+    logical_value, 0, "LED_aus_und_Blinken_aus" ;
+    logical_value, 1, "LED_ein_und_Blinken_aus" ;
+    logical_value, 2, "LED_ein_und_Blinken_ein_50_percent" ;
+    logical_value, 3, "reserviert" ;
+  }
+  SC_Lokalaktiv_2 {
+    logical_value, 0, "war_nicht_lokal_aktiv" ;
+    logical_value, 1, "war_lokal_aktiv" ;
+  }
+  SC_MFL_Eventcode_V2 {
+    logical_value, 0, "W_no_event____T_no_event" ;
+    logical_value, 1, "W_1_Tick_up__T_pressed_normal" ;
+    logical_value, 2, "W_2_Ticks_up__T_touched" ;
+    logical_value, 3, "W_3_Ticks_up__T_double_click_nor" ;
+    logical_value, 4, "W_4_Ticks_up__T_long_press_nor_1" ;
+    logical_value, 5, "W_5_Ticks_up__T_long_press_nor_2" ;
+    logical_value, 6, "W_6_Ticks_up__T_long_press_nor_3" ;
+    logical_value, 7, "W_7_Ticks_up" ;
+    logical_value, 9, "W_7_Ticks_dn__T_pressed_strong" ;
+    logical_value, 10, "W_6_Ticks_dn" ;
+    logical_value, 11, "W_5_Ticks_dn__T_double_click_str" ;
+    logical_value, 12, "W_4_Ticks_dn__T_long_press_str_1" ;
+    logical_value, 13, "W_3_Ticks_dn__T_long_press_str_2" ;
+    logical_value, 14, "W_2_Ticks_dn__T_long_press_str_3" ;
+    logical_value, 15, "W_1_Tick_dn" ;
+  }
+  SC_Taste_Betaetigung_1Bit {
+    logical_value, 0, "nicht_betaetigt" ;
+    logical_value, 1, "betaetigt" ;
+  }
+  SC_Veraltet_Bit {
+    logical_value, 0, "aktuell" ;
+    logical_value, 1, "veraltet" ;
+  }
+  SC_inaktiv_aktiv {
+    logical_value, 0, "inaktiv" ;
+    logical_value, 1, "aktiv" ;
+  }
+  SC_ungueltig_gueltig {
+    logical_value, 0, "ungueltig" ;
+    logical_value, 1, "gueltig" ;
+  }
+  TSK_Hauptschalter_GRA_ACC_encoding {
+    logical_value, 0, "Init" ;
+    logical_value, 1, "Aus" ;
+    logical_value, 2, "Ein" ;
+    logical_value, 3, "Fehler" ;
+  }
+  UHR_Fehler_encoding {
+    logical_value, 0, "kein_Fehler" ;
+    logical_value, 1, "Sub-SG Analoguhr Erkennung 0 Position fehlgeschlagen" ;
+    logical_value, 2, "Sub-SG Analoguhr defekt RAM" ;
+    logical_value, 4, "Sub-SG Analoguhr defekt ROM" ;
+    logical_value, 8, "Sub-SG Analoguhr defekt EEPROM" ;
+    logical_value, 16, "Sub-SG Analoguhr Watchdog Timeout" ;
+    logical_value, 32, "reserviert" ;
+    logical_value, 64, "reserviert" ;
+    logical_value, 128, "reserviert" ;
+  }
+  UH_Stellgliedtest_encoding {
+    logical_value, 0, "kein Stellgliedtest" ;
+    logical_value, 1, "Sub-SG Analoguhr Zeigertest und Beleuchtung" ;
+    logical_value, 2, "Stellgliedtest 2" ;
+    logical_value, 3, "Stellgliedtest 3" ;
+  }
+  ZAS_Kl_15_encoding {
+    logical_value, 0, "aus" ;
+    logical_value, 1, "ein" ;
+  }
+  MFL_Toggle_encoding {
+    physical_value, 0, 1, 1, 0 ;
+  }
+  MFL_Variante_encoding {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  MFL_Zaehler_encoding {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  SC_BZ {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  SC_CRC {
+    physical_value, 0, 255, 1, 0 ;
+  }
+  UHR_Minute_encoding {
+    physical_value, 0, 59, 1, 0, "Unit_Minut" ;
+  }
+  UHR_Sekunde_encoding {
+    physical_value, 0, 59, 1, 0, "Unit_Secon" ;
+  }
+  UHR_Stunde_encoding {
+    physical_value, 0, 23, 1, 0, "Unit_Hours" ;
+  }
+  UH_Minute_encoding {
+    physical_value, 0, 59, 1, 0, "Unit_Minut" ;
+  }
+  UH_Sekunde_encoding {
+    physical_value, 0, 59, 1, 0, "Unit_Secon" ;
+  }
+  UH_Stunde_encoding {
+    physical_value, 0, 23, 1, 0, "Unit_Hours" ;
+  }
+}
+
+Signal_representation {
+  SC_normal_Fehler: MFL_ResponseErr ;
+}

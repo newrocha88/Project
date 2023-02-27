@@ -1,0 +1,167 @@
+VERSION ""
+
+
+NS_ :
+	BA_
+	BA_DEF_
+	BA_DEF_DEF_
+	BA_DEF_DEF_REL_
+	BA_DEF_REL_
+	BA_DEF_SGTYPE_
+	BA_REL_
+	BA_SGTYPE_
+	BO_TX_BU_
+	BU_BO_REL_
+	BU_EV_REL_
+	BU_SG_REL_
+	CAT_
+	CAT_DEF_
+	CM_
+	ENVVAR_DATA_
+	EV_DATA_
+	FILTER
+	NS_DESC_
+	SGTYPE_
+	SGTYPE_VAL_
+	SG_MUL_VAL_
+	SIGTYPE_VALTYPE_
+	SIG_GROUP_
+	SIG_TYPE_REF_
+	SIG_VALTYPE_
+	VAL_
+	VAL_TABLE_
+
+
+BS_:
+
+
+BU_: BSG_Master Tester
+VAL_TABLE_ SoundID 18 "TickTock" 17 "Gong3" 16 "800Hz" 15 "1250Hz" 14 "625Hz" 13 "Clack" 12 "Click" 11 "976Hz" 10 "2200Hz" 9 "1200Hz" 8 "488Hz" 7 "FireAlarm" 6 "Gong2" 5 "Gong1" 4 "600Hz" 3 "Tick" 2 "Tock" 1 "920Hz" 0 "2800Hz" ;
+
+
+
+
+BO_ 2147487729 GATEWAY_M1: 8 BSG_Master
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" Tester
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" Tester
+
+
+BO_ 2147487730 GATEWAY_M2: 8 BSG_Master
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" Tester
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" Tester
+
+
+BO_ 2147487731 GATEWAY_M3: 8 BSG_Master
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" Tester
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" Tester
+
+
+BO_ 2147487732 GATEWAY_M4: 8 BSG_Master
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" Tester
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" Tester
+
+
+BO_ 2147487733 GATEWAY_M5: 8 BSG_Master
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" Tester
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" Tester
+
+
+BO_ 2147487734 GATEWAY_M6: 8 BSG_Master
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" Tester
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" Tester
+
+
+BO_ 2147487735 GATEWAY_M7: 8 Tester
+ SG_ N1_Gateway  : 0|32@1+ (1,0) [0|4294967295] "" BSG_Master
+ SG_ N2_Gateway  : 32|32@1+ (1,0) [0|4294967295] "" BSG_Master
+
+
+BA_DEF_                "BusType"                            STRING ;
+BA_DEF_                "DBName"                             STRING ;
+BA_DEF_                "GenNWMSleepTime"                    INT 0 1000000;
+BA_DEF_                "NmBaseAddress"                      HEX 1024 1087;
+BA_DEF_     BO_        "GenMsgCycleTime"                    INT 0 0;
+BA_DEF_     BO_        "GenMsgCycleTimeFast"                INT 2 50000;
+BA_DEF_     BO_        "GenMsgDelayTime"                    INT 0 1000;
+BA_DEF_     BO_        "GenMsgFastOnStart"                  INT 0 100000;
+BA_DEF_     BO_        "GenMsgILSupport"                    ENUM "No","Yes";
+BA_DEF_     BO_        "GenMsgNrOfRepetition"               INT 0 999999;
+BA_DEF_     BO_        "GenMsgSendType"                     ENUM "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_     BO_        "GenMsgStartDelayTime"               INT 0 100000;
+BA_DEF_     BO_        "NmMessage"                          ENUM "no","yes";
+BA_DEF_     BU_        "CANoeDrift"                         INT 0 0;
+BA_DEF_     BU_        "CANoeJitterMax"                     INT 0 0;
+BA_DEF_     BU_        "CANoeJitterMin"                     INT 0 0;
+BA_DEF_     BU_        "CANoeStartDelay"                    INT 0 0;
+BA_DEF_     BU_        "ECU"                                STRING ;
+BA_DEF_     BU_        "GenNodSleepTime"                    INT 0 1000000;
+BA_DEF_     BU_        "ILUsed"                             ENUM "No","Yes";
+BA_DEF_     BU_        "NmNode"                             ENUM "no","yes";
+BA_DEF_     BU_        "NmStationAddress"                   HEX 0 0;
+BA_DEF_     BU_        "NodeLayerModules"                   STRING ;
+BA_DEF_     SG_        "GenSigInactiveValue"                INT 0 0;
+BA_DEF_     SG_        "GenSigSendType"                     ENUM "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_     SG_        "GenSigStartValue"                   FLOAT 0 100000000000;
+BA_DEF_     SG_        "NWM-WakeupAllowed"                  ENUM "No","Yes";
+BA_DEF_DEF_     "BusType"                         "CAN";
+BA_DEF_DEF_     "CANoeDrift"                      0;
+BA_DEF_DEF_     "CANoeJitterMax"                  0;
+BA_DEF_DEF_     "CANoeJitterMin"                  0;
+BA_DEF_DEF_     "CANoeStartDelay"                 0;
+BA_DEF_DEF_     "DBName"                          "";
+BA_DEF_DEF_     "ECU"                             "";
+BA_DEF_DEF_     "GenMsgCycleTime"                 0;
+BA_DEF_DEF_     "GenMsgCycleTimeFast"             100;
+BA_DEF_DEF_     "GenMsgDelayTime"                 0;
+BA_DEF_DEF_     "GenMsgFastOnStart"               0;
+BA_DEF_DEF_     "GenMsgILSupport"                 "Yes";
+BA_DEF_DEF_     "GenMsgNrOfRepetition"            0;
+BA_DEF_DEF_     "GenMsgSendType"                  "NoMsgSendType";
+BA_DEF_DEF_     "GenMsgStartDelayTime"            0;
+BA_DEF_DEF_     "GenNWMSleepTime"                 0;
+BA_DEF_DEF_     "GenNodSleepTime"                 0;
+BA_DEF_DEF_     "GenSigInactiveValue"             0;
+BA_DEF_DEF_     "GenSigSendType"                  "Cyclic";
+BA_DEF_DEF_     "GenSigStartValue"                0;
+BA_DEF_DEF_     "ILUsed"                          "Yes";
+BA_DEF_DEF_     "NWM-WakeupAllowed"               "";
+BA_DEF_DEF_     "NmBaseAddress"                   1024;
+BA_DEF_DEF_     "NmMessage"                       "no";
+BA_DEF_DEF_     "NmNode"                          "no";
+BA_DEF_DEF_     "NmStationAddress"                0;
+BA_DEF_DEF_     "NodeLayerModules"                "";
+BA_     "DBName"                                       "H_CAN7";
+BA_     "GenMsgCycleTime"                         BO_ 2147487735    100;
+BA_     "GenMsgSendType"                          BO_ 2147487735    0;
+BA_     "GenSigSendType"                          SG_ 2147487729 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487729 N2_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487730 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487730 N2_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487731 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487731 N2_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487732 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487732 N2_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487733 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487733 N2_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487734 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487734 N2_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487735 N1_Gateway   7;
+BA_     "GenSigSendType"                          SG_ 2147487735 N2_Gateway   7;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487729 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487729 N2_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487730 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487730 N2_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487731 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487731 N2_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487732 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487732 N2_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487733 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487733 N2_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487734 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487734 N2_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487735 N1_Gateway   0;
+BA_     "NWM-WakeupAllowed"                       SG_ 2147487735 N2_Gateway   0;
+BA_     "NmStationAddress"                        BU_ BSG_Master    33;
+BA_     "NmStationAddress"                        BU_ Tester    16;
+BA_     "NodeLayerModules"                        BU_ BSG_Master    "CANoeILNLVector.dll, osek_tp.dll";
+BA_     "NodeLayerModules"                        BU_ Tester    "CANoeILNLVector.dll";

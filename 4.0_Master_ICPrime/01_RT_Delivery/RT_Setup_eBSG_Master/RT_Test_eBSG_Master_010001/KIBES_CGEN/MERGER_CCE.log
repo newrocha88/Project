@@ -1,0 +1,5 @@
+Please check that you have opened a valid CCE project and not a normal KIBES project or a link to a KIBES CCE Sample project: databaseFile
+Parametername: The database file does not exist (C:\Program Files (x86)\Continental Automotive\MBRT\BSG_EVO_MASTER_CCE\Projects\RT_Test_BSG_010199\Database\SignalDB.MDB).
+   bei ORM.Migrator..ctor(String databaseFile, Assembly migrationAssembly, String namespaceFilter, String versionInfoTableName, TextWriter textWriter)
+   bei MERGER.MergerSignalDb..ctor(String sourceDatabaseFileName, String destinationDatabaseFileName, String masterDatabaseFileName, TextWriter textWriter)
+   bei MERGER.Program.Main()

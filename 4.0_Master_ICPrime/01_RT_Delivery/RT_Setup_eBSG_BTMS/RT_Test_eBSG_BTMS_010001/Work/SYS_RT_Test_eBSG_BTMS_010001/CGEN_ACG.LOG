@@ -1,0 +1,4 @@
+INFORMATION: Generation started at lunes, 26 de septiembre de 2022 10:00:07 a. m.
+WARNING: For the PGN message <Generic PG Tx1> the calculated size of the buffer (55 bytes) does not match with the DLC (440 bytes).
+WARNING: For the PGN message <PG Rx Message_1> the calculated size of the buffer (8 bytes) does not match with the DLC (17 bytes).
+INFORMATION: Generation finished at lunes, 26 de septiembre de 2022 10:00:25 a. m.

@@ -1,0 +1,66 @@
+# This file must be in line with the files "_build_options" as well as
+# "_compile_FJ32_proj - SoftuneV6"
+#------------------------------------------------------------
+
+
+# CPU setting
+#------------------------------------------------------------
+  -cpu MB91F526LS       # Specifies the MB number of the CPU to be used
+
+
+# Project level preprocessor definitions
+#------------------------------------------------------------
+
+ -D _FJ_SOFTUNEV6_
+
+# Defines used for cdef.h
+
+ -D osdSuppressPosixTypes   
+ -D osdSuppressFilenames
+ -D osdPreAlarmHook
+ -D osdAlarmHandlingCtrl=1
+ -D   osdOSEK2_2=1
+
+# Defines for RTK OSEK port
+
+ -D __OSEK__
+ -D __RT3__
+
+# Defines for logiCAD MBRT API
+
+# -D LCCG_COMPILE_FW_STANDALONE
+ -D OEM_USE_QW_FOR_DATE_TIME
+ -D DONT_USE_386_BIT_OPERATION
+ -D DONT_USE_OPLC
+
+
+# GENERAL                               ALTERNATIVE SETTINGS:
+#------------------------------------------------------------
+#  -w 5                 # {0|1|2|3|4|5|6|7|8}          - setting for warning level, setting is done in KS32Gen.bat
+ -c         # stops compiler when object file is generated
+
+  -INF LONGMESSAGE     # SHORTMESSAGE (default)       - detailed diagnostic message of the compiler
+
+
+# OPTIMIZE                              ALTERNATIVE SETTINGS:
+#------------------------------------------------------------
+  -O 3                 # {0|1|2|3|4}                  - setting for optimization level
+
+  -K SIZE              # SIZE (-O 3), SPEED (-O 4)    - setting for suboptimization level     
+  -K LONGADDRESS       # {SHORTADDRESS[={CODE|DATA}]} - suboption generates code on the presumption that the (address) of a symbol to be loaded within the program is within the 20-bit expression range
+
+  -K NOSCHEDULE        # {SCHEDULE|NOSCHEDULE}        - specifies whether or not to implement instruction scheduling
+
+  -K NOLIB
+
+
+# OUTPUT                                ALTERNATIVE SETTINGS:
+#------------------------------------------------------------
+  -K A1        # {A1|A4}                      - specifies the minimum allocation boundary for external and static variables
+  -K SARG       # {SARG|DARG}                  - specifies type of acquisition of area required for argument delivery to function - see manual for details
+ -Xalign       # {FUNC4 | FUNC8} and -Xalign  - see manual for details
+
+# LANGUAGE                              ALTERNATIVE SETTINGS:
+#------------------------------------------------------------
+  -B                   # allows // comment style
+  -K LONGLONG          # supports "long long" datatypes

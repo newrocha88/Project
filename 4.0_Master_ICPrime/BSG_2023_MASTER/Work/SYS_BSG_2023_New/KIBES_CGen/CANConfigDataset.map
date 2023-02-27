@@ -1,0 +1,43 @@
+Host OS:	Windows
+ELXR: Copyright (C) 1983-2015 Green Hills Software.  All Rights Reserved.
+Release: Compiler v2015.1.6
+Build Directory: [Directory] COMP-VAL-WIN31:l:/compiler/release-branch-2015-1-comp/build/v2015.1-2015-10-18/win64-comp
+Revision: [VCInfo] http://toolsvc/branches/release-branch-70/src@543895 (built by auto-compiler)
+Revision Date: Mon Oct 19 03:26:52 2015
+
+Release Date: Mon Oct 19 05:10:30 2015
+
+
+
+
+Load Map Thu Feb 23 18:00:48 2023
+Image Summary
+
+  Section              Base      Size(hex)    Size(dec)  SecOffs
+  CANConfigDatasetPayloadSection 01de80a0  000022f0         8944   0000060
+  .text                01dea390  00000000            0   0000000
+  .data                01dea390  00000000            0   0000000
+  .bss                 01dea390  00000000            0   0000000
+  .debug_info          00000000  00006cbf        27839   0002350
+  .debug_abbrev        00000000  000000c3          195   000900f
+  .debug_line          00000000  000006a9         1705   00090d2
+  .debug_macinfo       00000000  000011e8         4584   000977b
+  .linfix              00000000  00000000            0   0000000
+  .gstackfix           00000000  00000000            0   0000000
+
+Load Map Thu Feb 23 18:00:48 2023
+Module Summary
+
+  Origin+Size    Section          Module
+01de80a0+0022f0  CANConfigDatasetPayloadSection CANConfigDataset.o
+00000000+006cbf  .debug_info      CANConfigDataset.o
+00000000+0000c3  .debug_abbrev    CANConfigDataset.o
+00000000+0006a9  .debug_line      CANConfigDataset.o
+00000000+0011e8  .debug_macinfo   CANConfigDataset.o
+
+Load Map Thu Feb 23 18:00:48 2023
+Global Symbols (sorted alphabetically)
+
+ CANConfigDatasetPayloadSection 01de80a0+0022f0 CGEN_rstCANConfigDatasetPayloadSection
+                  00000001+000000 __ghs_do_fp_init
+                  00000002+000000 __ghs_log_fee_level

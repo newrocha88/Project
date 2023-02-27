@@ -1,0 +1,7 @@
+"15-Jan-2023 19:10:26"
+Task name,EP name,Trigger variable name,Trigger variable EP-id,Trigger variable EP-idx,Trigger variable offset,Period constant,Period variable name,Period variable EP-id,Period variable EP-idx,Period variable offset,Priority,Task-id,Task-idx,Path
+Task1,APP_System|APP_System__step|APP_System__initialize,,,,,T#100ms,,,,,1,,0,
+Task2,APP_CanInterface|APP_CanInterface__step|APP_CanInterface__initialize,,,,,T#200ms,,,,,2,,1,
+Task3,APP_IOControl|APP_IOControl__step|APP_IOControl__initialize,,,,,T#400ms,,,,,3,,2,
+Task4,APP_ExpControl|APP_ExpControl__step|APP_ExpControl__initialize,,,,,T#800ms,,,,,4,,3,
+Task5,APP_DevicesControl|APP_DevicesControl__step|APP_DevicesControl__initialize,,,,,T#1600ms,,,,,5,,4,

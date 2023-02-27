@@ -1,0 +1,8 @@
+"26-Sep-2022 10:00:02"
+Task name,EP name,Trigger variable name,Trigger variable EP-id,Trigger variable EP-idx,Trigger variable offset,Period constant,Period variable name,Period variable EP-id,Period variable EP-idx,Period variable offset,Priority,Task-id,Task-idx,Path
+Task1,APP_MyApplication|APP_MyApplication__step|APP_MyApplication__initialize,,,,,T#50ms,,,,,1,,0,
+Task2,APP_MyApplicationT2|APP_MyApplicationT2__step|APP_MyApplicationT2__initialize,,,,,T#100ms,,,,,2,,1,
+Task3,APP_MyApplicationT3|APP_MyApplicationT3__step|APP_MyApplicationT3__initialize,,,,,T#200ms,,,,,3,,2,
+Task4,APP_MyApplicationT4|APP_MyApplicationT4__step|APP_MyApplicationT4__initialize,,,,,T#400ms,,,,,4,,3,
+Task5,APP_MyApplicationT5|APP_MyApplicationT5__step|APP_MyApplicationT5__initialize,,,,,T#500ms,,,,,5,,4,
+Task6,APP_MyApplicationT6|APP_MyApplicationT6__step|APP_MyApplicationT6__initialize,,,,,T#3200ms,,,,,6,,5,

@@ -1,0 +1,99 @@
+23/09/2022 10:15:22 a. m. INFORMATION: Start trying to start Java now...
+23/09/2022 10:15:22 a. m. INFORMATION: Checking Java version...
+23/09/2022 10:15:22 a. m. INFORMATION: Version used:java version "1.8.0_341"
+Java(TM) SE Runtime Environment (build 1.8.0_341-b31)
+Java HotSpot(TM) 64-Bit Server VM (build 25.341-b31, mixed mode)
+
+23/09/2022 10:15:22 a. m. INFORMATION: Try to start java.exe with heap size 1800...
+23/09/2022 10:15:22 a. m. INFORMATION: java.exe arguments:-Xms800m -Xmx800m -jar "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\core\kocom.jar" "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\adapt_project\rt3_sys_uds.odx-d" "C:\Proj\BSG_EVO\TestApp\__eBSG__MASTER\RT_Test_eBSG_Master_010001\Work\SYS_RT_Test_eBSG_Master_010001\DIAKSIN.CMOUT" "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\adapt\KOCOM.cfg" "C:\Proj\BSG_EVO\TestApp\__EBSG~3\RT_TES~1\Work\SYS_RT_Test_eBSG_Master_010001\ASAM.odx-d" "C:\Proj\BSG_EVO\TestApp\__eBSG__MASTER\RT_Test_eBSG_Master_010001\Work\SYS_RT_Test_eBSG_Master_010001\KODX.html"
+23/09/2022 10:15:22 a. m. INFORMATION: java.exe process started.
+23/09/2022 10:15:31 a. m. INFORMATION: java.exe process stderr read to end:
+23/09/2022 10:15:31 a. m. INFORMATION: java.exe process stdout read to end:
+23/09/2022 10:15:31 a. m. INFORMATION: Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT execution done
+Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo execution done
+Execute PostHandlingCommand: com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer
+PostHandlingCommand com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer execution done
+8294ms
+
+23/09/2022 10:15:31 a. m. INFORMATION: Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT execution done
+Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo execution done
+Execute PostHandlingCommand: com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer
+PostHandlingCommand com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer execution done
+8294ms
+
+23/09/2022 10:15:31 a. m. INFORMATION: java.exe heap trial start succeeded!
+23/09/2022 10:15:31 a. m. INFORMATION: Waiting for exit of java.exe process...
+23/09/2022 10:15:31 a. m. INFORMATION: Exit code of java.exe 0!
+23/09/2022 10:15:31 a. m. INFORMATION: Finally, ...
+23/09/2022 10:15:31 a. m. INFORMATION: Because creating the JVM succeeded, ...
+23/09/2022 10:15:31 a. m. INFORMATION: End the ODX transformation.
+23/09/2022 10:21:04 a. m. INFORMATION: Start trying to start Java now...
+23/09/2022 10:21:04 a. m. INFORMATION: Checking Java version...
+23/09/2022 10:21:04 a. m. INFORMATION: Version used:java version "1.8.0_341"
+Java(TM) SE Runtime Environment (build 1.8.0_341-b31)
+Java HotSpot(TM) 64-Bit Server VM (build 25.341-b31, mixed mode)
+
+23/09/2022 10:21:04 a. m. INFORMATION: Try to start java.exe with heap size 1800...
+23/09/2022 10:21:04 a. m. INFORMATION: java.exe arguments:-Xms800m -Xmx800m -jar "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\core\kocom.jar" "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\adapt_project\rt3_sys_uds.odx-d" "C:\Proj\BSG_EVO\TestApp\__eBSG__MASTER\RT_Test_eBSG_Master_010001\Work\SYS_RT_Test_eBSG_Master_010001\DIAKSIN.CMOUT" "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\adapt\KOCOM.cfg" "C:\Proj\BSG_EVO\TestApp\__EBSG~3\RT_TES~1\Work\SYS_RT_Test_eBSG_Master_010001\ASAM.odx-d" "C:\Proj\BSG_EVO\TestApp\__eBSG__MASTER\RT_Test_eBSG_Master_010001\Work\SYS_RT_Test_eBSG_Master_010001\KODX.html"
+23/09/2022 10:21:04 a. m. INFORMATION: java.exe process started.
+23/09/2022 10:21:16 a. m. INFORMATION: java.exe process stderr read to end:
+23/09/2022 10:21:16 a. m. INFORMATION: java.exe process stdout read to end:
+23/09/2022 10:21:16 a. m. INFORMATION: Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT execution done
+Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo execution done
+Execute PostHandlingCommand: com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer
+PostHandlingCommand com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer execution done
+10932ms
+
+23/09/2022 10:21:16 a. m. INFORMATION: Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT execution done
+Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo execution done
+Execute PostHandlingCommand: com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer
+PostHandlingCommand com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer execution done
+10932ms
+
+23/09/2022 10:21:16 a. m. INFORMATION: java.exe heap trial start succeeded!
+23/09/2022 10:21:16 a. m. INFORMATION: Waiting for exit of java.exe process...
+23/09/2022 10:21:16 a. m. INFORMATION: Exit code of java.exe 0!
+23/09/2022 10:21:16 a. m. INFORMATION: Finally, ...
+23/09/2022 10:21:16 a. m. INFORMATION: Because creating the JVM succeeded, ...
+23/09/2022 10:21:16 a. m. INFORMATION: End the ODX transformation.
+26/09/2022 09:46:05 a. m. INFORMATION: Start trying to start Java now...
+26/09/2022 09:46:05 a. m. INFORMATION: Checking Java version...
+26/09/2022 09:46:08 a. m. INFORMATION: Version used:java version "1.8.0_341"
+Java(TM) SE Runtime Environment (build 1.8.0_341-b31)
+Java HotSpot(TM) 64-Bit Server VM (build 25.341-b31, mixed mode)
+
+26/09/2022 09:46:08 a. m. INFORMATION: Try to start java.exe with heap size 1800...
+26/09/2022 09:46:08 a. m. INFORMATION: java.exe arguments:-Xms800m -Xmx800m -jar "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\core\kocom.jar" "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\adapt_project\rt3_sys_uds.odx-d" "C:\Proj\BSG_EVO\TestApp\__eBSG__MASTER\RT_Test_eBSG_Master_010001\Work\SYS_RT_Test_eBSG_Master_010001\DIAKSIN.CMOUT" "C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\KODX\adapt\KOCOM.cfg" "C:\Proj\BSG_EVO\TestApp\__EBSG~3\RT_TES~1\Work\SYS_RT_Test_eBSG_Master_010001\ASAM.odx-d" "C:\Proj\BSG_EVO\TestApp\__eBSG__MASTER\RT_Test_eBSG_Master_010001\Work\SYS_RT_Test_eBSG_Master_010001\KODX.html"
+26/09/2022 09:46:08 a. m. INFORMATION: java.exe process started.
+26/09/2022 09:46:18 a. m. INFORMATION: java.exe process stderr read to end:
+26/09/2022 09:46:18 a. m. INFORMATION: java.exe process stdout read to end:
+26/09/2022 09:46:18 a. m. INFORMATION: Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT execution done
+Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo execution done
+Execute PostHandlingCommand: com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer
+PostHandlingCommand com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer execution done
+9236ms
+
+26/09/2022 09:46:18 a. m. INFORMATION: Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdReplaceNonValideUnitNamesInCMOUT execution done
+Execute PreHandlingCommand: com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo
+PreHandlingCommand com.conti.gecko.diaksin.odx.converter.prehdl.cmd.CmdAdjustDTCLevelInfo execution done
+Execute PostHandlingCommand: com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer
+PostHandlingCommand com.conti.gecko.diaksin.odx.converter.posthdl.cmd.CmdCreatePdxContainer execution done
+9236ms
+
+26/09/2022 09:46:18 a. m. INFORMATION: java.exe heap trial start succeeded!
+26/09/2022 09:46:18 a. m. INFORMATION: Waiting for exit of java.exe process...
+26/09/2022 09:46:18 a. m. INFORMATION: Exit code of java.exe 0!
+26/09/2022 09:46:18 a. m. INFORMATION: Finally, ...
+26/09/2022 09:46:18 a. m. INFORMATION: Because creating the JVM succeeded, ...
+26/09/2022 09:46:18 a. m. INFORMATION: End the ODX transformation.

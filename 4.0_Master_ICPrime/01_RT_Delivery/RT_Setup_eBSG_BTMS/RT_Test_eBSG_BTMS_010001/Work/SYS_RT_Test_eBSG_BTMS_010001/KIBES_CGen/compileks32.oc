@@ -1,0 +1,117 @@
+-cpu=cortexr5     
+-littleendian     
+-fhard       
+
+-check=none      
+        
+-check=nomemory     
+
+
+-nofloatio      
+-no_float_scanf     
+-nothumb      
+-nothumb_lib     
+
+
+-pnone       
+--no_coverage_analysis   
+-no_timer_profile    
+
+
+-coverage=none     
+-nogtws       
+-noglimits      
+-noconsistentcode    
+      
+-no_search_for_dba    
+-noga       
+-wait_for_dblink    
+--xref=full
+--diag_warning 1981
+--diag_warning 1547
+--diag_warning 223
+--diag_warning 22
+--diag_warning 32
+
+        -D OS_SUPPRESS_CALLEESTUB  
+
+  -double_check.level=none  
+  -double_check.stop_build=off 
+
+
+
+  -c99       
+  --slash_comment     
+  -nobigswitch     
+  --switch_table     
+  -inline_volatile_struct_copy 
+  --no_commons     
+  -no_auto_interrupt_table  
+  -interruptible_load_multiple 
+  --hardware_divide    
+
+  -no_stack_check     
+  -no_stack_protector    
+  -fast_malloc     
+  
+  -act_like=latest    
+  -nopic       
+  -nopid       
+  -ansi_alias      
+  -nogtws       
+  -no_locals_unchanged_by_longjmp 
+  --no_gnu_asm     
+  -noidentoutput     
+
+
+  -no_precise_signed_zero   
+  -Wnofloat      
+  -Wnodouble      
+  -fnonodouble     
+  -ffunctions      
+
+  -Omax       
+  -Onounrollbig     
+  -Onomemory      
+  -Onoloop      
+
+  --warnings      
+  --strict      
+  --no_remarks     
+  --no_quit_after_warnings  
+  --no_version     
+  --no_brief_diagnostics   
+  --no_wrap_diagnostics   
+  -no_error_basename    
+  --prototype_errors    
+  --asm_silent     
+  --unknown_pragma_silent
+  --incorrect_pragma_errors  
+  -Wimplicit-int     
+  -Wshadow      
+  -Wtrigraphs      
+  --display_error_number   
+  -overload      
+  -autoregister     
+
+  -pack=none      
+  -no_misalign_pack       
+          
+  --unsigned_chars    
+  --unsigned_fields    
+  --unsigned_pointer    
+  --long_long      
+  -time32       
+  --no_short_enum     
+  
+  --no_keep_static_symbols  
+  --no_vla      
+
+  --no_trace_includes    
+  --no_unsafe_predefines   
+  --no_comments     
+  -stdinc       
+  -Wundef
+
+-Ospeed
+-thumb

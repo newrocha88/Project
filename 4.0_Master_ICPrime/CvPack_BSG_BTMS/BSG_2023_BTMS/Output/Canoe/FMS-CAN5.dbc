@@ -1,0 +1,802 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BSG_BTMS Tester
+VAL_TABLE_ WorkingModeValueTbl 1 "StandAlone" 0 "SimulationMode" ;
+VAL_TABLE_ SoundID 18 "TickTock" 17 "Gong3" 16 "800Hz" 15 "1250Hz" 14 "625Hz" 13 "Clack" 12 "Click" 11 "976Hz" 10 "2200Hz" 9 "1200Hz" 8 "488Hz" 7 "FireAlarm" 6 "Gong2" 5 "Gong1" 4 "600Hz" 3 "Tick" 2 "Tock" 1 "920Hz" 0 "2800Hz" ;
+
+
+BO_ 2147486465 Out_Ctrl: 8 Tester
+ SG_ WorkingMode : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Out_03_Ctrl : 2|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_04_Ctrl : 3|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_11_Ctrl : 10|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_12_Ctrl : 11|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_13_Ctrl : 12|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_14_Ctrl : 13|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_15_Ctrl : 14|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_16_Ctrl : 15|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_17_Ctrl : 16|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_18_Ctrl : 17|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_19_Ctrl : 18|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_20_Ctrl : 19|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_21_Ctrl : 20|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_22_Ctrl : 21|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_23_Ctrl : 22|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_24_Ctrl : 23|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_25_Ctrl : 24|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_26_Ctrl : 25|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_27_Ctrl : 26|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_28_Ctrl : 27|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_OLD_01_Ctrl : 52|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_OLD_02_Ctrl : 53|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_OLD_03_Ctrl : 54|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_OLD_04_Ctrl : 55|1@1+ (1,0) [0|1] ""  BSG_BTMS
+ SG_ Out_Supply_ANA_01_Ctrl : 56|1@1+ (1,0) [0|1] ""  BSG_BTMS
+
+BO_ 2147486480 Out_HB_Ctrl: 8 Tester
+ SG_ Out_01_HB_Ctrl : 0|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_02_HB_Ctrl : 8|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_05_HB_Ctrl : 16|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_06_HB_Ctrl : 24|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_07_HB_Ctrl : 32|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_08_HB_Ctrl : 40|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_09_HB_Ctrl : 48|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_10_HB_Ctrl : 56|8@1- (1,0) [-128|127] ""  BSG_BTMS
+
+BO_ 2147486481 Out_Mirror_HB_Ctrl: 8 Tester
+ SG_ Out_29_HB_Ctrl : 0|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_30_HB_Ctrl : 8|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_31_HB_Ctrl : 16|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_32_HB_Ctrl : 24|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_33_HB_Ctrl : 32|8@1- (1,0) [-128|127] ""  BSG_BTMS
+ SG_ Out_34_HB_Ctrl : 40|8@1- (1,0) [-128|127] ""  BSG_BTMS
+
+BO_ 2147486721 Out_01_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486722 Out_02_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486723 Out_03_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486724 Out_04_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486725 Out_05_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486726 Out_06_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486727 Out_07_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486728 Out_08_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486729 Out_09_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486730 Out_10_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486731 Out_11_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486732 Out_12_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+ SG_ Out_TD : 8|1@1+ (1,0) [0|0] ""  Tester
+ SG_ Out_TD_DIAG : 48|16@1+ (1,0) [0|0] ""  Tester
+
+BO_ 2147486733 Out_13_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486734 Out_14_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486735 Out_15_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486736 Out_16_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486737 Out_17_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486738 Out_18_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486739 Out_19_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486740 Out_20_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486741 Out_21_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+ SG_ Out_TD : 8|1@1+ (1,0) [0|0] ""  Tester
+ SG_ Out_TD_DIAG : 48|16@1+ (1,0) [0|0] ""  Tester
+
+BO_ 2147486742 Out_22_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486743 Out_23_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486744 Out_24_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486745 Out_25_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486746 Out_26_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486747 Out_27_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486748 Out_28_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486749 Out_29_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486750 Out_30_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486751 Out_31_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486752 Out_32_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486753 Out_33_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486754 Out_34_Sts: 8 BSG_BTMS
+ SG_ Out_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_SENSE : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Out_STATUS : 0|8@1+ (1,0) [0|255] ""  Tester
+
+BO_ 2147486768 Out_Supply_ANA_01_Sts: 8 BSG_BTMS
+ SG_ Supply_ANA_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ Supply_ANA_Val : 0|16@1+ (1,0) [0|65535] ""  Tester
+
+BO_ 2147486977 In_Dig_01_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486978 In_Dig_02_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486979 In_Dig_03_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486980 In_Dig_04_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486981 In_Dig_05_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486982 In_Dig_06_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486983 In_Dig_07_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486984 In_Dig_08_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486985 In_Dig_09_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486986 In_Dig_10_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486987 In_Dig_11_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486988 In_Dig_12_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486989 In_Dig_13_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486990 In_Dig_14_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486991 In_Dig_15_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486992 In_Dig_16_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486993 In_Dig_17_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486994 In_Dig_18_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486995 In_Dig_19_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486996 In_Dig_20_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486997 In_Dig_21_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147486998 In_Dig_22_Sts: 8 BSG_BTMS
+ SG_ IN_DIG_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_DIG_Val : 0|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147487232 PWR_Sts: 8 BSG_BTMS
+ SG_ PWR_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ PWR_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487233 PWR_G1_Sts: 8 BSG_BTMS
+ SG_ PWR_Gx_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ PWR_Gx_Val : 0|16@1+ (1,0) [0|65535] ""  Tester
+
+BO_ 2147487234 PWR_G2_Sts: 8 BSG_BTMS
+ SG_ PWR_Gx_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ PWR_Gx_Val : 0|16@1+ (1,0) [0|65535] ""  Tester
+
+BO_ 2147487235 PWR_G3_Sts: 8 BSG_BTMS
+ SG_ PWR_Gx_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ PWR_Gx_Val : 0|16@1+ (1,0) [0|65535] ""  Tester
+
+BO_ 2147487236 PWR_G4_Sts: 8 BSG_BTMS
+ SG_ PWR_Gx_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ PWR_Gx_Val : 0|16@1+ (1,0) [0|65535] ""  Tester
+
+BO_ 2147487237 PWR_G5_Sts: 8 BSG_BTMS
+ SG_ PWR_Gx_DIAG : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ PWR_Gx_Val : 0|16@1+ (1,0) [0|65535] ""  Tester
+
+BO_ 2147487246 BSG_Expansion_Sts: 8 BSG_BTMS
+ SG_ BatteryVoltage : 16|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ KL15 : 0|1@1+ (1,0) [0|1] ""  Tester
+ SG_ Voltage_Normal : 1|1@1+ (1,0) [0|1] ""  Tester
+ SG_ Voltage_OV1 : 2|1@1+ (1,0) [0|1] ""  Tester
+ SG_ Voltage_OV2 : 3|1@1+ (1,0) [0|1] ""  Tester
+ SG_ Voltage_UV1 : 4|1@1+ (1,0) [0|1] ""  Tester
+ SG_ Voltage_UV2 : 5|1@1+ (1,0) [0|1] ""  Tester
+
+BO_ 2147487248 In_Freq_01_Sts: 4 BSG_BTMS
+ SG_ DIAG : 16|16@1+ (1,0) [0|0] ""  Tester
+ SG_ Value : 0|16@1+ (1,0) [0|0] ""  Tester
+
+BO_ 2147487249 In_Ana_01_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487250 In_Ana_02_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487251 In_Ana_03_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487252 In_Ana_04_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487253 In_Ana_05_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487254 In_Ana_06_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487255 In_Ana_07_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487256 In_Ana_08_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487257 In_Ana_09_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487258 In_Ana_10_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487259 In_Ana_11_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487260 In_Ana_12_Sts: 8 BSG_BTMS
+ SG_ IN_ANA_DIAG : 32|16@1+ (1,0) [0|65535] ""  Tester
+ SG_ IN_ANA_Val : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487729 GATEWAY_M1: 8 BSG_BTMS
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487730 GATEWAY_M2: 8 BSG_BTMS
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487731 GATEWAY_M3: 8 BSG_BTMS
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487732 GATEWAY_M4: 8 BSG_BTMS
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487733 GATEWAY_M5: 8 Tester
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  BSG_BTMS
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  BSG_BTMS
+
+BO_ 2147487734 GATEWAY_M6: 8 BSG_BTMS
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147487735 GATEWAY_M7: 8 BSG_BTMS
+ SG_ N1_Gateway : 0|32@1+ (1,0) [0|4294967295] ""  Tester
+ SG_ N2_Gateway : 32|32@1+ (1,0) [0|4294967295] ""  Tester
+
+BO_ 2147535884 Out_12_TD_Sts: 4 BSG_BTMS
+ SG_ Out_SENSE_PULSE : 0|16@1+ (1,0) [0|0] ""  Tester
+ SG_ Out_SENSE_PULSE_DIAG : 16|16@1+ (1,0) [0|0] ""  Tester
+
+BO_ 2147535893 Out_21_TD_Sts: 4 BSG_BTMS
+ SG_ Out_SENSE_PULSE : 0|16@1+ (1,0) [0|0] ""  Tester
+ SG_ Out_SENSE_PULSE_DIAG : 16|16@1+ (1,0) [0|0] ""  Tester
+
+
+
+CM_ BO_ 2147486465 "Control of digital outputs";
+CM_ BO_ 2147486480 "Control of digital outputs (PWM)";
+CM_ BO_ 2147486481 "Control of digital outputs (PWM)";
+CM_ BO_ 2147486721 "Status of Output";
+CM_ BO_ 2147486722 "Status of Output";
+CM_ BO_ 2147486723 "Status of Output";
+CM_ BO_ 2147486724 "Status of Output";
+CM_ BO_ 2147486725 "Status of Output";
+CM_ BO_ 2147486726 "Status of Output";
+CM_ BO_ 2147486727 "Status of Output";
+CM_ BO_ 2147486728 "Status of Output";
+CM_ BO_ 2147486729 "Status of Output";
+CM_ BO_ 2147486730 "Status of Output";
+CM_ BO_ 2147486731 "Status of Output";
+CM_ BO_ 2147486732 "Status of Output";
+CM_ BO_ 2147486733 "Status of Output";
+CM_ BO_ 2147486734 "Status of Output";
+CM_ BO_ 2147486735 "Status of Output";
+CM_ BO_ 2147486736 "Status of Output";
+CM_ BO_ 2147486737 "Status of Output";
+CM_ BO_ 2147486738 "Status of Output";
+CM_ BO_ 2147486739 "Status of Output";
+CM_ BO_ 2147486740 "Status of Output";
+CM_ BO_ 2147486741 "Status of Output";
+CM_ BO_ 2147486742 "Status of Output";
+CM_ BO_ 2147486743 "Status of Output";
+CM_ BO_ 2147486744 "Status of Output";
+CM_ BO_ 2147486745 "Status of Output";
+CM_ BO_ 2147486746 "Status of Output";
+CM_ BO_ 2147486747 "Status of Output";
+CM_ BO_ 2147486748 "Status of Output";
+CM_ BO_ 2147486749 "Status of Output";
+CM_ BO_ 2147486750 "Status of Output";
+CM_ BO_ 2147486751 "Status of Output";
+CM_ BO_ 2147486752 "Status of Output";
+CM_ BO_ 2147486753 "Status of Output";
+CM_ BO_ 2147486754 "Status of Output";
+CM_ BO_ 2147486768 "Status of Output";
+CM_ BO_ 2147486977 "Status of Output";
+CM_ BO_ 2147486978 "Status of Output";
+CM_ BO_ 2147486979 "Status of Output";
+CM_ BO_ 2147486980 "Status of Output";
+CM_ BO_ 2147486981 "Status of Output";
+CM_ BO_ 2147486982 "Status of Output";
+CM_ BO_ 2147486983 "Status of Output";
+CM_ BO_ 2147486984 "Status of Output";
+CM_ BO_ 2147486985 "Status of Output";
+CM_ BO_ 2147486986 "Status of Output";
+CM_ BO_ 2147486987 "Status of Output";
+CM_ BO_ 2147486988 "Status of Output";
+CM_ BO_ 2147486989 "Status of Output";
+CM_ BO_ 2147486990 "Status of Output";
+CM_ BO_ 2147486991 "Status of Output";
+CM_ BO_ 2147486992 "Status of Output";
+CM_ BO_ 2147486993 "Status of Output";
+CM_ BO_ 2147486994 "Status of Output";
+CM_ BO_ 2147486995 "Status of Output";
+CM_ BO_ 2147486996 "Status of Output";
+CM_ BO_ 2147486997 "Status of Output";
+CM_ BO_ 2147486998 "Status of Output";
+CM_ BO_ 2147487232 "Status of Main Power";
+CM_ BO_ 2147487233 "Status of Power Group";
+CM_ BO_ 2147487234 "Status of Power Group";
+CM_ BO_ 2147487235 "Status of Power Group";
+CM_ BO_ 2147487236 "Status of Power Group";
+CM_ BO_ 2147487237 "Status of Power Group";
+CM_ BO_ 2147487246 "Status of Output";
+CM_ BO_ 2147487249 "Status of Output";
+CM_ BO_ 2147487250 "Status of Output";
+CM_ BO_ 2147487251 "Status of Output";
+CM_ BO_ 2147487252 "Status of Output";
+CM_ BO_ 2147487253 "Status of Output";
+CM_ BO_ 2147487254 "Status of Output";
+CM_ BO_ 2147487255 "Status of Output";
+CM_ BO_ 2147487256 "Status of Output";
+CM_ BO_ 2147487257 "Status of Output";
+CM_ BO_ 2147487258 "Status of Output";
+CM_ BO_ 2147487259 "Status of Output";
+CM_ BO_ 2147487260 "Status of Output";
+CM_ BO_ 2147535884 "Status of Output";
+CM_ BO_ 2147535893 "Status of Output";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "GenNWMSleepTime" INT 0 1000000;
+BA_DEF_  "NmBaseAddress" HEX 1024 1087;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 2 50000;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 999999;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "NmMessage" ENUM  "no","yes";
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "GenNodSleepTime" INT 0 1000000;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmNode" ENUM  "no","yes";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 100000000000;
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "GenNWMSleepTime" 0;
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 100;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NmMessage" "no";
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "GenNodSleepTime" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NmNode" "no";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "NWM-WakeupAllowed" "";
+BA_ "DBName" "FMS_CAN5";
+BA_ "NmStationAddress" BU_ BSG_BTMS 58;
+BA_ "NodeLayerModules" BU_ BSG_BTMS "CANoeILNLVector.dll, osek_tp.dll";
+BA_ "NmStationAddress" BU_ Tester 16;
+BA_ "NodeLayerModules" BU_ Tester "CANoeILNLVector.dll";
+BA_ "GenMsgCycleTime" BO_ 2147486465 100;
+BA_ "GenMsgSendType" BO_ 2147486465 0;
+BA_ "GenMsgCycleTime" BO_ 2147486480 100;
+BA_ "GenMsgSendType" BO_ 2147486480 0;
+BA_ "GenMsgCycleTime" BO_ 2147486481 100;
+BA_ "GenMsgSendType" BO_ 2147486481 0;
+BA_ "GenMsgCycleTime" BO_ 2147486721 100;
+BA_ "GenMsgSendType" BO_ 2147486721 0;
+BA_ "GenMsgCycleTime" BO_ 2147486722 100;
+BA_ "GenMsgSendType" BO_ 2147486722 0;
+BA_ "GenMsgCycleTime" BO_ 2147486723 100;
+BA_ "GenMsgSendType" BO_ 2147486723 0;
+BA_ "GenMsgCycleTime" BO_ 2147486724 100;
+BA_ "GenMsgSendType" BO_ 2147486724 0;
+BA_ "GenMsgCycleTime" BO_ 2147486725 100;
+BA_ "GenMsgSendType" BO_ 2147486725 0;
+BA_ "GenMsgCycleTime" BO_ 2147486726 100;
+BA_ "GenMsgSendType" BO_ 2147486726 0;
+BA_ "GenMsgCycleTime" BO_ 2147486727 100;
+BA_ "GenMsgSendType" BO_ 2147486727 0;
+BA_ "GenMsgCycleTime" BO_ 2147486728 100;
+BA_ "GenMsgSendType" BO_ 2147486728 0;
+BA_ "GenMsgCycleTime" BO_ 2147486729 100;
+BA_ "GenMsgSendType" BO_ 2147486729 0;
+BA_ "GenMsgCycleTime" BO_ 2147486730 100;
+BA_ "GenMsgSendType" BO_ 2147486730 0;
+BA_ "GenMsgCycleTime" BO_ 2147486731 100;
+BA_ "GenMsgSendType" BO_ 2147486731 0;
+BA_ "GenMsgCycleTime" BO_ 2147486732 100;
+BA_ "GenMsgSendType" BO_ 2147486732 0;
+BA_ "GenMsgCycleTime" BO_ 2147486733 100;
+BA_ "GenMsgSendType" BO_ 2147486733 0;
+BA_ "GenMsgCycleTime" BO_ 2147486734 100;
+BA_ "GenMsgSendType" BO_ 2147486734 0;
+BA_ "GenMsgCycleTime" BO_ 2147486735 100;
+BA_ "GenMsgSendType" BO_ 2147486735 0;
+BA_ "GenMsgCycleTime" BO_ 2147486736 100;
+BA_ "GenMsgSendType" BO_ 2147486736 0;
+BA_ "GenMsgCycleTime" BO_ 2147486737 100;
+BA_ "GenMsgSendType" BO_ 2147486737 0;
+BA_ "GenMsgCycleTime" BO_ 2147486738 100;
+BA_ "GenMsgSendType" BO_ 2147486738 0;
+BA_ "GenMsgCycleTime" BO_ 2147486739 100;
+BA_ "GenMsgSendType" BO_ 2147486739 0;
+BA_ "GenMsgCycleTime" BO_ 2147486740 100;
+BA_ "GenMsgSendType" BO_ 2147486740 0;
+BA_ "GenMsgCycleTime" BO_ 2147486741 100;
+BA_ "GenMsgSendType" BO_ 2147486741 0;
+BA_ "GenMsgCycleTime" BO_ 2147486742 100;
+BA_ "GenMsgSendType" BO_ 2147486742 0;
+BA_ "GenMsgCycleTime" BO_ 2147486743 100;
+BA_ "GenMsgSendType" BO_ 2147486743 0;
+BA_ "GenMsgCycleTime" BO_ 2147486744 100;
+BA_ "GenMsgSendType" BO_ 2147486744 0;
+BA_ "GenMsgCycleTime" BO_ 2147486745 100;
+BA_ "GenMsgSendType" BO_ 2147486745 0;
+BA_ "GenMsgCycleTime" BO_ 2147486746 100;
+BA_ "GenMsgSendType" BO_ 2147486746 0;
+BA_ "GenMsgCycleTime" BO_ 2147486747 100;
+BA_ "GenMsgSendType" BO_ 2147486747 0;
+BA_ "GenMsgCycleTime" BO_ 2147486748 100;
+BA_ "GenMsgSendType" BO_ 2147486748 0;
+BA_ "GenMsgCycleTime" BO_ 2147486749 100;
+BA_ "GenMsgSendType" BO_ 2147486749 0;
+BA_ "GenMsgCycleTime" BO_ 2147486750 100;
+BA_ "GenMsgSendType" BO_ 2147486750 0;
+BA_ "GenMsgCycleTime" BO_ 2147486751 100;
+BA_ "GenMsgSendType" BO_ 2147486751 0;
+BA_ "GenMsgCycleTime" BO_ 2147486752 100;
+BA_ "GenMsgSendType" BO_ 2147486752 0;
+BA_ "GenMsgCycleTime" BO_ 2147486753 100;
+BA_ "GenMsgSendType" BO_ 2147486753 0;
+BA_ "GenMsgCycleTime" BO_ 2147486754 100;
+BA_ "GenMsgSendType" BO_ 2147486754 0;
+BA_ "GenMsgCycleTime" BO_ 2147486768 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147486768 200;
+BA_ "GenMsgSendType" BO_ 2147486768 0;
+BA_ "GenMsgCycleTime" BO_ 2147486977 100;
+BA_ "GenMsgSendType" BO_ 2147486977 0;
+BA_ "GenMsgCycleTime" BO_ 2147486978 100;
+BA_ "GenMsgSendType" BO_ 2147486978 0;
+BA_ "GenMsgCycleTime" BO_ 2147486979 100;
+BA_ "GenMsgSendType" BO_ 2147486979 0;
+BA_ "GenMsgCycleTime" BO_ 2147486980 100;
+BA_ "GenMsgSendType" BO_ 2147486980 0;
+BA_ "GenMsgCycleTime" BO_ 2147486981 100;
+BA_ "GenMsgSendType" BO_ 2147486981 0;
+BA_ "GenMsgCycleTime" BO_ 2147486982 100;
+BA_ "GenMsgSendType" BO_ 2147486982 0;
+BA_ "GenMsgCycleTime" BO_ 2147486983 100;
+BA_ "GenMsgSendType" BO_ 2147486983 0;
+BA_ "GenMsgCycleTime" BO_ 2147486984 100;
+BA_ "GenMsgSendType" BO_ 2147486984 0;
+BA_ "GenMsgCycleTime" BO_ 2147486985 100;
+BA_ "GenMsgSendType" BO_ 2147486985 0;
+BA_ "GenMsgCycleTime" BO_ 2147486986 100;
+BA_ "GenMsgSendType" BO_ 2147486986 0;
+BA_ "GenMsgCycleTime" BO_ 2147486987 100;
+BA_ "GenMsgSendType" BO_ 2147486987 0;
+BA_ "GenMsgCycleTime" BO_ 2147486988 100;
+BA_ "GenMsgSendType" BO_ 2147486988 0;
+BA_ "GenMsgCycleTime" BO_ 2147486989 100;
+BA_ "GenMsgSendType" BO_ 2147486989 0;
+BA_ "GenMsgCycleTime" BO_ 2147486990 100;
+BA_ "GenMsgSendType" BO_ 2147486990 0;
+BA_ "GenMsgCycleTime" BO_ 2147486991 100;
+BA_ "GenMsgSendType" BO_ 2147486991 0;
+BA_ "GenMsgCycleTime" BO_ 2147486992 100;
+BA_ "GenMsgSendType" BO_ 2147486992 0;
+BA_ "GenMsgCycleTime" BO_ 2147486993 100;
+BA_ "GenMsgSendType" BO_ 2147486993 0;
+BA_ "GenMsgCycleTime" BO_ 2147486994 100;
+BA_ "GenMsgSendType" BO_ 2147486994 0;
+BA_ "GenMsgCycleTime" BO_ 2147486995 100;
+BA_ "GenMsgSendType" BO_ 2147486995 0;
+BA_ "GenMsgCycleTime" BO_ 2147486996 100;
+BA_ "GenMsgSendType" BO_ 2147486996 0;
+BA_ "GenMsgCycleTime" BO_ 2147486997 100;
+BA_ "GenMsgSendType" BO_ 2147486997 0;
+BA_ "GenMsgCycleTime" BO_ 2147486998 100;
+BA_ "GenMsgSendType" BO_ 2147486998 0;
+BA_ "GenMsgCycleTime" BO_ 2147487232 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487232 200;
+BA_ "GenMsgSendType" BO_ 2147487232 0;
+BA_ "GenMsgCycleTime" BO_ 2147487233 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487233 200;
+BA_ "GenMsgSendType" BO_ 2147487233 0;
+BA_ "GenMsgCycleTime" BO_ 2147487234 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487234 200;
+BA_ "GenMsgSendType" BO_ 2147487234 0;
+BA_ "GenMsgCycleTime" BO_ 2147487235 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487235 200;
+BA_ "GenMsgSendType" BO_ 2147487235 0;
+BA_ "GenMsgCycleTime" BO_ 2147487236 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487236 200;
+BA_ "GenMsgSendType" BO_ 2147487236 0;
+BA_ "GenMsgCycleTime" BO_ 2147487237 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487237 200;
+BA_ "GenMsgSendType" BO_ 2147487237 0;
+BA_ "GenMsgCycleTime" BO_ 2147487246 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487246 200;
+BA_ "GenMsgSendType" BO_ 2147487246 0;
+BA_ "GenMsgCycleTime" BO_ 2147487248 100;
+BA_ "GenMsgCycleTime" BO_ 2147487249 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487249 200;
+BA_ "GenMsgSendType" BO_ 2147487249 0;
+BA_ "GenMsgCycleTime" BO_ 2147487250 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487250 200;
+BA_ "GenMsgSendType" BO_ 2147487250 0;
+BA_ "GenMsgCycleTime" BO_ 2147487251 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487251 200;
+BA_ "GenMsgSendType" BO_ 2147487251 0;
+BA_ "GenMsgCycleTime" BO_ 2147487252 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487252 200;
+BA_ "GenMsgSendType" BO_ 2147487252 0;
+BA_ "GenMsgCycleTime" BO_ 2147487253 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487253 200;
+BA_ "GenMsgSendType" BO_ 2147487253 0;
+BA_ "GenMsgCycleTime" BO_ 2147487254 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487254 200;
+BA_ "GenMsgSendType" BO_ 2147487254 0;
+BA_ "GenMsgCycleTime" BO_ 2147487255 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487255 200;
+BA_ "GenMsgSendType" BO_ 2147487255 0;
+BA_ "GenMsgCycleTime" BO_ 2147487256 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487256 200;
+BA_ "GenMsgSendType" BO_ 2147487256 0;
+BA_ "GenMsgCycleTime" BO_ 2147487257 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487257 200;
+BA_ "GenMsgSendType" BO_ 2147487257 0;
+BA_ "GenMsgCycleTime" BO_ 2147487258 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487258 200;
+BA_ "GenMsgSendType" BO_ 2147487258 0;
+BA_ "GenMsgCycleTime" BO_ 2147487259 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487259 200;
+BA_ "GenMsgSendType" BO_ 2147487259 0;
+BA_ "GenMsgCycleTime" BO_ 2147487260 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2147487260 200;
+BA_ "GenMsgSendType" BO_ 2147487260 0;
+BA_ "GenMsgCycleTime" BO_ 2147487733 100;
+BA_ "GenMsgSendType" BO_ 2147487733 0;
+BA_ "GenMsgCycleTime" BO_ 2147535884 100;
+BA_ "GenMsgSendType" BO_ 2147535884 0;
+BA_ "GenMsgCycleTime" BO_ 2147535893 100;
+BA_ "GenMsgSendType" BO_ 2147535893 0;
+VAL_ 2147486465 WorkingMode 1 "StandAlone" 0 "SimulationMode" ;
+

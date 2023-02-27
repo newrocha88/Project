@@ -1,0 +1,55 @@
+FR/FR80 Family SOFTUNE Linker Control List                                                      2022-09-26 10:00:15  Page:     1
+
+Option File(s)
+  BSG_EXPA_C1_0_Init.ol
+
+Control(s)
+  -f BSG_EXPA_C1_0_Init.ol
+  @ -cpu MB91F526LS
+  @ -w 0
+  @ -a 
+  @ -AL 2
+  @ -Xset_rora 
+  @ -m KS32.mp1
+  @ -mmi 
+  @ -pl 0
+  @ -pw 512
+  @ -ra DummyRAM=0x00000000/0x00000000
+  @ -ro PARAMETER=0x00332000/0x0033FFFF
+  @ -sc CGEN_REMOTE_CONST/CONST=PARAMETER
+  -o BSG_EXPA_C1_0_Init.abs
+  -g 
+
+Input Module(s)
+     1 BSG_EXPA_C1_0_Init.obj(BSG_EXPA_C1_0_Init)
+
+Error(s)
+     ** Nothing **
+
+FR/FR80 Family SOFTUNE Linker Mapping List                                                      2022-09-26 10:00:15  Page:     2
+
+S_Addr. -E_Addr.   Size      Section Type Al     Sec.(Top461)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  C
+00332000-003322EF  000002F0  CONST P R--I 04 REL  CGEN_REMOTE_CONST
+FR/FR80 Family SOFTUNE Linker ROM/RAM Used Info List                                            2022-09-26 10:00:15  Page:     3
+
+  S_Addr. -E_Addr.  Size     Remain    Name/State                                                                                                                                                                                                                                                                                                                                                                                                                                                                              C
+# 00000000-00000000 00000001 --------- DummyRAM
+  00000000-........ 00000000 +00000001
+
+  00000000-00000000 00000001 --------- FREE
+
+  RAM -- Total(00000001)  Used(00000000)  Remainder(+00000001)
+
+# 00332000-0033FFFF 0000E000 --------- PARAMETER
+  00332000-003322EF 000002F0 +0000DD10
+
+  00332000-003322EF 000002F0 --------- USED
+  003322F0-0033FFFF 0000DD10 --------- FREE
+
+  ROM -- Total(0000E000)  Used(000002F0)  Remainder(+0000DD10)
+
+FR/FR80 Family SOFTUNE Linker Symbol List                                                       2022-09-26 10:00:15  Page:     4
+
+Symbol Value        Type   Def.  Symbol Name (Top477)                                                                                                                                                                                                                                                                                                                                                                                                                                                                          C
+ 00332000(ABS)      Addr.  OM/LM @_CGEN_rstRemoteParameter_BSG_EXPA_0
+                                  CGEN_rstRemoteParameter_BSG_EXPA_0

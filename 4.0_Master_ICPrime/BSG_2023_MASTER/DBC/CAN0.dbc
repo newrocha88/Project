@@ -1,0 +1,1488 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: CLUSTER_17 BSG_21
+
+
+BO_ 2566899745 VhData5000_1: 8 BSG_21
+ SG_ TotalWeightStatusDt : 54|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ AxleStatusAxle4Dt : 43|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ AxleStatusAxle3Dt : 42|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ AxleStatusAxle2Dt : 41|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ AxleStatusAxle1Dt : 40|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ VehicleTotalWeightDt : 44|10@1+ (0.1,0) [0|102.3] "ton"  CLUSTER_17
+ SG_ AxleWeightAxle4Dt : 30|10@1+ (0.1,0) [0|102.3] "ton"  CLUSTER_17
+ SG_ AxleWeightAxle3Dt : 20|10@1+ (0.1,0) [0|102.3] "ton"  CLUSTER_17
+ SG_ AxleWeightAxle2Dt : 10|10@1+ (0.1,0) [0|102.3] "ton"  CLUSTER_17
+ SG_ AxleWeightAxle1Dt : 0|10@1+ (0.1,0) [0|102.3] "ton"  CLUSTER_17
+
+BO_ 2566901281 VhData5000_7: 8 BSG_21
+ SG_ MaintenanceTypeDt : 8|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ MaintenanceRemainingDt : 10|14@1+ (1,0) [0|16383] "km"  CLUSTER_17
+ SG_ VehicleID17Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566900769 VhData5000_6: 8 BSG_21
+ SG_ VehicleID16Dt : 56|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID15Dt : 48|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID14Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID13Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID12Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID11Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID10Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID09Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566900513 VhData5000_5: 8 BSG_21
+ SG_ VehicleID08Dt : 56|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID07Dt : 48|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID06Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID05Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID04Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID03Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID02Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ VehicleID01Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566882849 VhData1000_19: 8 BSG_21
+ SG_ ColorSymbolActvFail_20Dt : 38|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_19Dt : 36|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_18Dt : 34|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_17Dt : 32|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_16Dt : 30|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_15Dt : 28|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_14Dt : 26|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_13Dt : 24|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_12Dt : 22|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_11Dt : 20|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_10Dt : 18|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_09Dt : 16|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_08Dt : 14|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_07Dt : 12|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_06Dt : 10|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_05Dt : 8|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_04Dt : 6|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_03Dt : 4|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_02Dt : 2|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ColorSymbolActvFail_01Dt : 0|2@1+ (1,0) [0|3] ""  CLUSTER_17
+
+BO_ 2566882337 VhData1000_18: 8 BSG_21
+ SG_ SettingsMenuDateTimeAvlbDt : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ NumberofFailuresDt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_20Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_19Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_18Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_17Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566882081 VhData1000_8: 8 BSG_21
+ SG_ ActiveFailureSymbol_16Dt : 56|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_15Dt : 48|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_14Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_13Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_12Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_11Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_10Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_09Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566881825 VhData1000_7: 8 BSG_21
+ SG_ ActiveFailureSymbol_08Dt : 56|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_07Dt : 48|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_06Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_05Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_04Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_03Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_02Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ ActiveFailureSymbol_01Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566878241 VhData1000_CentralMenu: 8 BSG_21
+ SG_ CenterMenuSettingsavlbDt : 12|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuTireTemperatureAvlbDt : 11|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuTirePressureAvlbDt : 10|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuBrakeLiningAvlbDt : 9|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuLevelAdjustmentAvlbDt : 8|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuVehicleWeightAvlbDt : 7|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuActiveFailuresAvlbDt : 6|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuEngineHoursAvlbDt : 5|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuTripInfoAvlbDt : 4|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuDriversGradeAvlbDt : 3|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuConsumptionAvlbDt : 2|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuDateTimeAvlbDt : 1|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CenterMenuVehicleSpeedAvlbDt : 0|1@1+ (1,0) [0|1] ""  CLUSTER_17
+
+BO_ 2566881057 VhData5000_4: 8 BSG_21
+ SG_ TiresFourthAxleDt : 3|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ TiresThirdAxleDt : 1|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ TiresSecondAxleDt : 0|1@1+ (1,0) [0|1] ""  CLUSTER_17
+
+BO_ 2566880289 VhData1000_16: 8 BSG_21
+ SG_ EHTotalRedMinDt : 54|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTotalYellowMinDt : 48|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTotalRedHoursDt : 24|20@1+ (1,0) [0|1048575] "h"  CLUSTER_17
+ SG_ EHTotalYellowHoursDt : 0|20@1+ (1,0) [0|1048575] "h"  CLUSTER_17
+
+BO_ 2566880033 VhData1000_15: 8 BSG_21
+ SG_ EHTotalGreenMinDt : 54|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTotalGreenHoursDt : 24|20@1+ (1,0) [0|1048575] "h"  CLUSTER_17
+ SG_ EHTotalIddleMinDt : 48|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTotalIddleHoursDt : 0|20@1+ (1,0) [0|1048575] "h"  CLUSTER_17
+
+BO_ 2566877473 VhData1000_2: 8 BSG_21
+ SG_ TripTravelTimeMinDt : 34|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ TripTravelTimeHourDt : 20|14@1+ (1,0) [0|16383] "h"  CLUSTER_17
+ SG_ TripDrivingTimeMinDt : 14|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ TripDrivingTimeHourDt : 0|14@1+ (1,0) [0|16383] "h"  CLUSTER_17
+
+BO_ 2566880801 VhData1000_17: 8 BSG_21
+ SG_ SideMenuAvailable_16Dt : 15|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_15Dt : 14|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_14Dt : 13|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_13Dt : 12|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_12Dt : 11|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_11Dt : 10|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_10Dt : 9|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_09Dt : 8|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_08Dt : 7|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_07Dt : 6|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_06Dt : 5|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_05Dt : 4|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_04Dt : 3|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_03Dt : 2|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_02Dt : 1|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuAvailable_01Dt : 0|1@1+ (1,0) [0|1] ""  CLUSTER_17
+
+BO_ 2566880545 VhData10000: 8 BSG_21
+ SG_ DateYearDt : 24|8@1+ (1,0) [0|255] "year"  CLUSTER_17
+ SG_ DateN2Dt : 19|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ DateN1Dt : 14|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ WeekDayDt : 11|3@1+ (1,0) [0|7] "day"  CLUSTER_17
+ SG_ TimeMinuteDt : 5|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ TimeHourDt : 0|5@1+ (1,0) [0|31] "h"  CLUSTER_17
+
+BO_ 2566879521 VhData1000_13: 8 BSG_21
+ SG_ EHTripIddleMinDt : 38|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTripIddleHoursDt : 24|14@1+ (1,0) [0|16383] "h"  CLUSTER_17
+ SG_ EHTotalDt : 0|20@1+ (1,0) [0|1048575] "h"  CLUSTER_17
+
+BO_ 2566879777 VhData1000_14: 8 BSG_21
+ SG_ EHTripRedMinDt : 54|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTripRedHoursDt : 40|14@1+ (1,0) [0|16383] "h"  CLUSTER_17
+ SG_ EHTripYellowMinDt : 34|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTripGreenMinDt : 14|6@1+ (1,0) [0|63] "min"  CLUSTER_17
+ SG_ EHTripYellowHoursDt : 20|14@1+ (1,0) [0|16383] "h"  CLUSTER_17
+ SG_ EHTripGreenHoursDt : 0|14@1+ (1,0) [0|16383] "h"  CLUSTER_17
+
+BO_ 2566879265 VhData1000_12: 8 BSG_21
+ SG_ VehicleVariantDt : 38|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ BatteryVoltageDt : 28|10@1+ (0.1,0) [0|102.3] "V"  CLUSTER_17
+ SG_ AdBlueAutonomyDt : 14|14@1+ (1,0) [0|16383] ""  CLUSTER_17
+ SG_ AutonomyDt : 0|14@1+ (1,0) [0|16383] ""  CLUSTER_17
+
+BO_ 2566909729 VhData52_Diagnostic: 8 BSG_21
+ SG_ DiagnosticFMIDt : 48|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ DiagnosticSPNDt : 32|16@1+ (1,0) [0|65535] ""  CLUSTER_17
+ SG_ DiagnosticCurrentFailureDt : 24|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ DiagnosticNumberFailuresDt : 16|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ DiagnosticTextIDDt : 0|11@1+ (1,0) [0|2047] ""  CLUSTER_17
+
+BO_ 2566865953 VhData200_3: 8 BSG_21
+ SG_ NotificationRightStopSymbolDt : 43|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ NotificationRightColorDt : 41|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ NotificationRightTextDt : 30|11@1+ (1,0) [0|2047] ""  CLUSTER_17
+ SG_ NotificationRightSymbolDt : 22|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ NotificationLeftStopSymbolDt : 21|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ NotificationLeftColorDt : 19|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ NotificationLeftTextDt : 8|11@1+ (1,0) [0|2047] ""  CLUSTER_17
+ SG_ NotificationLeftSymbolDt : 0|7@1+ (1,0) [0|127] ""  CLUSTER_17
+
+BO_ 2566876961 VhData200_2: 8 BSG_21
+ SG_ BrakePressure3BargraphDt : 46|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ BrakePressure2BargraphDt : 38|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ BrakePressure1BargraphDt : 30|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ BrakePressure3Dt : 20|10@1+ (0.1,0) [0|102.3] ""  CLUSTER_17
+ SG_ BrakePressure2Dt : 10|10@1+ (0.1,0) [0|102.3] ""  CLUSTER_17
+ SG_ BrakePressure1Dt : 0|10@1+ (0.1,0) [0|102.3] ""  CLUSTER_17
+
+BO_ 2566875681 VhData100_1: 8 BSG_21
+ SG_ EconometerN2Dt : 3|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ EconometerN1Dt : 0|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ AvgConsumpArrowDt : 15|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ EconometerBargraphDt : 7|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ InstConsumpUnitDt : 45|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ InstantConsumpDt : 28|10@1+ (0.1,0) [0|102.3] ""  CLUSTER_17
+
+BO_ 2566876193 VhData500: 8 BSG_21
+ SG_ AverageTripSpeedDt : 35|12@1+ (0.1,0) [0|409.5] "kmh"  CLUSTER_17
+ SG_ OilLevelBargraphDt : 27|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ OilLevelDt : 20|7@1+ (1,0) [0|127] "%"  CLUSTER_17
+ SG_ FuelLitersDt : 10|10@1+ (1,0) [0|1023] "L"  CLUSTER_17
+ SG_ AvgConsumpDt : 0|10@1+ (0.1,0) [0|102.3] ""  CLUSTER_17
+
+BO_ 2566875937 VhData100_2: 8 BSG_21
+ SG_ DriversGradeHillDrivingDt : 50|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ DriversGradeAccelerationDt : 42|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ DriversGradeGearDt : 34|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ DriversGradeBrakingDt : 26|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ DriversAvgGradeBargraphDt : 18|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ CoolantTempBargraphDt : 10|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ CoolantTempDt : 0|10@1+ (1,0) [0|1023] "ºC"  CLUSTER_17
+
+BO_ 2566877729 VhData200_1: 8 BSG_21
+ SG_ OilPressureDt : 4|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ ICDISBackGlowColorDt : 1|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ ICDISDayNightDt : 0|1@1+ (1,0) [0|1] ""  CLUSTER_17
+
+BO_ 2365540375 Sts50: 8 CLUSTER_17
+ SG_ CursorSelectedRightSts : 16|6@1+ (1,0) [0|63] ""  BSG_21
+ SG_ CursorSelectedLeftSts : 8|6@1+ (1,0) [0|63] ""  BSG_21
+ SG_ ICDISSVTransitionSts : 6|1@1+ (1,0) [0|1] ""  BSG_21
+ SG_ ICDISSVSts : 0|6@1+ (1,0) [0|63] ""  BSG_21
+
+BO_ 2565874432 A1SCRDSI1: 8 CLUSTER_17
+ SG_ A1SCRDSI1byte8 : 56|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte7 : 48|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte6 : 40|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte5 : 32|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte4 : 24|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte3 : 16|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte2 : 8|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ A1SCRDSI1byte1 : 0|8@1+ (1,0) [0|255] ""  BSG_21
+
+BO_ 2566866465 Ctrl50_ScrDA2: 8 BSG_21
+ SG_ ICDISScreen_DA_30Ctrl : 56|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_29Ctrl : 52|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_28Ctrl : 48|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_27Ctrl : 44|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_26Ctrl : 40|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_25Ctrl : 36|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_24Ctrl : 32|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_23Ctrl : 28|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_22Ctrl : 24|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_21Ctrl : 20|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_20Ctrl : 16|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_19Ctrl : 12|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_18Ctrl : 8|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_17Ctrl : 4|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_16Ctrl : 0|4@1+ (1,0) [0|15] ""  CLUSTER_17
+
+BO_ 2566866209 Ctrl50_ScrDA1: 8 BSG_21
+ SG_ ICDISScreen_DA_15Ctrl : 60|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_14Ctrl : 56|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_13Ctrl : 52|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_12Ctrl : 48|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_11Ctrl : 44|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_10Ctrl : 40|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_09Ctrl : 36|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_08Ctrl : 32|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_07Ctrl : 28|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_06Ctrl : 24|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_05Ctrl : 20|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_04Ctrl : 16|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_03Ctrl : 12|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_02Ctrl : 8|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_01Ctrl : 4|4@1+ (1,0) [0|15] ""  CLUSTER_17
+ SG_ ICDISScreen_DA_00Ctrl : 0|4@1+ (1,0) [0|15] ""  CLUSTER_17
+
+BO_ 2566858785 Ctrl50_FcnDA2: 8 BSG_21
+ SG_ ICDISFcn_DA_21Ctrl : 0|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_30Ctrl : 21|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_29Ctrl : 14|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_22Ctrl : 7|7@1+ (1,0) [0|127] ""  CLUSTER_17
+
+BO_ 2566858529 Ctrl50_FcnDA1: 8 BSG_21
+ SG_ ICDISFcn_DA_20Ctrl : 42|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_06Ctrl : 35|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_05Ctrl : 28|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_04Ctrl : 21|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_03Ctrl : 14|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_02Ctrl : 7|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ ICDISFcn_DA_01Ctrl : 0|7@1+ (1,0) [0|127] ""  CLUSTER_17
+
+BO_ 2566858273 Ctrl50_SubView: 8 BSG_21
+ SG_ ICDISSVCtrl : 0|6@1+ (1,0) [0|63] ""  CLUSTER_17
+
+BO_ 2566875169 VhData1000_1: 8 BSG_21
+ SG_ TripmeterDt : 24|17@1+ (0.1,0) [0|13107.1] ""  CLUSTER_17
+ SG_ TotalOdometerDt : 0|24@1+ (1,0) [0|16777215] ""  CLUSTER_17
+
+BO_ 2566874913 VhData200_VTT8: 8 BSG_21
+ SG_ State_DA_V48Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V47Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V46Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V45Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V44Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V43Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V48Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V47Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V46Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V45Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V44Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V43Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566873121 VhData200_VTT7: 8 BSG_21
+ SG_ State_DA_V42Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V41Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V40Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V39Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V38Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V37Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V42Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V41Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V40Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V39Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V38Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V37Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566872865 VhData200_VTT6: 8 BSG_21
+ SG_ State_DA_V36Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V35Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V34Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V33Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V32Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V31Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V36Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V35Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V34Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V33Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V32Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V31Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566872097 VhData200_VTT5: 8 BSG_21
+ SG_ State_DA_V30Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V29Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V28Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V27Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V26Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V25Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V30Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V29Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V28Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V27Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V26Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V25Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566871841 VhData200_VTT4: 8 BSG_21
+ SG_ State_DA_V24Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V23Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V22Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V21Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V20Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V19Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V24Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V23Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V22Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V21Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V20Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V19Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566871073 VhData200_VTT3: 8 BSG_21
+ SG_ State_DA_V18Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V17Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V16Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V15Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V14Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V13Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V18Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V17Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V16Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V15Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V14Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V13Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566870817 VhData200_VTT2: 8 BSG_21
+ SG_ State_DA_V12Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V11Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V10Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V09Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V08Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V07Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ SymbolID_DA_V12Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V11Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V10Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V09Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V08Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V07Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566869793 VhData200_VTT1: 8 BSG_21
+ SG_ SymbolID_DA_V06Dt : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V05Dt : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V04Dt : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V03Dt : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V02Dt : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ SymbolID_DA_V01Dt : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ State_DA_V06Dt : 58|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V05Dt : 56|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V04Dt : 54|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V03Dt : 52|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V02Dt : 50|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ State_DA_V01Dt : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+
+BO_ 2566868769 VhData100_3: 8 BSG_21
+ SG_ GearRecommendedGearDt : 11|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ GearCurrentIndicationDt : 4|7@1+ (1,0) [0|127] ""  CLUSTER_17
+ SG_ GearModeDt : 0|4@1+ (1,0) [0|15] ""  CLUSTER_17
+
+BO_ 2566878497 VhData50_Menu: 8 BSG_21
+ SG_ DoorOpenStsDt : 60|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_16Dt : 59|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_15Dt : 58|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_14Dt : 57|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_13Dt : 56|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_12Dt : 55|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_11Dt : 54|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_10Dt : 53|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_09Dt : 52|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_08Dt : 51|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_07Dt : 50|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_06Dt : 49|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_05Dt : 48|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_04Dt : 47|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_03Dt : 46|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_02Dt : 45|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SideMenuDriverSelection_01Dt : 44|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ CursorMoveDt : 41|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ VolumeUnitDt : 39|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ TemperatureUnitDt : 38|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ LanguageDt : 35|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ VehicleSpdWarningSetDt : 27|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ BlindspotDetectionStsDt : 26|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ TSRStsDt : 25|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ DrownsinessStsDt : 24|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ AEBSStsDt : 23|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ACCDistanceDt : 20|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ ACCStsDt : 19|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ LDWSLaneThicknessDt : 17|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ LDWSStatusDt : 16|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ConsumptionUnitDt : 14|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ PressureUnitDt : 13|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ DigitalSpeedUnitDt : 12|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ DistanceUnitDt : 11|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ SelectedRadioBtnSts : 3|3@1+ (1,0) [0|7] ""  CLUSTER_17
+ SG_ SettingsCursorRghtSts : 0|3@1+ (1,0) [0|7] ""  CLUSTER_17
+
+BO_ 2566858017 VhData50_Gauges: 8 BSG_21
+ SG_ ESpdBargraphDt : 36|8@1+ (0.5,0) [0|127.5] "%"  CLUSTER_17
+ SG_ ESpdRedRangeDt : 31|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ ESpdYellowRangeDt : 26|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ ESpdGreenRangeDt : 21|5@1+ (1,0) [0|31] ""  CLUSTER_17
+ SG_ EngineSpeedDt : 8|13@1+ (1,0) [0|8191] "RPM"  CLUSTER_17
+ SG_ VehicleSpeedDt : 0|8@1+ (1,0) [0|255] "km/h"  CLUSTER_17
+
+BO_ 2566851584 SCR: 8 CLUSTER_17
+ SG_ SCRbyte8 : 56|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte7 : 48|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte6 : 40|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte5 : 32|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte4 : 24|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte3 : 16|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte2 : 8|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ SCRbyte1 : 0|8@1+ (1,0) [0|255] ""  BSG_21
+
+BO_ 2566719744 HRLFC: 8 CLUSTER_17
+ SG_ HRLFCbyte8 : 56|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte7 : 48|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte6 : 40|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte5 : 32|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte4 : 24|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte3 : 16|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte2 : 8|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ HRLFCbyte1 : 0|8@1+ (1,0) [0|255] ""  BSG_21
+
+BO_ 2566749184 DPFC1: 8 CLUSTER_17
+ SG_ DPFC1byte8 : 56|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte7 : 48|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte6 : 40|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte5 : 32|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte4 : 24|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte3 : 16|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte2 : 8|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ DPFC1byte1 : 0|8@1+ (1,0) [0|255] ""  BSG_21
+
+BO_ 2566912801 GRA_UHRe_01: 8 BSG_21
+ SG_ UHREbyte8 : 56|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte7 : 48|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte6 : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte5 : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte4 : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte3 : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte2 : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ UHREbyte1 : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2566912545 GRA_MFLe_01: 8 BSG_21
+ SG_ MFLEbyte8 : 56|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte7 : 48|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte6 : 40|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte5 : 32|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte4 : 24|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte3 : 16|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte2 : 8|8@1+ (1,0) [0|255] ""  CLUSTER_17
+ SG_ MFLEbyte1 : 0|8@1+ (1,0) [0|255] ""  CLUSTER_17
+
+BO_ 2365585687 MFLs_01: 8 CLUSTER_17
+ SG_ MFLSbyte8 : 56|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte7 : 48|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte6 : 40|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte5 : 32|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte4 : 24|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte3 : 16|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte2 : 8|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ MFLSbyte1 : 0|8@1+ (1,0) [0|255] ""  BSG_21
+
+BO_ 2365585175 GRA_ACCs_01: 8 CLUSTER_17
+ SG_ GRAbyte8 : 56|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte7 : 48|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte6 : 40|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte5 : 32|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte4 : 24|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte3 : 16|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte2 : 8|8@1+ (1,0) [0|255] ""  BSG_21
+ SG_ GRAbyte1 : 0|8@1+ (1,0) [0|255] ""  BSG_21
+
+BO_ 2566877975 ICDATA1: 8 CLUSTER_17
+ SG_ ICInTrm15Sts : 10|2@1+ (1,0) [0|3] ""  BSG_21
+ SG_ ICIntPhotosensorSts : 0|10@1+ (1,0) [0|1023] "Lux"  BSG_21
+
+BO_ 2566857249 ICHMI1CTRL: 8 BSG_21
+ SG_ ICTelltale12Ctrl : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ ICBargraphRghtLed8Ctrl : 15|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed7Ctrl : 14|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed6Ctrl : 13|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed5Ctrl : 12|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed4Ctrl : 11|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed3Ctrl : 10|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed2Ctrl : 9|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtLed1Ctrl : 8|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed7Ctrl : 6|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed6Ctrl : 5|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed5Ctrl : 4|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed4Ctrl : 3|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed3Ctrl : 2|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed2Ctrl : 1|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed8Ctrl : 7|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphLftLed1Ctrl : 0|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICBargraphRghtBhvrCtrl : 48|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICBargraphLftBhvrCtrl : 46|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICSoundVlmCtrl : 16|8@1+ (0.4,0) [0|102] "%"  CLUSTER_17
+ SG_ ICTelltale11Ctrl : 44|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale10Ctrl : 42|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale09Ctrl : 40|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale08Ctrl : 38|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale07Ctrl : 36|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale06Ctrl : 34|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale05Ctrl : 32|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale04Ctrl : 30|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale03Ctrl : 28|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale02Ctrl : 26|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICTelltale01Ctrl : 24|2@1+ (1,0) [0|3] ""  CLUSTER_17
+ SG_ ICSoundCtrl : 50|6@1+ (1,0) [0|63] ""  CLUSTER_17
+
+BO_ 2566878231 ICILL1STS: 8 CLUSTER_17
+ SG_ ICILLDispTempSnsrSts : 8|8@1- (1,0) [-128|127] "ºC"  BSG_21
+ SG_ ICILLDispSts : 16|2@1+ (1,0) [0|3] ""  BSG_21
+ SG_ ICILLDispPWMSts : 0|8@1+ (0.4,0) [0|102] "%"  BSG_21
+
+BO_ 2566867479 ICOM1STS: 8 CLUSTER_17
+ SG_ ICAssetSts : 12|4@1+ (1,0) [0|15] ""  BSG_21
+ SG_ ICSoundSts : 4|4@1+ (1,0) [0|15] ""  BSG_21
+ SG_ ICPMSts : 0|4@1+ (1,0) [0|15] ""  BSG_21
+ SG_ ICOMSts : 8|4@1+ (1,0) [0|15] ""  BSG_21
+
+BO_ 2566873889 ICILL1CTRL: 8 BSG_21
+ SG_ ICILLTelltaleTransCtrl : 35|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICILLTelltaleLvlCtrl : 24|8@1+ (0.4,0) [0|102] "%"  CLUSTER_17
+ SG_ ICILLDispTransCtrl : 34|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICILLDispLvlCtrl : 16|8@1+ (0.4,0) [0|102] "%"  CLUSTER_17
+ SG_ ICILLBargraphSclsTransCtrl : 33|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICILLBargraphSclsLvlCtrl : 8|8@1+ (0.4,0) [0|102] "%"  CLUSTER_17
+ SG_ ICILLBargraphLdTransCtrl : 32|1@1+ (1,0) [0|1] ""  CLUSTER_17
+ SG_ ICILLBargraphLdLvlCtrl : 0|8@1+ (0.4,0) [0|102] "%"  CLUSTER_17
+
+BO_ 2566867233 ICOM1CTRL: 8 BSG_21
+ SG_ ICOMCtrl : 0|4@1+ (1,0) [0|15] ""  CLUSTER_17
+
+
+
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_ BO_  "NmMessage" ENUM  "no","yes";
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmNode" ENUM  "no","yes";
+BA_DEF_ BU_  "GenNodSleepTime" INT 0 1000000;
+BA_DEF_  "NmBaseAddress" HEX 1024 1087;
+BA_DEF_  "GenNWMSleepTime" INT 0 1000000;
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl","MessageCounter","MessageChecksum";
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigILSupport" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 1000000;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 999999999;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmJ1939SystemInstance" INT 0 15;
+BA_DEF_ BU_  "NmJ1939System" INT 0 127;
+BA_DEF_ BU_  "NmJ1939ManufacturerCode" INT 0 2047;
+BA_DEF_ BU_  "NmJ1939IndustryGroup" INT 0 7;
+BA_DEF_ BU_  "NmJ1939IdentityNumber" INT 0 2097151;
+BA_DEF_ BU_  "NmJ1939FunctionInstance" INT 0 7;
+BA_DEF_ BU_  "NmJ1939Function" INT 0 255;
+BA_DEF_ BU_  "NmJ1939ECUInstance" INT 0 3;
+BA_DEF_ BU_  "NmJ1939AAC" INT 0 1;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgRequestable" INT 0 1;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "NWM-WakeupAllowed" "";
+BA_DEF_DEF_  "NmMessage" "no";
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NmNode" "no";
+BA_DEF_DEF_  "GenNodSleepTime" 0;
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "GenNWMSleepTime" 0;
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "GenSigEVName" "Env@Nodename_@Signame";
+BA_DEF_DEF_  "GenSigILSupport" "Yes";
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NodeLayerModules" "CANoeILNLVector.dll";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmJ1939SystemInstance" 0;
+BA_DEF_DEF_  "NmJ1939System" 0;
+BA_DEF_DEF_  "NmJ1939ManufacturerCode" 0;
+BA_DEF_DEF_  "NmJ1939IndustryGroup" 0;
+BA_DEF_DEF_  "NmJ1939IdentityNumber" 0;
+BA_DEF_DEF_  "NmJ1939FunctionInstance" 0;
+BA_DEF_DEF_  "NmJ1939Function" 0;
+BA_DEF_DEF_  "NmJ1939ECUInstance" 0;
+BA_DEF_DEF_  "NmJ1939AAC" 0;
+BA_DEF_DEF_  "NmStationAddress" 254;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgRequestable" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_ "BusType" "CAN";
+BA_ "ProtocolType" "";
+BA_ "DBName" "CAN0";
+BA_ "NmStationAddress" BU_ CLUSTER_17 23;
+BA_ "NmStationAddress" BU_ BSG_21 33;
+BA_ "GenMsgCycleTimeFast" BO_ 2566899745 5000;
+BA_ "GenMsgSendType" BO_ 2566899745 0;
+BA_ "GenMsgCycleTime" BO_ 2566899745 5000;
+BA_ "VFrameFormat" BO_ 2566899745 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566901281 5000;
+BA_ "GenMsgSendType" BO_ 2566901281 0;
+BA_ "GenMsgCycleTime" BO_ 2566901281 5000;
+BA_ "VFrameFormat" BO_ 2566901281 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566900769 5000;
+BA_ "GenMsgCycleTime" BO_ 2566900769 5000;
+BA_ "VFrameFormat" BO_ 2566900769 1;
+BA_ "GenMsgSendType" BO_ 2566900769 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566900513 5000;
+BA_ "GenMsgSendType" BO_ 2566900513 0;
+BA_ "GenMsgCycleTime" BO_ 2566900513 5000;
+BA_ "VFrameFormat" BO_ 2566900513 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566882849 1000;
+BA_ "GenMsgSendType" BO_ 2566882849 0;
+BA_ "GenMsgCycleTime" BO_ 2566882849 1000;
+BA_ "VFrameFormat" BO_ 2566882849 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566882337 1000;
+BA_ "GenMsgSendType" BO_ 2566882337 0;
+BA_ "GenMsgCycleTime" BO_ 2566882337 1000;
+BA_ "VFrameFormat" BO_ 2566882337 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566882081 1000;
+BA_ "GenMsgSendType" BO_ 2566882081 0;
+BA_ "GenMsgCycleTime" BO_ 2566882081 1000;
+BA_ "VFrameFormat" BO_ 2566882081 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566881825 1000;
+BA_ "GenMsgSendType" BO_ 2566881825 0;
+BA_ "GenMsgCycleTime" BO_ 2566881825 1000;
+BA_ "VFrameFormat" BO_ 2566881825 1;
+BA_ "VFrameFormat" BO_ 2566878241 1;
+BA_ "GenMsgCycleTime" BO_ 2566878241 1000;
+BA_ "GenMsgSendType" BO_ 2566878241 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566878241 1000;
+BA_ "GenMsgCycleTimeFast" BO_ 2566881057 5000;
+BA_ "GenMsgSendType" BO_ 2566881057 0;
+BA_ "GenMsgCycleTime" BO_ 2566881057 5000;
+BA_ "VFrameFormat" BO_ 2566881057 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566880289 1000;
+BA_ "GenMsgSendType" BO_ 2566880289 0;
+BA_ "GenMsgCycleTime" BO_ 2566880289 1000;
+BA_ "VFrameFormat" BO_ 2566880289 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566880033 1000;
+BA_ "GenMsgSendType" BO_ 2566880033 0;
+BA_ "GenMsgCycleTime" BO_ 2566880033 1000;
+BA_ "VFrameFormat" BO_ 2566880033 1;
+BA_ "VFrameFormat" BO_ 2566877473 1;
+BA_ "GenMsgCycleTime" BO_ 2566877473 1000;
+BA_ "GenMsgSendType" BO_ 2566877473 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566877473 1000;
+BA_ "GenMsgCycleTimeFast" BO_ 2566880801 1000;
+BA_ "GenMsgSendType" BO_ 2566880801 0;
+BA_ "GenMsgCycleTime" BO_ 2566880801 1000;
+BA_ "VFrameFormat" BO_ 2566880801 1;
+BA_ "VFrameFormat" BO_ 2566880545 1;
+BA_ "GenMsgCycleTime" BO_ 2566880545 10000;
+BA_ "GenMsgSendType" BO_ 2566880545 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566880545 10000;
+BA_ "GenMsgCycleTimeFast" BO_ 2566879521 1000;
+BA_ "GenMsgSendType" BO_ 2566879521 0;
+BA_ "GenMsgCycleTime" BO_ 2566879521 1000;
+BA_ "VFrameFormat" BO_ 2566879521 1;
+BA_ "VFrameFormat" BO_ 2566879777 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566879777 1000;
+BA_ "GenMsgSendType" BO_ 2566879777 0;
+BA_ "GenMsgCycleTime" BO_ 2566879777 1000;
+BA_ "VFrameFormat" BO_ 2566879265 1;
+BA_ "GenMsgCycleTime" BO_ 2566879265 1000;
+BA_ "GenMsgSendType" BO_ 2566879265 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566879265 1000;
+BA_ "GenMsgCycleTime" BO_ 2566909729 1000;
+BA_ "GenMsgSendType" BO_ 2566909729 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566909729 1000;
+BA_ "VFrameFormat" BO_ 2566909729 1;
+BA_ "VFrameFormat" BO_ 2566865953 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566865953 200;
+BA_ "GenMsgSendType" BO_ 2566865953 0;
+BA_ "GenMsgCycleTime" BO_ 2566865953 200;
+BA_ "VFrameFormat" BO_ 2566876961 1;
+BA_ "GenMsgCycleTime" BO_ 2566876961 200;
+BA_ "GenMsgSendType" BO_ 2566876961 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566876961 200;
+BA_ "VFrameFormat" BO_ 2566875681 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566875681 100;
+BA_ "GenMsgSendType" BO_ 2566875681 0;
+BA_ "GenMsgCycleTime" BO_ 2566875681 100;
+BA_ "VFrameFormat" BO_ 2566876193 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566876193 500;
+BA_ "GenMsgSendType" BO_ 2566876193 0;
+BA_ "GenMsgCycleTime" BO_ 2566876193 500;
+BA_ "GenMsgCycleTimeFast" BO_ 2566875937 100;
+BA_ "GenMsgSendType" BO_ 2566875937 0;
+BA_ "GenMsgCycleTime" BO_ 2566875937 100;
+BA_ "VFrameFormat" BO_ 2566875937 1;
+BA_ "VFrameFormat" BO_ 2566877729 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566877729 200;
+BA_ "GenMsgSendType" BO_ 2566877729 0;
+BA_ "GenMsgCycleTime" BO_ 2566877729 200;
+BA_ "VFrameFormat" BO_ 2365540375 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2365540375 50;
+BA_ "GenMsgSendType" BO_ 2365540375 0;
+BA_ "GenMsgCycleTime" BO_ 2365540375 50;
+BA_ "GenMsgCycleTimeFast" BO_ 2565874432 50;
+BA_ "GenMsgSendType" BO_ 2565874432 0;
+BA_ "GenMsgCycleTime" BO_ 2565874432 50;
+BA_ "VFrameFormat" BO_ 2565874432 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566866465 50;
+BA_ "GenMsgSendType" BO_ 2566866465 0;
+BA_ "GenMsgCycleTime" BO_ 2566866465 50;
+BA_ "VFrameFormat" BO_ 2566866465 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566866209 50;
+BA_ "GenMsgSendType" BO_ 2566866209 0;
+BA_ "GenMsgCycleTime" BO_ 2566866209 50;
+BA_ "VFrameFormat" BO_ 2566866209 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566858785 50;
+BA_ "GenMsgSendType" BO_ 2566858785 0;
+BA_ "GenMsgCycleTime" BO_ 2566858785 50;
+BA_ "VFrameFormat" BO_ 2566858785 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566858529 50;
+BA_ "GenMsgSendType" BO_ 2566858529 0;
+BA_ "GenMsgCycleTime" BO_ 2566858529 50;
+BA_ "VFrameFormat" BO_ 2566858529 1;
+BA_ "VFrameFormat" BO_ 2566858273 1;
+BA_ "GenMsgCycleTime" BO_ 2566858273 50;
+BA_ "GenMsgSendType" BO_ 2566858273 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566858273 50;
+BA_ "VFrameFormat" BO_ 2566875169 1;
+BA_ "GenMsgCycleTime" BO_ 2566875169 1000;
+BA_ "GenMsgSendType" BO_ 2566875169 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566875169 1000;
+BA_ "VFrameFormat" BO_ 2566874913 1;
+BA_ "GenMsgCycleTime" BO_ 2566874913 200;
+BA_ "GenMsgSendType" BO_ 2566874913 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566874913 200;
+BA_ "VFrameFormat" BO_ 2566873121 1;
+BA_ "GenMsgCycleTime" BO_ 2566873121 200;
+BA_ "GenMsgSendType" BO_ 2566873121 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566873121 200;
+BA_ "VFrameFormat" BO_ 2566872865 1;
+BA_ "GenMsgCycleTime" BO_ 2566872865 200;
+BA_ "GenMsgSendType" BO_ 2566872865 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566872865 200;
+BA_ "VFrameFormat" BO_ 2566872097 1;
+BA_ "GenMsgCycleTime" BO_ 2566872097 200;
+BA_ "GenMsgSendType" BO_ 2566872097 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566872097 200;
+BA_ "VFrameFormat" BO_ 2566871841 1;
+BA_ "GenMsgCycleTime" BO_ 2566871841 200;
+BA_ "GenMsgSendType" BO_ 2566871841 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566871841 200;
+BA_ "VFrameFormat" BO_ 2566871073 1;
+BA_ "GenMsgCycleTime" BO_ 2566871073 200;
+BA_ "GenMsgSendType" BO_ 2566871073 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566871073 200;
+BA_ "VFrameFormat" BO_ 2566870817 1;
+BA_ "GenMsgCycleTime" BO_ 2566870817 200;
+BA_ "GenMsgSendType" BO_ 2566870817 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566870817 200;
+BA_ "GenMsgCycleTime" BO_ 2566869793 200;
+BA_ "GenMsgSendType" BO_ 2566869793 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566869793 200;
+BA_ "VFrameFormat" BO_ 2566869793 1;
+BA_ "GenMsgCycleTime" BO_ 2566868769 100;
+BA_ "GenMsgSendType" BO_ 2566868769 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566868769 100;
+BA_ "VFrameFormat" BO_ 2566868769 1;
+BA_ "VFrameFormat" BO_ 2566878497 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566878497 50;
+BA_ "GenMsgSendType" BO_ 2566878497 0;
+BA_ "GenMsgCycleTime" BO_ 2566878497 50;
+BA_ "VFrameFormat" BO_ 2566858017 1;
+BA_ "GenMsgCycleTime" BO_ 2566858017 50;
+BA_ "GenMsgSendType" BO_ 2566858017 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566858017 50;
+BA_ "VFrameFormat" BO_ 2566851584 1;
+BA_ "GenMsgCycleTime" BO_ 2566851584 1000;
+BA_ "GenMsgSendType" BO_ 2566851584 0;
+BA_ "GenMsgCycleTimeFast" BO_ 2566851584 1000;
+BA_ "VFrameFormat" BO_ 2566719744 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566719744 1000;
+BA_ "GenMsgSendType" BO_ 2566719744 0;
+BA_ "GenMsgCycleTime" BO_ 2566719744 1000;
+BA_ "VFrameFormat" BO_ 2566749184 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566749184 1000;
+BA_ "GenMsgSendType" BO_ 2566749184 0;
+BA_ "GenMsgCycleTime" BO_ 2566749184 1000;
+BA_ "GenMsgSendType" BO_ 2566912801 0;
+BA_ "GenMsgCycleTime" BO_ 2566912801 80;
+BA_ "VFrameFormat" BO_ 2566912801 1;
+BA_ "GenMsgCycleTimeFast" BO_ 2566912801 80;
+BA_ "VFrameFormat" BO_ 2566912545 1;
+BA_ "GenMsgSendType" BO_ 2566912545 0;
+BA_ "GenMsgCycleTime" BO_ 2566912545 80;
+BA_ "GenMsgCycleTimeFast" BO_ 2566912545 80;
+BA_ "VFrameFormat" BO_ 2365585687 1;
+BA_ "GenMsgSendType" BO_ 2365585687 0;
+BA_ "GenMsgCycleTime" BO_ 2365585687 40;
+BA_ "GenMsgCycleTimeFast" BO_ 2365585687 40;
+BA_ "VFrameFormat" BO_ 2365585175 1;
+BA_ "GenMsgStartDelayTime" BO_ 2365585175 0;
+BA_ "GenMsgSendType" BO_ 2365585175 0;
+BA_ "GenMsgCycleTime" BO_ 2365585175 40;
+BA_ "GenMsgCycleTimeFast" BO_ 2365585175 40;
+BA_ "GenMsgCycleTime" BO_ 2566877975 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2566877975 200;
+BA_ "VFrameFormat" BO_ 2566877975 1;
+BA_ "GenMsgSendType" BO_ 2566877975 0;
+BA_ "GenMsgCycleTime" BO_ 2566857249 40;
+BA_ "GenMsgCycleTimeFast" BO_ 2566857249 40;
+BA_ "GenMsgSendType" BO_ 2566857249 0;
+BA_ "VFrameFormat" BO_ 2566857249 1;
+BA_ "VFrameFormat" BO_ 2566878231 1;
+BA_ "GenMsgCycleTime" BO_ 2566878231 1000;
+BA_ "GenMsgCycleTimeFast" BO_ 2566878231 1000;
+BA_ "GenMsgSendType" BO_ 2566878231 0;
+BA_ "GenMsgCycleTime" BO_ 2566867479 100;
+BA_ "GenMsgCycleTimeFast" BO_ 2566867479 100;
+BA_ "GenMsgSendType" BO_ 2566867479 0;
+BA_ "VFrameFormat" BO_ 2566867479 1;
+BA_ "GenMsgCycleTime" BO_ 2566873889 200;
+BA_ "GenMsgCycleTimeFast" BO_ 2566873889 200;
+BA_ "VFrameFormat" BO_ 2566873889 1;
+BA_ "GenMsgSendType" BO_ 2566873889 0;
+BA_ "GenMsgCycleTime" BO_ 2566867233 100;
+BA_ "GenMsgCycleTimeFast" BO_ 2566867233 100;
+BA_ "GenMsgSendType" BO_ 2566867233 0;
+BA_ "VFrameFormat" BO_ 2566867233 1;
+BA_ "GenSigStartValue" SG_ 2566899745 VehicleTotalWeightDt 1023;
+BA_ "GenSigStartValue" SG_ 2566899745 AxleWeightAxle4Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566899745 AxleWeightAxle3Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566899745 AxleWeightAxle2Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566899745 AxleWeightAxle1Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566901281 MaintenanceTypeDt 0;
+BA_ "GenSigStartValue" SG_ 2566901281 MaintenanceRemainingDt 16383;
+BA_ "GenSigStartValue" SG_ 2566901281 VehicleID17Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID16Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID15Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID14Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID13Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID12Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID11Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID10Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900769 VehicleID09Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID08Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID07Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID06Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID05Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID04Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID03Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID02Dt 32;
+BA_ "GenSigStartValue" SG_ 2566900513 VehicleID01Dt 32;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_20Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_19Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_18Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_17Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_16Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_15Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_14Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_13Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_12Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_11Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_10Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_09Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_08Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_07Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_06Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_05Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_04Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_03Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_02Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882849 ColorSymbolActvFail_01Dt 0;
+BA_ "GenSigStartValue" SG_ 2566882337 NumberofFailuresDt 255;
+BA_ "GenSigStartValue" SG_ 2566882337 ActiveFailureSymbol_20Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882337 ActiveFailureSymbol_19Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882337 ActiveFailureSymbol_18Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882337 ActiveFailureSymbol_17Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_16Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_15Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_14Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_13Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_12Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_11Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_10Dt 255;
+BA_ "GenSigStartValue" SG_ 2566882081 ActiveFailureSymbol_09Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_08Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_07Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_06Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_05Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_04Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_03Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_02Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881825 ActiveFailureSymbol_01Dt 255;
+BA_ "GenSigStartValue" SG_ 2566881057 TiresFourthAxleDt 0;
+BA_ "GenSigStartValue" SG_ 2566881057 TiresThirdAxleDt 0;
+BA_ "GenSigStartValue" SG_ 2566881057 TiresSecondAxleDt 0;
+BA_ "GenSigStartValue" SG_ 2566880289 EHTotalRedMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566880289 EHTotalYellowMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566880289 EHTotalRedHoursDt 1048575;
+BA_ "GenSigStartValue" SG_ 2566880289 EHTotalYellowHoursDt 1048575;
+BA_ "GenSigStartValue" SG_ 2566880033 EHTotalGreenMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566880033 EHTotalGreenHoursDt 1048575;
+BA_ "GenSigStartValue" SG_ 2566880033 EHTotalIddleMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566880033 EHTotalIddleHoursDt 1048575;
+BA_ "GenSigStartValue" SG_ 2566877473 TripTravelTimeMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566877473 TripTravelTimeHourDt 16383;
+BA_ "GenSigStartValue" SG_ 2566877473 TripDrivingTimeMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566877473 TripDrivingTimeHourDt 16383;
+BA_ "GenSigStartValue" SG_ 2566880545 DateYearDt 255;
+BA_ "GenSigStartValue" SG_ 2566880545 DateN2Dt 0;
+BA_ "GenSigStartValue" SG_ 2566880545 DateN1Dt 0;
+BA_ "GenSigStartValue" SG_ 2566880545 WeekDayDt 7;
+BA_ "GenSigStartValue" SG_ 2566880545 TimeMinuteDt 63;
+BA_ "GenSigStartValue" SG_ 2566880545 TimeHourDt 31;
+BA_ "GenSigStartValue" SG_ 2566879521 EHTripIddleMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566879521 EHTripIddleHoursDt 16383;
+BA_ "GenSigStartValue" SG_ 2566879521 EHTotalDt 1048575;
+BA_ "GenSigStartValue" SG_ 2566879777 EHTripRedMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566879777 EHTripRedHoursDt 16383;
+BA_ "GenSigStartValue" SG_ 2566879777 EHTripYellowMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566879777 EHTripGreenMinDt 63;
+BA_ "GenSigStartValue" SG_ 2566879777 EHTripYellowHoursDt 16383;
+BA_ "GenSigStartValue" SG_ 2566879777 EHTripGreenHoursDt 16383;
+BA_ "GenSigStartValue" SG_ 2566879265 VehicleVariantDt 7;
+BA_ "GenSigStartValue" SG_ 2566879265 BatteryVoltageDt 1023;
+BA_ "GenSigStartValue" SG_ 2566879265 AdBlueAutonomyDt 16383;
+BA_ "GenSigStartValue" SG_ 2566879265 AutonomyDt 16383;
+BA_ "GenSigStartValue" SG_ 2566909729 DiagnosticFMIDt 127;
+BA_ "GenSigStartValue" SG_ 2566909729 DiagnosticSPNDt 65535;
+BA_ "GenSigStartValue" SG_ 2566909729 DiagnosticCurrentFailureDt 0;
+BA_ "GenSigStartValue" SG_ 2566909729 DiagnosticNumberFailuresDt 31;
+BA_ "GenSigStartValue" SG_ 2566909729 DiagnosticTextIDDt 2047;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationRightStopSymbolDt 0;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationRightColorDt 0;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationRightTextDt 2047;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationRightSymbolDt 127;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationLeftStopSymbolDt 0;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationLeftColorDt 0;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationLeftTextDt 2047;
+BA_ "GenSigStartValue" SG_ 2566865953 NotificationLeftSymbolDt 127;
+BA_ "GenSigStartValue" SG_ 2566876961 BrakePressure3BargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566876961 BrakePressure2BargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566876961 BrakePressure1BargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566876961 BrakePressure3Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566876961 BrakePressure2Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566876961 BrakePressure1Dt 1023;
+BA_ "GenSigStartValue" SG_ 2566875681 EconometerN2Dt 15;
+BA_ "GenSigStartValue" SG_ 2566875681 EconometerN1Dt 7;
+BA_ "GenSigStartValue" SG_ 2566875681 AvgConsumpArrowDt 255;
+BA_ "GenSigStartValue" SG_ 2566875681 EconometerBargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566875681 InstantConsumpDt 1023;
+BA_ "GenSigStartValue" SG_ 2566876193 AverageTripSpeedDt 4095;
+BA_ "GenSigStartValue" SG_ 2566876193 OilLevelBargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566876193 OilLevelDt 127;
+BA_ "GenSigStartValue" SG_ 2566876193 FuelLitersDt 1023;
+BA_ "GenSigStartValue" SG_ 2566876193 AvgConsumpDt 1023;
+BA_ "GenSigStartValue" SG_ 2566875937 DriversGradeHillDrivingDt 255;
+BA_ "GenSigStartValue" SG_ 2566875937 DriversGradeAccelerationDt 255;
+BA_ "GenSigStartValue" SG_ 2566875937 DriversGradeGearDt 255;
+BA_ "GenSigStartValue" SG_ 2566875937 DriversGradeBrakingDt 255;
+BA_ "GenSigStartValue" SG_ 2566875937 DriversAvgGradeBargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566875937 CoolantTempBargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566875937 CoolantTempDt 1023;
+BA_ "GenSigStartValue" SG_ 2566877729 OilPressureDt 255;
+BA_ "GenSigStartValue" SG_ 2566877729 ICDISDayNightDt 1;
+BA_ "GenSigStartValue" SG_ 2365540375 CursorSelectedRightSts 0;
+BA_ "GenSigStartValue" SG_ 2365540375 CursorSelectedLeftSts 0;
+BA_ "GenSigStartValue" SG_ 2365540375 ICDISSVSts 63;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_30Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_29Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_28Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_27Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_26Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_25Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_24Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_23Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_22Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_21Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_20Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_19Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_18Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_17Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866465 ICDISScreen_DA_16Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_15Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_14Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_13Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_12Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_11Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_10Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_09Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_08Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_07Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_06Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_05Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_04Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_03Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_02Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_01Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566866209 ICDISScreen_DA_00Ctrl 15;
+BA_ "GenSigStartValue" SG_ 2566858785 ICDISFcn_DA_21Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858785 ICDISFcn_DA_30Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858785 ICDISFcn_DA_29Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858785 ICDISFcn_DA_22Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_20Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_06Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_05Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_04Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_03Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_02Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858529 ICDISFcn_DA_01Ctrl 127;
+BA_ "GenSigStartValue" SG_ 2566858273 ICDISSVCtrl 63;
+BA_ "GenSigStartValue" SG_ 2566875169 TripmeterDt 131071;
+BA_ "GenSigStartValue" SG_ 2566875169 TotalOdometerDt 16777215;
+BA_ "GenSigStartValue" SG_ 2566874913 SymbolID_DA_V48Dt 255;
+BA_ "GenSigStartValue" SG_ 2566874913 SymbolID_DA_V47Dt 255;
+BA_ "GenSigStartValue" SG_ 2566874913 SymbolID_DA_V46Dt 255;
+BA_ "GenSigStartValue" SG_ 2566874913 SymbolID_DA_V45Dt 255;
+BA_ "GenSigStartValue" SG_ 2566874913 SymbolID_DA_V44Dt 255;
+BA_ "GenSigStartValue" SG_ 2566874913 SymbolID_DA_V43Dt 255;
+BA_ "GenSigStartValue" SG_ 2566873121 SymbolID_DA_V42Dt 255;
+BA_ "GenSigStartValue" SG_ 2566873121 SymbolID_DA_V41Dt 255;
+BA_ "GenSigStartValue" SG_ 2566873121 SymbolID_DA_V40Dt 255;
+BA_ "GenSigStartValue" SG_ 2566873121 SymbolID_DA_V39Dt 255;
+BA_ "GenSigStartValue" SG_ 2566873121 SymbolID_DA_V38Dt 255;
+BA_ "GenSigStartValue" SG_ 2566873121 SymbolID_DA_V37Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872865 SymbolID_DA_V36Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872865 SymbolID_DA_V35Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872865 SymbolID_DA_V34Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872865 SymbolID_DA_V33Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872865 SymbolID_DA_V32Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872865 SymbolID_DA_V31Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872097 SymbolID_DA_V30Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872097 SymbolID_DA_V29Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872097 SymbolID_DA_V28Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872097 SymbolID_DA_V27Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872097 SymbolID_DA_V26Dt 255;
+BA_ "GenSigStartValue" SG_ 2566872097 SymbolID_DA_V25Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871841 SymbolID_DA_V24Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871841 SymbolID_DA_V23Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871841 SymbolID_DA_V22Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871841 SymbolID_DA_V21Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871841 SymbolID_DA_V20Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871841 SymbolID_DA_V19Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871073 SymbolID_DA_V18Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871073 SymbolID_DA_V17Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871073 SymbolID_DA_V16Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871073 SymbolID_DA_V15Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871073 SymbolID_DA_V14Dt 255;
+BA_ "GenSigStartValue" SG_ 2566871073 SymbolID_DA_V13Dt 255;
+BA_ "GenSigStartValue" SG_ 2566870817 SymbolID_DA_V12Dt 255;
+BA_ "GenSigStartValue" SG_ 2566870817 SymbolID_DA_V11Dt 255;
+BA_ "GenSigStartValue" SG_ 2566870817 SymbolID_DA_V10Dt 255;
+BA_ "GenSigStartValue" SG_ 2566870817 SymbolID_DA_V09Dt 255;
+BA_ "GenSigStartValue" SG_ 2566870817 SymbolID_DA_V08Dt 255;
+BA_ "GenSigStartValue" SG_ 2566870817 SymbolID_DA_V07Dt 255;
+BA_ "GenSigStartValue" SG_ 2566869793 SymbolID_DA_V06Dt 255;
+BA_ "GenSigStartValue" SG_ 2566869793 SymbolID_DA_V05Dt 255;
+BA_ "GenSigStartValue" SG_ 2566869793 SymbolID_DA_V04Dt 255;
+BA_ "GenSigStartValue" SG_ 2566869793 SymbolID_DA_V03Dt 255;
+BA_ "GenSigStartValue" SG_ 2566869793 SymbolID_DA_V02Dt 255;
+BA_ "GenSigStartValue" SG_ 2566869793 SymbolID_DA_V01Dt 255;
+BA_ "GenSigStartValue" SG_ 2566868769 GearRecommendedGearDt 127;
+BA_ "GenSigStartValue" SG_ 2566868769 GearCurrentIndicationDt 127;
+BA_ "GenSigStartValue" SG_ 2566868769 GearModeDt 15;
+BA_ "GenSigStartValue" SG_ 2566878497 DoorOpenStsDt 7;
+BA_ "GenSigStartValue" SG_ 2566878497 CursorMoveDt 7;
+BA_ "GenSigStartValue" SG_ 2566858017 ESpdBargraphDt 255;
+BA_ "GenSigStartValue" SG_ 2566858017 ESpdRedRangeDt 31;
+BA_ "GenSigStartValue" SG_ 2566858017 ESpdYellowRangeDt 31;
+BA_ "GenSigStartValue" SG_ 2566858017 ESpdGreenRangeDt 31;
+BA_ "GenSigStartValue" SG_ 2566858017 EngineSpeedDt 8191;
+BA_ "GenSigStartValue" SG_ 2566858017 VehicleSpeedDt 255;
+BA_ "GenSigStartValue" SG_ 2566877975 ICInTrm15Sts 3;
+BA_ "GenSigStartValue" SG_ 2566877975 ICIntPhotosensorSts 1023;
+BA_ "GenSigStartValue" SG_ 2566857249 ICSoundVlmCtrl 255;
+BA_ "GenSigStartValue" SG_ 2566857249 ICSoundCtrl 0;
+BA_ "GenSigStartValue" SG_ 2566878231 ICILLDispTempSnsrSts 0;
+BA_ "GenSigStartValue" SG_ 2566878231 ICILLDispSts 3;
+BA_ "GenSigStartValue" SG_ 2566878231 ICILLDispPWMSts 255;
+BA_ "GenSigStartValue" SG_ 2566867479 ICAssetSts 15;
+BA_ "GenSigStartValue" SG_ 2566867479 ICSoundSts 15;
+BA_ "GenSigStartValue" SG_ 2566867479 ICPMSts 15;
+BA_ "GenSigStartValue" SG_ 2566867479 ICOMSts 15;
+BA_ "GenSigStartValue" SG_ 2566873889 ICILLTelltaleLvlCtrl 255;
+BA_ "GenSigStartValue" SG_ 2566873889 ICILLDispLvlCtrl 255;
+BA_ "GenSigStartValue" SG_ 2566873889 ICILLBargraphSclsLvlCtrl 255;
+BA_ "GenSigStartValue" SG_ 2566873889 ICILLBargraphLdLvlCtrl 255;
+BA_ "GenSigStartValue" SG_ 2566867233 ICOMCtrl 1;
+VAL_ 2566899745 TotalWeightStatusDt 1 "Axle_NOK" 0 "Axle_OK" ;
+VAL_ 2566899745 AxleStatusAxle4Dt 1 "Axle_NOK" 0 "Axle_OK" ;
+VAL_ 2566899745 AxleStatusAxle3Dt 1 "Axle_NOK" 0 "Axle_OK" ;
+VAL_ 2566899745 AxleStatusAxle2Dt 1 "Axle_NOK" 0 "Axle_OK" ;
+VAL_ 2566899745 AxleStatusAxle1Dt 1 "Axle_NOK" 0 "Axle_OK" ;
+VAL_ 2566901281 MaintenanceTypeDt 3 "Special Revision" 2 "Highway Revision" 1 "Severe Revision" 0 "Mixed Revision" ;
+VAL_ 2566882849 ColorSymbolActvFail_20Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_19Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_18Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_17Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_16Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_15Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_14Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_13Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_12Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_11Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_10Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_09Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_08Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_07Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_06Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_05Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_04Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_03Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_02Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566882849 ColorSymbolActvFail_01Dt 3 "Red" 2 "Ambar" 1 "Green" 0 "White" ;
+VAL_ 2566881057 TiresFourthAxleDt 3 "Spare" 2 "Twin_Tires" 1 "Single_Tires" 0 "No_Tires" ;
+VAL_ 2566881057 TiresThirdAxleDt 3 "Spare" 2 "Twin_Tires" 1 "Single_Tires" 0 "No_Tires" ;
+VAL_ 2566881057 TiresSecondAxleDt 1 "Single_Tires" 0 "No_Tires" ;
+VAL_ 2566880801 SideMenuAvailable_16Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_15Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_14Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_13Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_12Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_11Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_10Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_09Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_08Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_07Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_06Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_05Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_04Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_03Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_02Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880801 SideMenuAvailable_01Dt 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566880545 WeekDayDt 7 "Out of Range" 6 "Saturday" 5 "Friday" 4 "Thursday" 3 "Wednesday" 2 "Tuesday" 1 "Monday" 0 "Sunday" ;
+VAL_ 2566879265 VehicleVariantDt 7 "No_Variant" 6 "Spare" 5 "Spare" 4 "ConstellationL_Variant" 3 "ConstellationH_Variant" 2 "Delivery_Variant" 1 "Meteor_Variant" 0 "Bus_Variant" ;
+VAL_ 2566865953 NotificationRightStopSymbolDt 1 "Enable" 0 "Disable" ;
+VAL_ 2566865953 NotificationRightColorDt 3 "Red" 2 "Ambar" 1 "Green" 0 "Black" ;
+VAL_ 2566865953 NotificationLeftStopSymbolDt 1 "Enable" 0 "Disable" ;
+VAL_ 2566865953 NotificationLeftColorDt 3 "Red" 2 "Ambar" 1 "Green" 0 "Black" ;
+VAL_ 2566875681 InstConsumpUnitDt 3 "mpg" 2 "L/100 km" 1 "L/h" 0 "km/L" ;
+VAL_ 2566877729 ICDISBackGlowColorDt 7 "Spare" 6 "Spare" 5 "Spare" 4 "Spare" 3 "Purple" 2 "Ambar" 1 "Green" 0 "Blue" ;
+VAL_ 2566877729 ICDISDayNightDt 1 "Night" 0 "Day" ;
+VAL_ 2365540375 CursorSelectedRightSts 99 "Out of Range" 18 "NoDisplay" 17 "Settings" 16 "Free for use" 15 "Free for use" 14 "Free for use" 13 "Free for use" 12 "Free for use" 11 "Free for use" 10 "Free for use" 9 "Free for use" 8 "Media" 7 "Navigation" 6 "Oil Info" 5 "Brake pressure" 4 "Driver’s Average Grade" 3 "Econometer" 2 "Consumption" 1 "Autonomy" 0 "Not Available" ;
+VAL_ 2365540375 CursorSelectedLeftSts 99 "Out of Range" 18 "NoDisplay" 17 "Settings" 16 "Free for use" 15 "Free for use" 14 "Free for use" 13 "Free for use" 12 "Free for use" 11 "Battery Voltage" 10 "Engine Speed" 9 "Trip Engine Hours" 8 "Total Engine Hours" 7 "Coolant Temperature" 6 "Oil Info" 5 "Brake pressure" 4 "Driver’s Average Grade" 3 "Econometer" 2 "Consumption" 1 "Autonomy" 0 "Not Available" ;
+VAL_ 2365540375 ICDISSVTransitionSts 1 "TransitionOnGoing" 0 "NoTransitionOnGoing" ;
+VAL_ 2365540375 ICDISSVSts 63 "Not Available-SubViewNotSelected" 62 "Not Defined" 61 "Not Defined" 60 "Not Defined" 59 "Not Defined" 58 "Not Defined" 57 "Not Defined" 56 "Not Defined" 55 "Not Defined" 54 "Not Defined" 53 "Not Defined" 52 "Not Defined" 51 "Not Defined" 50 "Not Defined" 49 "Not Defined" 48 "Not Defined" 47 "Not Defined" 46 "Not Defined" 45 "Not Defined" 44 "Not Defined" 43 "Not Defined" 42 "Not Defined" 41 "Not Defined" 40 "Not Defined" 39 "Not Defined" 38 "Not Defined" 37 "Not Defined" 36 "Not Defined" 35 "Not Defined" 34 "V05_SV03- RightMenuActive" 33 "V05_SV02- LeftMenuActive" 32 "V05_SV01- MenusInactive" 31 "Not Defined" 30 "Not Defined" 29 "Not Defined" 28 "Not Defined" 27 "Not Defined" 26 "V04_SV03- RightMenuActive" 25 "V04_SV02- LeftMenuActive" 24 "V04_SV01- MenusInactive" 23 "Not Defined" 22 "Not Defined" 21 "Not Defined" 20 "Not Defined" 19 "Not Defined" 18 "V03_SV03- RightMenuActive" 17 "V03_SV02- LeftMenuActive" 16 "V03_SV01- MenusInactive" 15 "Not Defined" 14 "Not Defined" 13 "Not Defined" 12 "V02_SV05- Settings" 11 "V02_SV04- ActiveCentreContent" 10 "V02_SV03- RightMenuActive" 9 "V02_SV02- LeftMenuActive" 8 "V02_SV01- NonActiveCentreContent" 7 "Not Defined" 6 "Not Defined" 5 "Not Defined" 4 "V01_SV05- Settings" 3 "V01_SV04- ActiveCentreContent" 2 "V01_SV03- RightMenuActive" 1 "V01_SV02- LeftMenuActive" 0 "V01_SV01- NonActiveCentreContent" ;
+VAL_ 2566866465 ICDISScreen_DA_30Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_29Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_28Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_27Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_26Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_25Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_24Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_23Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_22Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_21Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_20Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_19Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_18Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_17Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866465 ICDISScreen_DA_16Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_15Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_14Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_13Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_12Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_11Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_10Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_09Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_08Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_07Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_06Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_05Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_04Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_03Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_02Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_01Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566866209 ICDISScreen_DA_00Ctrl 15 "NoScreen" 14 "Scr_14" 13 "Scr_13" 12 "Scr_12" 11 "Scr_11" 10 "Scr_10" 9 "Scr_09" 8 "Scr_08" 7 "Scr_07" 6 "Scr_06" 5 "Scr_05" 4 "Scr_04" 3 "Scr_03" 2 "Scr_02" 1 "Scr_01" 0 "Scr_00" ;
+VAL_ 2566858785 ICDISFcn_DA_21Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858785 ICDISFcn_DA_30Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858785 ICDISFcn_DA_29Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858785 ICDISFcn_DA_22Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_20Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_06Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_05Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_04Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_03Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_02Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858529 ICDISFcn_DA_01Ctrl 127 "Not Available" 126 "Not Defined" 125 "Not Defined" 124 "Not Defined" 123 "Not Defined" 122 "Not Defined" 121 "Not Defined" 120 "Not Defined" 119 "Not Defined" 118 "Not Defined" 117 "Not Defined" 116 "Not Defined" 115 "Not Defined" 114 "Not Defined" 113 "Not Defined" 112 "Not Defined" 111 "Not Defined" 110 "Not Defined" 109 "Not Defined" 108 "Not Defined" 107 "Not Defined" 106 "Not Defined" 105 "Not Defined" 104 "Not Defined" 103 "Not Defined" 102 "Not Defined" 101 "Not Defined" 100 "Not Defined" 99 "Not Defined" 98 "Not Defined" 97 "Not Defined" 96 "Not Defined" 95 "Not Defined" 94 "Not Defined" 93 "Not Defined" 92 "Not Defined" 91 "Not Defined" 90 "Not Defined" 89 "Not Defined" 88 "Not Defined" 87 "Not Defined" 86 "Not Defined" 85 "Not Defined" 84 "Not Defined" 83 "Not Defined" 82 "Not Defined" 81 "Not Defined" 80 "Not Defined" 79 "Not Defined" 78 "Not Defined" 77 "Not Defined" 76 "Not Defined" 75 "Fcn_075_SystemSettingsMenu" 74 "Fcn_074_ServiceInfoMenu" 73 "Fcn_073_VehicleSettingsMenu" 72 "Fcn_072_SettingsMenu" 71 "Fcn_071_LevelAdjustment" 70 "Fcn_070_SystemNotification" 69 "Fcn_069_CentralMenu" 68 "Fcn_068_DiagnosticsErrorList" 67 "Fcn_067_Background" 66 "Fcn_SpeedLimitIndication" 65 "Fcn_CruiseControlSpeedValueAdj" 64 "Fcn_064_CCSpeed" 63 "Fcn_063_Map" 62 "Fcn_062_VirtualTelltale" 61 "Fcn_061_MapDistance" 60 "Fcn_060_MapTime" 59 "Fcn_059_Tripmeter" 58 "Fcn_058_Odometer" 57 "Fcn_057_EngineSpeedGauge" 56 "Fcn_056_VehicleSpeedGauge" 55 "Fcn_055_DoorOpen" 54 "Fcn_054_Gear" 53 "Fcn_053_Maintenance" 52 "Fcn_052_Diagnostics" 51 "Fcn_051_VehicleID" 50 "Fcn_050_SetLanguage" 49 "Fcn_049_SetUnitsConsumption" 48 "Fcn_048_SetUnitsPressure" 47 "Fcn_047_SetUnitsDigitalSpeed" 46 "Fcn_046_SetUnitsDistance" 45 "Fcn_045_SetDisplayScrBrightness" 44 "Fcn_044_SetDisplayDateTime" 43 "Fcn_043_SetDisplayDriverGradeTip" 42 "Fcn_042_SetDisplayPhoneOverlay" 41 "Fcn_041_SetSpeedWarningVolume" 40 "Fcn_040_SetDoorOpPassengersSide" 39 "Fcn_039_SetWipeAutoSpeed" 38 "Fcn_038_BrakeLining4Axles" 37 "Fcn_037_TotalAxleWeight4Axles" 36 "Fcn_036_TirePressure4Axles" 35 "Fcn_035_TireTemperature4Axles" 34 "Fcn_034_ActiveFailures" 33 "Fcn_033_EngineHours" 32 "Fcn_032_TripInfo" 31 "Fcn_031_DriversGradeComplete" 30 "Fcn_030_Settings" 29 "Fcn_029_DateTime" 28 "Fcn_028_BlindSpotDetection" 27 "Fcn_027_TrafficSignRecognition" 26 "Fcn_026_DrowsinessDetection" 25 "Fcn_025_AdvancedEmergencyBrake" 24 "Fcn_024_SetupSpeedLimit" 23 "Fcn_023_AdaptiveCruiseControl" 22 "Fcn_022_SetupLDWS" 21 "Fcn_021_ADASLDWS" 20 "Fcn_020_VehicleSpeed" 19 "Fcn_019_NotificationIncomingCall" 18 "Fcn_018_NotificatDriversGradeTip" 17 "Fcn_017_NotificationRight" 16 "Fcn_016_NotificationLeft" 15 "Fcn_015_Phone" 14 "Fcn_014_Media" 13 "Fcn_013_Navigation" 12 "Fcn_012_SettingsRightGaugeMenu" 11 "Fcn_011_SettingsLeftGaugeMenu" 10 "Fcn_010_BatteryVoltage" 9 "Fcn_009_EngineSpeed" 8 "Fcn_008_EngineHours" 7 "Fcn_007_CoolantTemp" 6 "Fcn_006_OilInfoContent" 5 "Fcn_005_BrakePressure" 4 "Fcn_004_DriversAverageGrade" 3 "Fcn_003_Econometer" 2 "Fcn_002_Consumption" 1 "Fcn_001_Autonomy" 0 "Fcn_NoFcn" ;
+VAL_ 2566858273 ICDISSVCtrl 63 "Not Available-SubViewNotSelected" 62 "Not Defined" 61 "Not Defined" 60 "Not Defined" 59 "Not Defined" 58 "Not Defined" 57 "Not Defined" 56 "Not Defined" 55 "Not Defined" 54 "Not Defined" 53 "Not Defined" 52 "Not Defined" 51 "Not Defined" 50 "Not Defined" 49 "Not Defined" 48 "Not Defined" 47 "Not Defined" 46 "Not Defined" 45 "Not Defined" 44 "Not Defined" 43 "Not Defined" 42 "Not Defined" 41 "Not Defined" 40 "Not Defined" 39 "Not Defined" 38 "Not Defined" 37 "Not Defined" 36 "Not Defined" 35 "Not Defined" 34 "V05_SV03- RightMenuActive" 33 "V05_SV02- LeftMenuActive" 32 "V05_SV01- MenusInactive" 31 "Not Defined" 30 "Not Defined" 29 "Not Defined" 28 "Not Defined" 27 "Not Defined" 26 "V04_SV03- RightMenuActive" 25 "V04_SV02- LeftMenuActive" 24 "V04_SV01- MenusInactive" 23 "Not Defined" 22 "Not Defined" 21 "Not Defined" 20 "Not Defined" 19 "Not Defined" 18 "V03_SV03- RightMenuActive" 17 "V03_SV02- LeftMenuActive" 16 "V03_SV01- MenusInactive" 15 "Not Defined" 14 "Not Defined" 13 "Not Defined" 12 "V02_SV05- Settings" 11 "V02_SV04- ActiveCentreContent" 10 "V02_SV03- RightMenuActive" 9 "V02_SV02- LeftMenuActive" 8 "V02_SV01- NonActiveCentreContent" 7 "Not Defined" 6 "Not Defined" 5 "Not Defined" 4 "V01_SV05- Settings" 3 "V01_SV04- ActiveCentreContent" 2 "V01_SV03- RightMenuActive" 1 "V01_SV02- LeftMenuActive" 0 "V01_SV01- NonActiveCentreContent" ;
+VAL_ 2566874913 State_DA_V48Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566874913 State_DA_V47Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566874913 State_DA_V46Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566874913 State_DA_V45Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566874913 State_DA_V44Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566874913 State_DA_V43Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566873121 State_DA_V42Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566873121 State_DA_V41Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566873121 State_DA_V40Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566873121 State_DA_V39Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566873121 State_DA_V38Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566873121 State_DA_V37Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872865 State_DA_V36Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872865 State_DA_V35Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872865 State_DA_V34Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872865 State_DA_V33Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872865 State_DA_V32Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872865 State_DA_V31Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872097 State_DA_V30Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872097 State_DA_V29Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872097 State_DA_V28Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872097 State_DA_V27Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872097 State_DA_V26Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566872097 State_DA_V25Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871841 State_DA_V24Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871841 State_DA_V23Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871841 State_DA_V22Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871841 State_DA_V21Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871841 State_DA_V20Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871841 State_DA_V19Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871073 State_DA_V18Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871073 State_DA_V17Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871073 State_DA_V16Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871073 State_DA_V15Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871073 State_DA_V14Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566871073 State_DA_V13Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566870817 State_DA_V12Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566870817 State_DA_V11Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566870817 State_DA_V10Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566870817 State_DA_V09Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566870817 State_DA_V08Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566870817 State_DA_V07Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566869793 State_DA_V06Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566869793 State_DA_V05Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566869793 State_DA_V04Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566869793 State_DA_V03Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566869793 State_DA_V02Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566869793 State_DA_V01Dt 3 "Fast Flash" 2 "Slow Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566868769 GearRecommendedGearDt 127 "Not Available" 126 "out of range" 125 "out of range" 124 "out of range" 123 "out of range" 122 "out of range" 121 "out of range" 120 "out of range" 119 "out of range" 118 "out of range" 117 "out of range" 116 "out of range" 115 "out of range" 114 "out of range" 113 "out of range" 112 "out of range" 111 "out of range" 110 "out of range" 109 "out of range" 108 "out of range" 107 "out of range" 106 "out of range" 105 "out of range" 104 "out of range" 103 "out of range" 102 "out of range" 101 "out of range" 100 "out of range" 99 "99th" 98 "98th" 97 "97th" 96 "96th" 95 "95th" 94 "94th" 93 "93rd" 92 "92nd" 91 "91st" 90 "90th" 89 "89th" 88 "88th" 87 "87th" 86 "86th" 85 "85th" 84 "84th" 83 "83rd" 82 "82nd" 81 "81st" 80 "80th" 79 "79th" 78 "78th" 77 "77th" 76 "76th" 75 "75th" 74 "74th" 73 "73rd" 72 "72nd" 71 "71st" 70 "70th" 69 "69th" 68 "68th" 67 "67th" 66 "66th" 65 "65th" 64 "64th" 63 "63rd" 62 "62nd" 61 "61st" 60 "60th" 59 "59th" 58 "58th" 57 "57th" 56 "56th" 55 "55th" 54 "54th" 53 "53rd" 52 "52nd" 51 "51st" 50 "50th" 49 "49th" 48 "48th" 47 "47th" 46 "46th" 45 "45th" 44 "44th" 43 "43rd" 42 "42nd" 41 "41st" 40 "40th" 39 "39th" 38 "38th" 37 "37th" 36 "36th" 35 "35th" 34 "34th" 33 "33rd" 32 "32nd" 31 "31st" 30 "30th" 29 "29th" 28 "28th" 27 "27th" 26 "26th" 25 "25th" 24 "24th" 23 "23rd" 22 "22nd" 21 "21st" 20 "20th" 19 "19th" 18 "18th" 17 "17th" 16 "16th" 15 "15th" 14 "14th" 13 "13th" 12 "12th" 11 "11th" 10 "10th" 9 "9th" 8 "8th" 7 "7th" 6 "6th" 5 "5th" 4 "4th" 3 "3rd" 2 "2nd" 1 "1st" 0 "0" ;
+VAL_ 2566868769 GearCurrentIndicationDt 127 "Not Available" 126 "out of range" 125 "out of range" 124 "out of range" 123 "out of range" 122 "out of range" 121 "out of range" 120 "out of range" 119 "out of range" 118 "out of range" 117 "out of range" 116 "out of range" 115 "out of range" 114 "out of range" 113 "out of range" 112 "out of range" 111 "out of range" 110 "out of range" 109 "out of range" 108 "out of range" 107 "out of range" 106 "out of range" 105 "out of range" 104 "out of range" 103 "out of range" 102 "out of range" 101 "out of range" 100 "out of range" 99 "99th" 98 "98th" 97 "97th" 96 "96th" 95 "95th" 94 "94th" 93 "93rd" 92 "92nd" 91 "91st" 90 "90th" 89 "89th" 88 "88th" 87 "87th" 86 "86th" 85 "85th" 84 "84th" 83 "83rd" 82 "82nd" 81 "81st" 80 "80th" 79 "79th" 78 "78th" 77 "77th" 76 "76th" 75 "75th" 74 "74th" 73 "73rd" 72 "72nd" 71 "71st" 70 "70th" 69 "69th" 68 "68th" 67 "67th" 66 "66th" 65 "65th" 64 "64th" 63 "63rd" 62 "62nd" 61 "61st" 60 "60th" 59 "59th" 58 "58th" 57 "57th" 56 "56th" 55 "55th" 54 "54th" 53 "53rd" 52 "52nd" 51 "51st" 50 "50th" 49 "49th" 48 "48th" 47 "47th" 46 "46th" 45 "45th" 44 "44th" 43 "43rd" 42 "42nd" 41 "41st" 40 "40th" 39 "39th" 38 "38th" 37 "37th" 36 "36th" 35 "35th" 34 "34th" 33 "33rd" 32 "32nd" 31 "31st" 30 "30th" 29 "29th" 28 "28th" 27 "27th" 26 "26th" 25 "25th" 24 "24th" 23 "23rd" 22 "22nd" 21 "21st" 20 "20th" 19 "19th" 18 "18th" 17 "17th" 16 "16th" 15 "15th" 14 "14th" 13 "13th" 12 "12th" 11 "11th" 10 "10th" 9 "9th" 8 "8th" 7 "7th" 6 "6th" 5 "5th" 4 "4th" 3 "3rd" 2 "2nd" 1 "1st" 0 "0" ;
+VAL_ 2566868769 GearModeDt 15 "Not Available" 14 "Spare" 13 "Spare" 12 "Spare" 11 "Spare" 10 "Spare" 9 "Spare" 8 "C" 7 "A" 6 "L" 5 "R" 4 "N" 3 "P" 2 "D" 1 "M" 0 "IDLE" ;
+VAL_ 2566878497 DoorOpenStsDt 7 "Not Available" 6 "Spare" 5 "Spare" 4 "Spare" 3 "AllOpen" 2 "PsgnrOpen_BusRearOpen" 1 "DrvOpen_BusFrontOpen" 0 "AllClose" ;
+VAL_ 2566878497 SideMenuDriverSelection_16Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_15Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_14Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_13Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_12Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_11Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_10Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_09Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_08Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_07Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_06Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_05Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_04Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_03Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_02Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 SideMenuDriverSelection_01Dt 1 "Checked" 0 "Unchecked" ;
+VAL_ 2566878497 CursorMoveDt 7 "No direction" 6 "No direction" 5 "Back" 4 "Enter" 3 "Right" 2 "Left" 1 "Down" 0 "Up" ;
+VAL_ 2566878497 VolumeUnitDt 1 "Galon" 0 "Liters" ;
+VAL_ 2566878497 TemperatureUnitDt 1 "Fahrenheit" 0 "Celsius" ;
+VAL_ 2566878497 LanguageDt 7 "Spare" 6 "Spare" 5 "Spare" 4 "AR" 3 "FR" 2 "ES" 1 "EN" 0 "PT" ;
+VAL_ 2566878497 ConsumptionUnitDt 3 "mpg" 2 "L/100 km" 1 "L/h" 0 "km/L" ;
+VAL_ 2566878497 PressureUnitDt 1 "Psi" 0 "bar" ;
+VAL_ 2566878497 DigitalSpeedUnitDt 1 "mph" 0 "km/h" ;
+VAL_ 2566878497 DistanceUnitDt 1 "miles" 0 "kilometer" ;
+VAL_ 2566858017 ESpdRedRangeDt 31 "Not Available" 30 "Invalid" 29 "Invalid" 28 "Invalid" 27 "Invalid" 26 "Invalid" 25 "Invalid" 24 "Invalid" 23 "Invalid" 22 "Invalid" 21 "Invalid" 20 "Invalid" 19 "Invalid" 18 "Invalid" 17 "Invalid" 16 "Invalid" 15 "Invalid" 14 "Invalid" 13 "Invalid" 12 "Invalid" 11 "Invalid" 10 "Invalid" 9 "Invalid" 8 "Invalid" 7 "Invalid" 6 "Invalid" 5 "Invalid" 4 "Invalid" 3 "ESpd_45_4100_4500" 2 "ESpd_35_2900_3500" 1 "ESpd_30_2500_3000" 0 "ESpd_30_2600_3000" ;
+VAL_ 2566858017 ESpdYellowRangeDt 31 "Not Available" 30 "Invalid" 29 "Invalid" 28 "Invalid" 27 "Invalid" 26 "Invalid" 25 "Invalid" 24 "Invalid" 23 "Invalid" 22 "Invalid" 21 "Invalid" 20 "Invalid" 19 "Invalid" 18 "Invalid" 17 "Invalid" 16 "Invalid" 15 "Invalid" 14 "Invalid" 13 "Invalid" 12 "ESpd_35_2300_2800" 11 "ESpd_35_2000_2600" 10 "ESpd_35_2200_2600" 9 "ESpd_35_2000_2500" 8 "ESpd_35_2100_2500" 7 "ESpd_35_2100_2600" 6 "ESpd_35_2400_2800" 5 "ESpd_35_2200_2700" 4 "ESpd_30_1900_2400" 3 "ESpd_30_2000_2400" 2 "ESpd_30_2000_2500" 1 "ESpd_30_1800_2400" 0 "ESpd_30_1800_2500" ;
+VAL_ 2566858017 ESpdGreenRangeDt 31 "Not Available" 30 "Invalid" 29 "Invalid" 28 "Invalid" 27 "Invalid" 26 "Invalid" 25 "Invalid" 24 "Invalid" 23 "Invalid" 22 "Invalid" 21 "Invalid" 20 "Invalid" 19 "Invalid" 18 "Invalid" 17 "Invalid" 16 "Invalid" 15 "Invalid" 14 "Invalid" 13 "Invalid" 12 "ESpd_45_1500_2300" 11 "ESpd_45_1500_2500" 10 "ESpd_45_1300_2300" 9 "ESpd_35_1300_1800" 8 "ESpd_35_1300_2000" 7 "ESpd_35_1200_1800" 6 "ESpd_35_1200_2000" 5 "ESpd_30_1200_1700" 4 "ESpd_30_1200_1600" 3 "ESpd_30_1100_1600" 2 "ESpd_30_1100_1700" 1 "ESpd_30_1000_1500" 0 "ESpd_30_1000_1600" ;
+VAL_ 2566858017 EngineSpeedDt 8191 "Not Available" 8190 "Out of range" 4500 "Max_4500_RPM" 4000 "4000" 3000 "3000" 2000 "2000" 1000 "1000" 4501 "Out of range" 0 "0" ;
+VAL_ 2566858017 VehicleSpeedDt 250 "Max_250_Km/h" 200 "200" 150 "150" 100 "100" 50 "50" 0 "0" 255 "Out of Range" 254 "Out of Range" 253 "Out of Range" 252 "Out of Range" 251 "Out of Range" ;
+VAL_ 2566877975 ICInTrm15Sts 3 "Not_Available" 2 "Reserved" 1 "ON" 0 "OFF" ;
+VAL_ 2566877975 ICIntPhotosensorSts 1023 "Not_Available" 1022 "Faulty (error indication)" 1021 "Reserved" 1020 "Reserved" 1019 "Reserved" 1018 "Reserved" 1017 "Reserved" 1016 "Reserved" 1015 "Reserved" 1014 "Reserved" 1013 "Reserved" 1012 "Reserved" 1011 "Reserved" 1010 "Reserved" 1009 "Reserved" 1008 "Reserved" 1007 "Reserved" 1006 "Reserved" 1005 "Reserved" 1004 "Reserved" 1003 "Reserved" 1002 "Reserved" 1001 "Reserved" ;
+VAL_ 2566857249 ICTelltale12Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed8Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed7Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed6Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed5Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed4Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed3Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed2Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtLed1Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed7Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed6Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed5Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed4Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed3Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed2Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed8Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphLftLed1Ctrl 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICBargraphRghtBhvrCtrl 3 "Solid
+" 2 "Fast_Flash
+" 1 "Slow_Flash
+" 0 "Solid" ;
+VAL_ 2566857249 ICBargraphLftBhvrCtrl 3 "Solid
+" 2 "Fast_Flash
+" 1 "Slow_Flash
+" 0 "Solid" ;
+VAL_ 2566857249 ICSoundVlmCtrl 255 "Reserved" 254 "Reserved" 253 "Reserved" 252 "Reserved" 251 "Reserved" ;
+VAL_ 2566857249 ICTelltale11Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale10Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale09Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale08Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale07Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale06Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale05Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale04Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale03Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale02Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICTelltale01Ctrl 3 "Fast_Flash" 2 "Slow_Flash" 1 "ON" 0 "OFF" ;
+VAL_ 2566857249 ICSoundCtrl 63 "Invalid" 62 "Invalid" 61 "Invalid" 60 "Invalid" 59 "Invalid" 58 "Invalid" 57 "Invalid" 56 "Invalid" 55 "Invalid" 54 "Invalid" 53 "Invalid" 52 "Invalid" 51 "Invalid" 50 "Invalid" 49 "Invalid" 48 "Invalid" 47 "Invalid" 46 "Invalid" 45 "Invalid" 44 "Invalid" 43 "Invalid" 42 "Invalid" 41 "Invalid" 40 "Invalid" 39 "Invalid" 38 "Invalid" 37 "Invalid" 36 "Invalid" 35 "sound35" 34 "sound34" 33 "sound33" 32 "sound32" 31 "sound31" 30 "sound30" 29 "sound29" 28 "sound28" 27 "sound27" 26 "sound26" 25 "sound25" 24 "sound24" 23 "sound23" 22 "sound22" 21 "sound21" 20 "sound20" 19 "sound19" 18 "sound18" 17 "sound17" 16 "sound16" 15 "sound15" 14 "sound14" 13 "sound13" 12 "sound12" 11 "sound11" 10 "sound10" 9 "sound9" 8 "sound8" 7 "sound7" 6 "sound6" 5 "sound5
+" 4 "sound4
+" 3 "sound3
+" 2 "sound2
+" 1 "sound1
+" 0 "Sound_Stop
+" ;
+VAL_ 2566878231 ICILLDispSts 3 "OFF Display + Illumination" 2 "ON Illumination in Protection" 1 "ON Illumination Under-Derating
+" 0 "ON No Derating in Illumination" ;
+VAL_ 2566878231 ICILLDispPWMSts 255 "Not_Available" 254 "Reserved" 253 "Reserved" 252 "Reserved" 251 "Reserved" ;
+VAL_ 2566867479 ICAssetSts 15 "Not_Available" 14 "Not_Available" 13 "Not_Available" 12 "Not_Available" 11 "Not_Available" 10 "Not_Available" 9 "Not_Available" 8 "Disp_Failure" 7 "Disp_Full_02" 6 "Disp_Full_01" 5 "Disp_Basic" 4 "Disp_Welcome" 3 "Disp_Alerts_02" 2 "Disp_Alerts_01" 1 "Disp_Splash_Screen" 0 "Disp_LC_WakeupSequence" ;
+VAL_ 2566867479 ICSoundSts 15 "Not_Available
+" 14 "Sound_Failure
+" 13 "Sound_Timeout
+" 12 "Sound_Stopped
+" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved
+" 6 "Reserved" 5 "Reserved
+" 4 "Reserved" 3 "Reserved" 2 "Sound_Playing
+" 1 "Sound_Ready
+" 0 "Sound_Loading
+" ;
+VAL_ 2566867479 ICPMSts 15 "Not_Available
+" 14 "PM_Voltage_Alarm" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Reserved" 6 "Reserved" 5 "Reserved" 4 "PM_UV2
+" 3 "PM_UV1
+" 2 "PM_OV2
+" 1 "PM_OV1
+" 0 "PM_Normal_Voltage
+" ;
+VAL_ 2566867479 ICOMSts 15 "Not_Available" 14 "Not_Available" 13 "Not_Available" 12 "Not_Available" 11 "Not_Available" 10 "Not_Available" 9 "Not_Available" 8 "SY_Flashing_Mode" 7 "ActiveMode" 6 "TimeoutFailureMode" 5 "LC_Wakeup_Sequence" 4 "UV_Mode" 3 "OV_Mode" 2 "ASW_Failure" 1 "ShutdownMode" 0 "SleepMode" ;
+VAL_ 2566873889 ICILLTelltaleTransCtrl 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566873889 ICILLTelltaleLvlCtrl 255 "Reserved" 254 "Reserved" 253 "Reserved" 252 "Reserved" 251 "Reserved" ;
+VAL_ 2566873889 ICILLDispTransCtrl 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566873889 ICILLDispLvlCtrl 255 "Reserved" 254 "Reserved" 253 "Reserved" 252 "Reserved" 251 "Reserved" ;
+VAL_ 2566873889 ICILLBargraphSclsTransCtrl 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566873889 ICILLBargraphSclsLvlCtrl 255 "Reserved" 254 "Reserved" 253 "Reserved" 252 "Reserved" 251 "Reserved" ;
+VAL_ 2566873889 ICILLBargraphLdTransCtrl 1 "Enabled" 0 "Disabled" ;
+VAL_ 2566873889 ICILLBargraphLdLvlCtrl 255 "Reserved" 254 "Reserved" 253 "Reserved" 252 "Reserved" 251 "Reserved" ;
+VAL_ 2566867233 ICOMCtrl 15 "Reserved
+" 14 "Reserved
+" 13 "Reserved
+" 12 "Reserved
+" 11 "Reserved
+" 10 "Reserved
+" 9 "Reserved
+" 8 "Reserved
+" 7 "Reserved
+" 6 "Reserved
+" 5 "Reserved
+" 4 "Reserved
+" 3 "Reserved
+" 2 "Flashing_Mode
+" 1 "Wake-up
+" 0 "Shutdown
+" ;
+

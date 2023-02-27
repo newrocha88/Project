@@ -1,0 +1,10 @@
+9/26/2022 10:01:34 AM - Starting A2L_Generator v3.0.22.29848
+9/26/2022 10:01:34 AM - Parsing arguments...pass
+9/26/2022 10:01:34 AM - Loading configuration file [C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_BTMS\Host\A2L_Generator\adapt\A2L.config] ... pass
+9/26/2022 10:01:34 AM - StartOperation : Starting job 1: A2LTransform
+9/26/2022 10:01:34 AM - ASAM_Module.ParseGroups : Duplicate names found for groups. Group has been renamed to: SYSTEM.P_CAN.Generic_DM1_Rx_SA00.Generic_DTC_Filter.2.
+9/26/2022 10:01:34 AM - ASAM_Module.ParseGroups : Duplicate names found for groups. Group has been renamed to: SYSTEM.P_CAN.Generic_DM1_Rx_SA00.Generic_DTC_Filter.0.
+9/26/2022 10:01:34 AM - Conversion succesfull.
+9/26/2022 10:01:34 AM - StopOperation : Ending job 1: A2LTransform
+9/26/2022 10:01:34 AM - StopOperation : Operation cmdStatus Finished_Success
+9/26/2022 10:01:34 AM - StopOperation : Operation duration 2233979

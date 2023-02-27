@@ -1,0 +1,8 @@
+2/23/2023 6:01:45 PM - Starting A2L_Generator v3.0.22.29848
+2/23/2023 6:01:45 PM - Parsing arguments...pass
+2/23/2023 6:01:45 PM - Loading configuration file [C:\PROGRA~1\MBDS_V~1\MBRT\eBSG_EVO_MASTER\Host\A2L_Generator\adapt\A2L.config] ... pass
+2/23/2023 6:01:45 PM - StartOperation : Starting job 1: A2LTransform
+2/23/2023 6:01:45 PM - Conversion succesfull.
+2/23/2023 6:01:45 PM - StopOperation : Ending job 1: A2LTransform
+2/23/2023 6:01:45 PM - StopOperation : Operation cmdStatus Finished_Success
+2/23/2023 6:01:45 PM - StopOperation : Operation duration 1997037

@@ -1,0 +1,54 @@
+Host OS:	Windows
+ELXR: Copyright (C) 1983-2015 Green Hills Software.  All Rights Reserved.
+Release: Compiler v2015.1.6
+Build Directory: [Directory] COMP-VAL-WIN31:l:/compiler/release-branch-2015-1-comp/build/v2015.1-2015-10-18/win64-comp
+Revision: [VCInfo] http://toolsvc/branches/release-branch-70/src@543895 (built by auto-compiler)
+Revision Date: Mon Oct 19 01:26:52 2015
+
+Release Date: Mon Oct 19 03:10:30 2015
+
+
+
+
+Load Map Mon Sep 26 09:44:42 2022
+Image Summary
+
+  Section              Base      Size(hex)    Size(dec)  SecOffs
+  CANConfigDatasetPayloadSection 01de80a0  00000814         2068   0000080
+  CGEN_PGN_MSGBUFFERS  0000e000  00000564         1380   0000000
+  .text                0000e564  00000000            0   0000000
+  .data                0000e564  00000000            0   0000000
+  .bss                 0000e564  00000000            0   0000000
+  .debug_info          00000000  000037ab        14251   0000894
+  .debug_abbrev        00000000  000000c3          195   000403f
+  .debug_line          00000000  000006a9         1705   0004102
+  .debug_macinfo       00000000  00000bad         2989   00047ab
+  .linfix              00000000  00000000            0   0000000
+  .gstackfix           00000000  00000000            0   0000000
+
+Load Map Mon Sep 26 09:44:42 2022
+Module Summary
+
+  Origin+Size    Section          Module
+01de80a0+000814  CANConfigDatasetPayloadSection CANConfigDataset.o
+0000e000+000564  CGEN_PGN_MSGBUFFERS CANConfigDataset.o
+00000000+0037ab  .debug_info      CANConfigDataset.o
+00000000+0000c3  .debug_abbrev    CANConfigDataset.o
+00000000+0006a9  .debug_line      CANConfigDataset.o
+00000000+000bad  .debug_macinfo   CANConfigDataset.o
+
+Load Map Mon Sep 26 09:44:42 2022
+Global Symbols (sorted alphabetically)
+
+ CGEN_PGN_MSGBUFFERS 0000e550+000014 CGEN_au8GenMsgBuffer_PGNRXB_DevId741_C3_118_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e000+000170 CGEN_au8GenMsgBuffer_PGNRXB_DevId811_C2_124_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e4c0+000034 CGEN_au8GenMsgBuffer_PGNRXB_DevId811_C2_125_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e508+000034 CGEN_au8GenMsgBuffer_PGNRXB_DevId811_C2_126_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e4f4+000014 CGEN_au8GenMsgBuffer_PGNRXB_DevId811_C2_130_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e198+0001b8 CGEN_au8GenMsgBuffer_PGNTXB_DevId812_C2_122_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e53c+000014 CGEN_au8GenMsgBuffer_PGNTXB_DevId812_C2_127_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e170+000028 CGEN_au8GenMsgBuffer_PGNTXB_DevId812_C2_129_RxTx
+ CGEN_PGN_MSGBUFFERS 0000e350+000170 CGEN_au8PgnTemporaryBuffer
+ CANConfigDatasetPayloadSection 01de80a0+000814 CGEN_rstCANConfigDatasetPayloadSection
+                  00000001+000000 __ghs_do_fp_init
+                  00000002+000000 __ghs_log_fee_level

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/sl_modelref_info/R2018b">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="9886f1c1-fb88-48f8-aa08-811fca69de7c">
+    <autoSolverStatusFlags>331</autoSolverStatusFlags>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="40bf513d-6b7b-4283-988d-a9aa4ea75d82">
+      <modelName>APP_DevicesControl_</modelName>
+      <modelPath>APP_DevicesControl_</modelPath>
+    </childModelRefInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fundamentalSampleTimePeriod>0.22399999999999998</fundamentalSampleTimePeriod>
+    <globalVariables>DIAG_DateandTime_LocalTime_DIAG_001318</globalVariables>
+    <globalVariables>DIAG_DateandTime_SetTime_DIAG_001322</globalVariables>
+    <globalVariables>DIAG_DateandTime_SystemTime_DIAG_001324</globalVariables>
+    <globalVariables>DIAG_TSUD_ShaftSpeed_DIAG_001301</globalVariables>
+    <globalVariables>DIAG_TSUD_VehicleSpeed_DIAG_001303</globalVariables>
+    <globalVariables>INOUT_RAMDevice_boSystemWake_000003</globalVariables>
+    <globalVariables>IN_AnalogInputsPWR_IN_PWR_000721</globalVariables>
+    <globalVariables>IN_DateandTime_LocalTime_001317</globalVariables>
+    <globalVariables>IN_DateandTime_SystemTime_001323</globalVariables>
+    <globalVariables>IN_DateandTime_TicksCount_001325</globalVariables>
+    <globalVariables>IN_DigitalInputs_IN_DIG_36_000060</globalVariables>
+    <globalVariables>IN_InertianSensor_Accelerometer_Ax_002138</globalVariables>
+    <globalVariables>IN_InertianSensor_Accelerometer_Ay_002137</globalVariables>
+    <globalVariables>IN_InertianSensor_Accelerometer_Az_002136</globalVariables>
+    <globalVariables>IN_LinSlave_DeviceState_002325</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_D1_001352</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_D4_001353</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_D7_001354</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_DM_001355</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_MsgCounter_001356</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_N_001351</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_R1_001350</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_RM_001349</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DNR_Position_SwitchStatus_001357</globalVariables>
+    <globalVariables>IN_NodeDNR_DNR_Position_DeviceState_002273</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_DeviceState_002272</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn10_001370</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn1_001361</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn2_001362</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn3LPress_001372</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn3SPress_001371</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn3_001363</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn4LPress_001374</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn4SPress_001373</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn4_001364</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn5LPress_001376</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn5SPress_001375</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn5_001365</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn6_001366</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn7_001367</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn8_001368</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_Btn9_001369</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_ErrorLoc_001360</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_ErrorType_001359</globalVariables>
+    <globalVariables>IN_NodeMFL_MFL_BtnInfo_MFL_BtnInfo_MsgCounter_001358</globalVariables>
+    <globalVariables>IN_PCAN_Rx_Ctrl_DateTime_SetTime_Ctrl_DateTime_HourOffs_001681</globalVariables>
+    <globalVariables>IN_PCAN_Rx_Ctrl_DateTime_SetTime_Ctrl_DateTime_MinuteOf_001680</globalVariables>
+    <globalVariables>IN_PCAN_Rx_Ctrl_DateTime_SetTime_Ctrl_DateTime_NewSyste_001679</globalVariables>
+    <globalVariables>IN_PCAN_Rx_Ctrl_DateTime_SetTime_Ctrl_DateTime_SetTime_001678</globalVariables>
+    <globalVariables>IN_PCAN_Rx_Ctrl_DateTime_SetTime_Ctrl_MessageState_001713</globalVariables>
+    <globalVariables>IN_TSUD_ShaftSpeed_001300</globalVariables>
+    <globalVariables>IN_TSUD_VehicleSpeed_001302</globalVariables>
+    <globalVariables>OUT_DateandTime_HourOffset_001316</globalVariables>
+    <globalVariables>OUT_DateandTime_MinuteOffset_001319</globalVariables>
+    <globalVariables>OUT_DateandTime_NewSystemTime_001320</globalVariables>
+    <globalVariables>OUT_DateandTime_SetTime_001321</globalVariables>
+    <globalVariables>OUT_InertianSensor_Accelerometer_DeviceEnable_002135</globalVariables>
+    <globalVariables>OUT_LIN_01_LinNetworkRequest1_001396</globalVariables>
+    <globalVariables>OUT_LIN_01_ScheduleTable_001397</globalVariables>
+    <globalVariables>OUT_LinSlave_SetFrameLss1B_002326</globalVariables>
+    <globalVariables>OUT_LinSlave_SetFrameMlfB_002327</globalVariables>
+    <globalVariables>OUT_LinSlave_WakeupRequest_002328</globalVariables>
+    <globalVariables>OUT_PCAN_Rx_Ctrl_DateTime_SetTime_Ctrl_MessageEnable_001712</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_ACCELEROMETER_MessageEnable_002134</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_ACCELEROMETER_X_002131</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_ACCELEROMETER_Y_002132</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_ACCELEROMETER_Z_002133</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_Lin_Sts_BatteryVoltage_001647</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_Lin_Sts_Button_KL15_001648</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Acc_Lin_Sts_MessageEnable_001677</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_LocalTime_Sts_DateTime_DIAG_001806</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_LocalTime_Sts_DateTime_LocalT_001807</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_LocalTime_Sts_MessageEnable_001813</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_SetTime_Sts_DateTime_DIAG_001808</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_SetTime_Sts_MessageEnable_001814</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_SystemTime_Sts_DateTime_DIAG_001810</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_SystemTime_Sts_DateTime_Syste_001809</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_SystemTime_Sts_MessageEnable_001815</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_TicksCount_Sts_DateTime_Ticks_001811</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Date_DateTime_TicksCount_Sts_MessageEnable_001816</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Tsu_TSU_Sts_MessageEnable_001805</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Tsu_TSU_Sts_Speed_Shaft_001804</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Tsu_TSU_Sts_Speed_Shaft_DIAG_001803</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Tsu_TSU_Sts_Speed_Vehicle_001802</globalVariables>
+    <globalVariables>OUT_PCAN_Tx_Tsu_TSU_Sts_Speed_Vehicle_DIAG_001801</globalVariables>
+    <globalVariables>OUT_TSUD_DeviceEnable_001297</globalVariables>
+    <globalVariables>OUT_TSUD_SetDiagWriteOdoResponse_001304</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_BatteryVoltage_001395</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_Button_KL15_001389</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_Voltage_Normal_001390</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_Voltage_OV1_001391</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_Voltage_OV2_001392</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_Voltage_UV1_001393</globalVariables>
+    <globalVariables>OUT_Tester_1_BSG_STATUS_Voltage_UV2_001394</globalVariables>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <loggingSaveFormat>6</loggingSaveFormat>
+    <maxFreqHz>-1</maxFreqHz>
+    <removeDisableFunc>true</removeDisableFunc>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>0.22399999999999998</period>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>1</sampleTimeInheritanceRule>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;MF0 version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2018b&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;9c194ab8-7343-4053-8f63-c6ee72456029&quot;&gt;
+    &lt;clocks type=&quot;sto.Clock&quot; uuid=&quot;146a5ac6-8db6-4d01-803c-33bc3ea5c8c2&quot;&gt;
+      &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+      &lt;needsToProvideTimeDuringExecution&gt;true&lt;/needsToProvideTimeDuringExecution&gt;
+      &lt;resolution&gt;0.22399999999999998&lt;/resolution&gt;
+      &lt;specifiedClockTickConstraint&gt;PeriodicWithFixedResolution&lt;/specifiedClockTickConstraint&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;fe33c2c3-d13a-4fab-8c4a-a70789195853&quot;&gt;
+        &lt;baseTaskID&gt;_task0&lt;/baseTaskID&gt;
+        &lt;computedFundamentalStepSize&gt;0.22399999999999998&lt;/computedFundamentalStepSize&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;ca9448e6-c9d3-45a9-bd37-b11930501d60&quot;/&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;b49c4d3b-f055-44b4-bc85-e9098a688e06&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;5c25736f-27ce-4e1e-b365-43e82e6ce928&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;ca9448e6-c9d3-45a9-bd37-b11930501d60&quot;&gt;
+            &lt;annotation&gt;FiM&lt;/annotation&gt;
+            &lt;colorIndex&gt;8&lt;/colorIndex&gt;
+            &lt;description&gt;Fixed in Minor Step&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;-1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;9c194ab8-7343-4053-8f63-c6ee72456029&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;4cc74eca-7be7-40e8-bc54-858b90d4f8aa&quot;&gt;
+              &lt;offset&gt;1&lt;/offset&gt;
+              &lt;rateType&gt;ZOHContinuous&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;b49c4d3b-f055-44b4-bc85-e9098a688e06&quot;&gt;
+            &lt;annotation&gt;D1&lt;/annotation&gt;
+            &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+            &lt;description&gt;Discrete 1&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;9c194ab8-7343-4053-8f63-c6ee72456029&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;6811f2af-61ad-420c-807e-2a45b2db57f9&quot;&gt;
+              &lt;period&gt;0.22399999999999998&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task0&lt;/identifier&gt;
+          &lt;priority&gt;40&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Clock&quot; uuid=&quot;8d392c68-133a-4daf-99db-ce315c558afc&quot;&gt;
+      &lt;cNum&gt;2&lt;/cNum&gt;
+      &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+      &lt;resolution&gt;-1&lt;/resolution&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;7ee7e509-2ca2-4861-9a74-cc4b7d9c08f6&quot;&gt;
+        &lt;computedFundamentalStepSize&gt;-1&lt;/computedFundamentalStepSize&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;1849b734-f0bb-4608-b2c0-eed32e540b23&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;6b39ac1b-a61c-4567-8795-aaba084ff6d7&quot;&gt;
+          &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;1849b734-f0bb-4608-b2c0-eed32e540b23&quot;&gt;
+            &lt;eventSourceType&gt;PARAMETER_CHANGE_EVENT&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;-1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;9c194ab8-7343-4053-8f63-c6ee72456029&quot;/&gt;
+            &lt;stringID&gt;ParameterChangeEvent&lt;/stringID&gt;
+            &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+            &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e6b217b5-5248-4499-b0b9-c8208af7fd86&quot;&gt;
+              &lt;period&gt;inf&lt;/period&gt;
+              &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;1&lt;/tNum&gt;
+          &lt;timeKeeperClockID&gt;ParameterChangeEvent&lt;/timeKeeperClockID&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+          &lt;priority&gt;-1&lt;/priority&gt;
+          &lt;schedulingClockID&gt;ParameterChangeEvent&lt;/schedulingClockID&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Clock&quot; uuid=&quot;26b68a5e-918c-4e81-8646-b33a32105108&quot;&gt;
+      &lt;cNum&gt;1&lt;/cNum&gt;
+      &lt;identifier&gt;NonTunableParameterChangeEvent&lt;/identifier&gt;
+      &lt;resolution&gt;-1&lt;/resolution&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;5754d70b-083e-45bc-8a58-a343c7c562c5&quot;&gt;
+        &lt;computedFundamentalStepSize&gt;-1&lt;/computedFundamentalStepSize&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;76aaabf7-1cfd-4936-bd3d-b17ce0bc009e&quot;&gt;
+      &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;ac77f58f-e18f-49d0-931b-10c0d767b8b2&quot;&gt;
+      &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+      &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;5c25736f-27ce-4e1e-b365-43e82e6ce928&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;6b39ac1b-a61c-4567-8795-aaba084ff6d7&quot;/&gt;
+  &lt;/sto.Registry&gt;
+&lt;/MF0&gt;</timingAndTaskingRegistry>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="b0623d34-c972-4ee1-b2dd-e72ed3e1b479"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="c577cccc-ef4a-40e1-8c8c-8cfbb8f250f7"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="b1a1052e-d0b2-446a-8fbc-d3a702b10e2c">
+      <fixedStepSize>0.22399999999999998</fixedStepSize>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <useDivForNetSlopComp>1</useDivForNetSlopComp>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="4a61232e-ba5b-41dd-9e6d-fbb0ad4508dc">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>32</prodBitPerPointer>
+        <prodBitPerPtrDiffT>32</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>32</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicInteger>3</prodLargestAtomicInteger>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>32</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="42e35813-bc47-4301-975e-f52ab09587ed"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="fc56bf68-e3df-4d94-a2cf-e61ac1507f52"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="0c5eb527-a949-422b-951b-d384799a7e45">
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="405b2605-e76d-4533-9542-2b19c3d2ab94"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="8115667d-5e9b-4edc-a5b6-88fc20c724f3">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="98e92fea-abae-4964-899f-4e0101f1d7cb"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="9f7c9362-8cb5-4472-8027-a7379c8ce8e5"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="5ffd2d1e-3b86-4706-955d-433bd353613a"/>
+    </portGroupsRequireSameRate>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="c76b5bae-cca2-40d3-a4ec-b8197cdee5c6"/>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="b95383da-347f-4d28-b46a-825bf320eefb">
+      <compServicePortMap>AAFJTQAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA==</compServicePortMap>
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+      <variantSimulinkFunctions type="ModelRefInfoRepo.VariantSimulinkFunctions" uuid="f7be9d8d-0df6-4ff1-a2bc-7721c8d50ef6"/>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="620a024b-72b1-4b5f-9b46-48dc633a4b4d"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

@@ -1,0 +1,165 @@
+
+
+LIN_description_file;
+LIN_protocol_version = "1.3";
+LIN_language_version = "1.3";
+LIN_speed = 9.6 kbps;
+
+Nodes {
+  Master: BSGEvo, 5 ms, 0.1 ms ;
+  Slaves: MFL ;
+}
+
+Diagnostic_addresses {
+  MFL : 255;
+}
+
+Signals {
+  MFL_Version_Hw: 4, 0, MFL, BSGEvo ;
+  MFL_Version_Sw: 4, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn1: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn10: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn2: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn3: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn3LPress: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn3SPress: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn4: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn4LPress: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn4SPress: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn5: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn5LPress: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn5SPress: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn6: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn7: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn8: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_Btn9: 1, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_ErrorLoc: 4, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_ErrorType: 4, 0, MFL, BSGEvo ;
+  MFL_BtnInfo_MsgCounter: 4, 0, MFL, BSGEvo ;
+  BSGEvo_Illumi_DutyCycle: 8, 0, BSGEvo, MFL ;
+}
+
+Diagnostic_signals {
+  MasterReqB0: 8, 0 ;
+  MasterReqB1: 8, 0 ;
+  MasterReqB2: 8, 0 ;
+  MasterReqB3: 8, 0 ;
+  MasterReqB4: 8, 0 ;
+  MasterReqB5: 8, 0 ;
+  MasterReqB6: 8, 0 ;
+  MasterReqB7: 8, 0 ;
+  SlaveRespB0: 8, 0 ;
+  SlaveRespB1: 8, 0 ;
+  SlaveRespB2: 8, 0 ;
+  SlaveRespB3: 8, 0 ;
+  SlaveRespB4: 8, 0 ;
+  SlaveRespB5: 8, 0 ;
+  SlaveRespB6: 8, 0 ;
+  SlaveRespB7: 8, 0 ;
+}
+
+
+
+Frames {
+  MFL_BtnInfo: 33, MFL, 4 {
+    MFL_BtnInfo_MsgCounter, 0 ;
+    MFL_BtnInfo_ErrorType, 8 ;
+    MFL_BtnInfo_ErrorLoc, 12 ;
+    MFL_BtnInfo_Btn1, 16 ;
+    MFL_BtnInfo_Btn2, 17 ;
+    MFL_BtnInfo_Btn3, 18 ;
+    MFL_BtnInfo_Btn4, 19 ;
+    MFL_BtnInfo_Btn5, 20 ;
+    MFL_BtnInfo_Btn6, 21 ;
+    MFL_BtnInfo_Btn7, 22 ;
+    MFL_BtnInfo_Btn8, 23 ;
+    MFL_BtnInfo_Btn9, 24 ;
+    MFL_BtnInfo_Btn10, 25 ;
+    MFL_BtnInfo_Btn3SPress, 26 ;
+    MFL_BtnInfo_Btn3LPress, 27 ;
+    MFL_BtnInfo_Btn4SPress, 28 ;
+    MFL_BtnInfo_Btn4LPress, 29 ;
+    MFL_BtnInfo_Btn5SPress, 30 ;
+    MFL_BtnInfo_Btn5LPress, 31 ;
+  }
+  MFL_Version: 1, MFL, 4 {
+    MFL_Version_Sw, 0 ;
+    MFL_Version_Hw, 4 ;
+  }
+  BSGEvo_Illumi: 3, BSGEvo, 2 {
+    BSGEvo_Illumi_DutyCycle, 0 ;
+  }
+}
+
+
+Diagnostic_frames {
+  MasterReq: 0x3c {
+    MasterReqB0, 0 ;
+    MasterReqB1, 8 ;
+    MasterReqB2, 16 ;
+    MasterReqB3, 24 ;
+    MasterReqB4, 32 ;
+    MasterReqB5, 40 ;
+    MasterReqB6, 48 ;
+    MasterReqB7, 56 ;
+  }
+  SlaveResp: 0x3d {
+    SlaveRespB0, 0 ;
+    SlaveRespB1, 8 ;
+    SlaveRespB2, 16 ;
+    SlaveRespB3, 24 ;
+    SlaveRespB4, 32 ;
+    SlaveRespB5, 40 ;
+    SlaveRespB6, 48 ;
+    SlaveRespB7, 56 ;
+  }
+}
+
+Schedule_tables {
+ Table1 {
+    BSGEvo_Illumi delay 50 ms ;
+    MFL_BtnInfo delay 50 ms ;
+  }
+}
+
+
+Signal_encoding_types {
+  BSGEvo_Illumi_DutyCycle_Encoding {
+    physical_value, 0, 250, 0.4, 0, "%" ;
+    logical_value, 251, "Parameter Specific Indicator" ;
+    logical_value, 252, "Reserved Range For Future Indication" ;
+    logical_value, 253, "Reserved Range For Future Indication" ;
+    logical_value, 254, "Error Indicator" ;
+    logical_value, 255, "Not Available" ;
+  }
+  MFL_BtnInfo_Btn_Encoding {
+    physical_value, 0, 1, 1, 0 ;
+    logical_value, 0, "Inactive" ;
+    logical_value, 1, "Active" ;
+  }
+  MFL_BtnInfo_ErrorLoc_Encoding {
+    physical_value, 0, 15, 1, 0 ;
+    logical_value, 2, "MFL right out of order" ;
+    logical_value, 8, "MFL left out of order" ;
+    logical_value, 10, "MFL right and left out of order" ;
+  }
+  MFL_BtnInfo_ErrorType_Encoding {
+    physical_value, 0, 15, 1, 0 ;
+    logical_value, 15, "Not Available" ;
+  }
+  MFL_BtnInfo_MsgCounter_Encoding {
+    physical_value, 0, 15, 1, 0 ;
+  }
+  MFL_Version_4bit_Encoding {
+    physical_value, 0, 15, 1, 0 ;
+  }
+}
+
+Signal_representation {
+  BSGEvo_Illumi_DutyCycle_Encoding: BSGEvo_Illumi_DutyCycle ;
+  MFL_BtnInfo_Btn_Encoding: MFL_BtnInfo_Btn1, MFL_BtnInfo_Btn10, MFL_BtnInfo_Btn2, MFL_BtnInfo_Btn3, MFL_BtnInfo_Btn3LPress, MFL_BtnInfo_Btn3SPress, MFL_BtnInfo_Btn4, MFL_BtnInfo_Btn4LPress, MFL_BtnInfo_Btn4SPress, MFL_BtnInfo_Btn5, MFL_BtnInfo_Btn5LPress, MFL_BtnInfo_Btn5SPress, MFL_BtnInfo_Btn6, MFL_BtnInfo_Btn7, MFL_BtnInfo_Btn8, MFL_BtnInfo_Btn9 ;
+  MFL_BtnInfo_ErrorLoc_Encoding: MFL_BtnInfo_ErrorLoc ;
+  MFL_BtnInfo_ErrorType_Encoding: MFL_BtnInfo_ErrorType ;
+  MFL_BtnInfo_MsgCounter_Encoding: MFL_BtnInfo_MsgCounter ;
+  MFL_Version_4bit_Encoding: MFL_Version_Hw, MFL_Version_Sw ;
+}

@@ -1,0 +1,137 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   17 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c2_MBDS_Modules"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c2_MBDS_Modules"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_H_StandAlone"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "H_StandAlone"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u16_Timer"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u16_Timer"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "i8_HBHS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "i8_HBHS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "i8_HBLS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "i8_HBLS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "i8_HBOFF"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "i8_HBOFF"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HOFF"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HOFF"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HBrake"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HBrake"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HOLD"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HOLD"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HUp"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HUp"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HDown"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HDown"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HFail"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HFail"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HWait"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HWait"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HSimu"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HSimu"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HForceBrake"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HForceBrake"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "u8_HBrakeSimulation"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "u8_HBrakeSimulation"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

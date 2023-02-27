@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/sl_modelref_info/R2018b">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="06456f3f-5b09-474d-9482-eff49c9088e7">
+    <autoSolverStatusFlags>331</autoSolverStatusFlags>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="259f3f32-ca97-4653-a725-36cfeaf18830">
+      <modelName>APP_CanInterface_</modelName>
+      <modelPath>APP_CanInterface_</modelPath>
+    </childModelRefInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fundamentalSampleTimePeriod>0.20000000000000001</fundamentalSampleTimePeriod>
+    <globalVariables>IN_DEMDiagnosticEventManager_DeviceState_002238</globalVariables>
+    <globalVariables>IN_DM1_10_Filter_boFilter1_002234</globalVariables>
+    <globalVariables>IN_DigitalInputs_IN_DIG_36_000060</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_AmberWarningLampFlash_002232</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_AmberWarningLamp_002233</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_MalfunctionIndicatorLampFlash_002230</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_MalfunctionIndicatorLamp_002231</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_MessageState_002228</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_ProtectLampFlash_002226</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_ProtectLamp_002227</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_RedStopLampFlash_002224</globalVariables>
+    <globalVariables>IN_PCAN_DM1_10_RedStopLamp_002225</globalVariables>
+    <globalVariables>OUT_ACAN_GW_18DAF1E1_MessageEnable_002357</globalVariables>
+    <globalVariables>OUT_ACAN_MessageForwardingEnable_002356</globalVariables>
+    <globalVariables>OUT_DCAN_GW_00000501_MessageEnable_001327</globalVariables>
+    <globalVariables>OUT_DCAN_GW_00000502_MessageEnable_001328</globalVariables>
+    <globalVariables>OUT_DCAN_GW_00000503_MessageEnable_001329</globalVariables>
+    <globalVariables>OUT_DCAN_GW_00000504_MessageEnable_001330</globalVariables>
+    <globalVariables>OUT_DCAN_GW_00000FF1_MessageEnable_001331</globalVariables>
+    <globalVariables>OUT_DCAN_GW_18DA17F0_MessageEnable_001332</globalVariables>
+    <globalVariables>OUT_DCAN_GW_18DA17F1_MessageEnable_001333</globalVariables>
+    <globalVariables>OUT_DCAN_GW_18DAE1F1_MessageEnable_001334</globalVariables>
+    <globalVariables>OUT_DCAN_MessageForwardingEnable_001337</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_DEMList_DTC_01_002237</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_DateAndTime_002242</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_Distance_002243</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition00_002239</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition01_002245</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition02_002246</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition03_002247</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition04_002248</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition05_002249</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition06_002250</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition07_002251</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition08_002252</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_EnableCondition09_002244</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame10_002270</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame1_002241</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame2_002253</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame3_002254</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame4_002255</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame5_002256</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame6_002266</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame7_002267</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame8_002268</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_FreezeFrame9_002269</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_OperationCycle_002235</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition00_002240</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition01_002258</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition02_002259</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition03_002260</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition04_002261</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition05_002262</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition06_002263</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition07_002264</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition08_002265</globalVariables>
+    <globalVariables>OUT_DEMDiagnosticEventManager_StorageCondition09_002257</globalVariables>
+    <globalVariables>OUT_DRCAN_GW_00000FF6_MessageEnable_001338</globalVariables>
+    <globalVariables>OUT_DRCAN_MessageForwardingEnable_001335</globalVariables>
+    <globalVariables>OUT_FMSCAN_GW_00000FF5_MessageEnable_001339</globalVariables>
+    <globalVariables>OUT_FMSCAN_MessageForwardingEnable_001336</globalVariables>
+    <globalVariables>OUT_HCAN_GW_00000FF7_MessageEnable_001341</globalVariables>
+    <globalVariables>OUT_HCAN_MessageForwardingEnable_001340</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_Ctrl50_FcnDA1_MessageEnable_002793</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_Ctrl50_FcnDA2_MessageEnable_002795</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_Ctrl50_ScrDA1_MessageEnable_002796</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_Ctrl50_ScrDA2_MessageEnable_002797</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_Ctrl50_SubView_MessageEnable_002794</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_ICHMI1CTRL_MessageEnable_002798</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_ICOM1CTRL_ICOMCtrl_002704</globalVariables>
+    <globalVariables>OUT_ICAN_BSG_TX_18DA1721_ICOM1CTRL_MessageEnable_002792</globalVariables>
+    <globalVariables>OUT_ICAN_GW_00000600_MessageEnable_001343</globalVariables>
+    <globalVariables>OUT_ICAN_GW_00000FF4_MessageEnable_001344</globalVariables>
+    <globalVariables>OUT_ICAN_GW_18DAF017_MessageEnable_001345</globalVariables>
+    <globalVariables>OUT_ICAN_GW_18DAF117_MessageEnable_001346</globalVariables>
+    <globalVariables>OUT_ICAN_MessageForwardingEnable_001342</globalVariables>
+    <globalVariables>OUT_PCAN_DM1_10_MessageEnable_002229</globalVariables>
+    <globalVariables>OUT_PCAN_GW_00000FF3_MessageEnable_001348</globalVariables>
+    <globalVariables>OUT_PCAN_GenericDM1TxMessage_DeviceEnable_002236</globalVariables>
+    <globalVariables>OUT_PCAN_MessageForwardingEnable_001347</globalVariables>
+    <globalVariables>nbo_False</globalVariables>
+    <globalVariables>nbo_True</globalVariables>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <loggingSaveFormat>6</loggingSaveFormat>
+    <maxFreqHz>-1</maxFreqHz>
+    <removeDisableFunc>true</removeDisableFunc>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>0.20000000000000001</period>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>1</sampleTimeInheritanceRule>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;MF0 version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2018b&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;99000250-3460-4008-ba57-efac131a5ed4&quot;&gt;
+    &lt;clocks type=&quot;sto.Clock&quot; uuid=&quot;58f6174b-f7e1-4c0f-9844-64b41c8c3a92&quot;&gt;
+      &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+      &lt;needsToProvideTimeDuringExecution&gt;true&lt;/needsToProvideTimeDuringExecution&gt;
+      &lt;resolution&gt;0.20000000000000001&lt;/resolution&gt;
+      &lt;specifiedClockTickConstraint&gt;PeriodicWithFixedResolution&lt;/specifiedClockTickConstraint&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;bf5b249e-ff57-46af-b22f-c4640a47e36d&quot;&gt;
+        &lt;baseTaskID&gt;_task0&lt;/baseTaskID&gt;
+        &lt;computedFundamentalStepSize&gt;0.20000000000000001&lt;/computedFundamentalStepSize&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;90942695-86b5-4881-92b1-4a93b3261a70&quot;/&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;567937dd-c09b-4b13-95ff-de5523f49c9d&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;0fbb7f4d-d26a-4d4e-9220-b84c83df8aa1&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;90942695-86b5-4881-92b1-4a93b3261a70&quot;&gt;
+            &lt;annotation&gt;FiM&lt;/annotation&gt;
+            &lt;colorIndex&gt;8&lt;/colorIndex&gt;
+            &lt;description&gt;Fixed in Minor Step&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;-1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;99000250-3460-4008-ba57-efac131a5ed4&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;930b6761-8c40-48fc-94e4-d14f84bb5da1&quot;&gt;
+              &lt;offset&gt;1&lt;/offset&gt;
+              &lt;rateType&gt;ZOHContinuous&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;567937dd-c09b-4b13-95ff-de5523f49c9d&quot;&gt;
+            &lt;annotation&gt;D1&lt;/annotation&gt;
+            &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+            &lt;description&gt;Discrete 1&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;99000250-3460-4008-ba57-efac131a5ed4&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;df8a4765-1576-4cad-8136-ea40aac35a3e&quot;&gt;
+              &lt;period&gt;0.20000000000000001&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task0&lt;/identifier&gt;
+          &lt;priority&gt;40&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Clock&quot; uuid=&quot;ae22f1f6-412d-4da6-9739-0fddb87b614b&quot;&gt;
+      &lt;cNum&gt;2&lt;/cNum&gt;
+      &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+      &lt;resolution&gt;-1&lt;/resolution&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;58d307eb-1501-46e8-ba29-4a5202a84a14&quot;&gt;
+        &lt;computedFundamentalStepSize&gt;-1&lt;/computedFundamentalStepSize&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;307587bc-b379-4843-a37b-b468f437f96a&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;50c9946c-82a1-428d-9a66-1c98385489b8&quot;&gt;
+          &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;307587bc-b379-4843-a37b-b468f437f96a&quot;&gt;
+            &lt;eventSourceType&gt;PARAMETER_CHANGE_EVENT&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;-1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;99000250-3460-4008-ba57-efac131a5ed4&quot;/&gt;
+            &lt;stringID&gt;ParameterChangeEvent&lt;/stringID&gt;
+            &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+            &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;385f9f9a-dfe6-40bb-accd-f813ee8a8daa&quot;&gt;
+              &lt;period&gt;inf&lt;/period&gt;
+              &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;1&lt;/tNum&gt;
+          &lt;timeKeeperClockID&gt;ParameterChangeEvent&lt;/timeKeeperClockID&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+          &lt;priority&gt;-1&lt;/priority&gt;
+          &lt;schedulingClockID&gt;ParameterChangeEvent&lt;/schedulingClockID&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Clock&quot; uuid=&quot;9cffa024-d077-49d1-9738-fb02834fb645&quot;&gt;
+      &lt;cNum&gt;1&lt;/cNum&gt;
+      &lt;identifier&gt;NonTunableParameterChangeEvent&lt;/identifier&gt;
+      &lt;resolution&gt;-1&lt;/resolution&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;8b9495e7-7283-488c-bca6-e7ac5ef3ad81&quot;&gt;
+        &lt;computedFundamentalStepSize&gt;-1&lt;/computedFundamentalStepSize&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;cd696f3c-e210-482b-b3c4-4b5812575504&quot;&gt;
+      &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;331c7e1f-f461-4fd2-8d37-0b3ea679f3bd&quot;&gt;
+      &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+      &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;0fbb7f4d-d26a-4d4e-9220-b84c83df8aa1&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;50c9946c-82a1-428d-9a66-1c98385489b8&quot;/&gt;
+  &lt;/sto.Registry&gt;
+&lt;/MF0&gt;</timingAndTaskingRegistry>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="9b8ed4ea-c9d0-4b9b-84fe-504c14b53c4a"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="d93f2b10-5558-47e9-b691-4f8c54bd5587"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="eb00a1b0-62f7-4088-97ae-6f99de3c7e60">
+      <fixedStepSize>0.20000000000000001</fixedStepSize>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <useDivForNetSlopComp>1</useDivForNetSlopComp>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="5e114577-e931-4293-bb04-38653600e4cd">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>32</prodBitPerPointer>
+        <prodBitPerPtrDiffT>32</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>32</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicInteger>3</prodLargestAtomicInteger>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>32</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="e9005e02-eb83-4f3b-a549-b72cc36c6a70"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="c35b993e-c317-483e-a68d-c51fde21927e"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="5e8045f1-ec35-4745-aa78-d36c0b8b8ad0">
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="a7c6ae5e-04c2-49a8-b4fa-3e7eb07185e4"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="0d706464-ee42-4013-97f8-e56f73efa347">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="c0af64f2-59df-4112-bfcf-046a6e16eeed"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="00346e9b-0b11-4c85-9fbe-87e6d8310e29"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="5bf8935b-5cdc-4b93-805b-99354bb8adbd"/>
+    </portGroupsRequireSameRate>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="55efdbd9-66b1-4f26-af63-add87f4993dc"/>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="a367689d-a815-4aaf-a165-ea40dc71e5a0">
+      <compServicePortMap>AAFJTQAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAJAAAAAAAAAA==</compServicePortMap>
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+      <variantSimulinkFunctions type="ModelRefInfoRepo.VariantSimulinkFunctions" uuid="061feab8-20ee-46d1-a0cc-dadf1ae815af"/>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="23539e4a-ebd6-4c8c-b293-7df868dcfffb"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

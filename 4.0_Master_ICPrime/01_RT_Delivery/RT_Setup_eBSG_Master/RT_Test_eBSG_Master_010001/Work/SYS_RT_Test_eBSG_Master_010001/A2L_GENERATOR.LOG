@@ -1,0 +1,8 @@
+Starting A2L_Generator v3.0.22.29848
+Parsing arguments...pass
+Loading configuration file [C:\PROGRA~1\MBDS_V~2\MBRT\eBSG_EVO_MASTER\Host\A2L_Generator\adapt\A2L.config] ... pass
+Starting job 1: A2LTransform
+Duplicate names found for groups. Group has been renamed to: SYSTEM.P_CAN.Generic_DM1_Rx_SA00.Generic_DTC_Filter.2.
+Duplicate names found for groups. Group has been renamed to: SYSTEM.P_CAN.Generic_DM1_Rx_SA00.Generic_DTC_Filter.0.
+Conversion succesfull.
+Ending job 1: A2LTransform
